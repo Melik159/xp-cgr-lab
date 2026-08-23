@@ -1,0 +1,7 @@
+/home/hal/xp-cgr-lab/software/truecrypt-archive/repo/../gnupg/pubring.kbx
+-------------------------------------------------------------------------
+pub   dsa1024 2004-06-06 [SC]
+      C5F4 BAC4 A7B2 2DB8 B8F8  5538 E3BA 73CA F0D6 B1E0
+uid          [ inconnue] TrueCrypt Foundation <info@truecrypt-foundation.org>
+sub   elg4077 2004-06-06 [E]
+

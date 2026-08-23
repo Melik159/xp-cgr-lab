@@ -1,0 +1,34 @@
+{
+  "modules": [
+    {
+      "absolute_address": "0x004017c8",
+      "api": "CryptGenRandom",
+      "base": "0x00400000",
+      "event_count": 20,
+      "module": "cgr_probe.exe",
+      "process_name": "cgr_probe.exe",
+      "runs": [
+        "RUN1",
+        "RUN2"
+      ],
+      "rva": "0x000017c8",
+      "symbol": null,
+      "symbol_status": "not_resolved_offline"
+    },
+    {
+      "absolute_address": "0x00401867",
+      "api": "SystemFunction036",
+      "base": "0x00400000",
+      "event_count": 20,
+      "module": "cgr_probe.exe",
+      "process_name": "cgr_probe.exe",
+      "runs": [
+        "RUN1",
+        "RUN2"
+      ],
+      "rva": "0x00001867",
+      "symbol": null,
+      "symbol_status": "not_resolved_offline"
+    }
+  ]
+}

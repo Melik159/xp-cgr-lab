@@ -1,0 +1,36 @@
+seq 146: first FastPoll after SlowPoll tid=200 saved_rand_idx=408
+seq 299: FastPoll restore tid=200 36->408
+seq 301: second FastPoll after inversion tid=200 saved_rand_idx=408
+seq 443: FastPoll restore tid=200 608->408
+seq 446: background FastPoll start tid=212 saved_rand_idx=408
+seq 587: FastPoll restore tid=212 608->408
+seq 731: first FastPoll after SlowPoll tid=200 saved_rand_idx=176
+seq 875: FastPoll restore tid=200 376->176
+seq 877: second FastPoll after inversion tid=200 saved_rand_idx=176
+seq 1021: FastPoll restore tid=200 376->176
+seq 1033: first FastPoll no-SlowPoll tid=200 saved_rand_idx=176
+seq 1177: FastPoll restore tid=200 376->176
+seq 1179: second FastPoll after inversion tid=200 saved_rand_idx=176
+seq 1323: FastPoll restore tid=200 376->176
+seq 1475: first FastPoll after SlowPoll tid=200 saved_rand_idx=584
+seq 1617: FastPoll restore tid=200 144->584
+seq 1619: second FastPoll after inversion tid=200 saved_rand_idx=584
+seq 1761: FastPoll restore tid=200 144->584
+seq 1771: background FastPoll start tid=212 saved_rand_idx=584
+seq 1912: FastPoll restore tid=212 144->584
+seq 1914: first FastPoll no-SlowPoll tid=200 saved_rand_idx=584
+seq 2056: FastPoll restore tid=200 144->584
+seq 2058: second FastPoll after inversion tid=200 saved_rand_idx=584
+seq 2200: FastPoll restore tid=200 144->584
+seq 2204: first FastPoll no-SlowPoll tid=200 saved_rand_idx=584
+seq 2346: FastPoll restore tid=200 144->584
+seq 2348: second FastPoll after inversion tid=200 saved_rand_idx=584
+seq 2490: FastPoll restore tid=200 144->584
+seq 2498: first FastPoll no-SlowPoll tid=200 saved_rand_idx=584
+seq 2640: FastPoll restore tid=200 144->584
+seq 2642: second FastPoll after inversion tid=200 saved_rand_idx=584
+seq 2784: FastPoll restore tid=200 144->584
+seq 2788: first FastPoll no-SlowPoll tid=200 saved_rand_idx=584
+seq 2930: FastPoll restore tid=200 144->584
+seq 2932: second FastPoll after inversion tid=200 saved_rand_idx=584
+seq 3074: FastPoll restore tid=200 144->584

@@ -1,0 +1,267 @@
+src-6.2a/truecrypt-6.2a-source/Main/Main.make:43:OBJS += Forms/RandomPoolEnrichmentDialog.o
+src-6.2a/truecrypt-6.2a-source/Main/Forms/ChangePasswordDialog.cpp:101:			Gui->UserEnrichRandomPool (this, NewPasswordPanel->GetPkcs5Kdf() ? NewPasswordPanel->GetPkcs5Kdf()->GetHash() : shared_ptr <Hash>());
+src-6.2a/truecrypt-6.2a-source/Main/Forms/Forms.cpp:1228:	RandomPoolStaticText = new wxStaticText( this, wxID_ANY, wxEmptyString, wxDefaultPosition, wxDefaultSize, 0 );
+src-6.2a/truecrypt-6.2a-source/Main/Forms/Forms.cpp:1229:	RandomPoolStaticText->Wrap( -1 );
+src-6.2a/truecrypt-6.2a-source/Main/Forms/Forms.cpp:1230:	RandomPoolStaticText->SetFont( wxFont( wxNORMAL_FONT->GetPointSize(), 70, 90, 90, false, wxT("Courier New") ) );
+src-6.2a/truecrypt-6.2a-source/Main/Forms/Forms.cpp:1232:	bSizer147->Add( RandomPoolStaticText, 0, wxALL|wxALIGN_CENTER_VERTICAL, 5 );
+src-6.2a/truecrypt-6.2a-source/Main/Forms/Forms.cpp:1234:	ShowRandomPoolCheckBox = new wxCheckBox( this, wxID_ANY, _("Show"), wxDefaultPosition, wxDefaultSize, 0 );
+src-6.2a/truecrypt-6.2a-source/Main/Forms/Forms.cpp:1235:	ShowRandomPoolCheckBox->SetValue(true);
+src-6.2a/truecrypt-6.2a-source/Main/Forms/Forms.cpp:1237:	bSizer147->Add( ShowRandomPoolCheckBox, 0, wxALL|wxALIGN_CENTER_VERTICAL, 5 );
+src-6.2a/truecrypt-6.2a-source/Main/Forms/Forms.cpp:1277:	ShowRandomPoolCheckBox->Connect( wxEVT_COMMAND_CHECKBOX_CLICKED, wxCommandEventHandler( KeyfileGeneratorDialogBase::OnShowRandomPoolCheckBoxClicked ), NULL, this );
+src-6.2a/truecrypt-6.2a-source/Main/Forms/Forms.cpp:1286:	ShowRandomPoolCheckBox->Disconnect( wxEVT_COMMAND_CHECKBOX_CLICKED, wxCommandEventHandler( KeyfileGeneratorDialogBase::OnShowRandomPoolCheckBoxClicked ), NULL, this );
+src-6.2a/truecrypt-6.2a-source/Main/Forms/Forms.cpp:1987:RandomPoolEnrichmentDialogBase::RandomPoolEnrichmentDialogBase( wxWindow* parent, wxWindowID id, const wxString& title, const wxPoint& pos, const wxSize& size, long style ) : wxDialog( parent, id, title, pos, size, style )
+src-6.2a/truecrypt-6.2a-source/Main/Forms/Forms.cpp:2028:	RandomPoolStaticText = new wxStaticText( this, wxID_ANY, wxEmptyString, wxDefaultPosition, wxDefaultSize, 0 );
+src-6.2a/truecrypt-6.2a-source/Main/Forms/Forms.cpp:2029:	RandomPoolStaticText->Wrap( -1 );
+src-6.2a/truecrypt-6.2a-source/Main/Forms/Forms.cpp:2030:	RandomPoolStaticText->SetFont( wxFont( wxNORMAL_FONT->GetPointSize(), 70, 90, 90, false, wxT("Courier New") ) );
+src-6.2a/truecrypt-6.2a-source/Main/Forms/Forms.cpp:2032:	bSizer147->Add( RandomPoolStaticText, 0, wxALL|wxALIGN_CENTER_VERTICAL, 5 );
+src-6.2a/truecrypt-6.2a-source/Main/Forms/Forms.cpp:2034:	ShowRandomPoolCheckBox = new wxCheckBox( this, wxID_ANY, _("Show"), wxDefaultPosition, wxDefaultSize, 0 );
+src-6.2a/truecrypt-6.2a-source/Main/Forms/Forms.cpp:2035:	ShowRandomPoolCheckBox->SetValue(true);
+src-6.2a/truecrypt-6.2a-source/Main/Forms/Forms.cpp:2037:	bSizer147->Add( ShowRandomPoolCheckBox, 0, wxALL|wxALIGN_CENTER_VERTICAL, 5 );
+src-6.2a/truecrypt-6.2a-source/Main/Forms/Forms.cpp:2077:	this->Connect( wxEVT_MOTION, wxMouseEventHandler( RandomPoolEnrichmentDialogBase::OnMouseMotion ) );
+src-6.2a/truecrypt-6.2a-source/Main/Forms/Forms.cpp:2078:	HashChoice->Connect( wxEVT_COMMAND_CHOICE_SELECTED, wxCommandEventHandler( RandomPoolEnrichmentDialogBase::OnHashSelected ), NULL, this );
+src-6.2a/truecrypt-6.2a-source/Main/Forms/Forms.cpp:2079:	ShowRandomPoolCheckBox->Connect( wxEVT_COMMAND_CHECKBOX_CLICKED, wxCommandEventHandler( RandomPoolEnrichmentDialogBase::OnShowRandomPoolCheckBoxClicked ), NULL, this );
+src-6.2a/truecrypt-6.2a-source/Main/Forms/Forms.cpp:2082:RandomPoolEnrichmentDialogBase::~RandomPoolEnrichmentDialogBase()
+src-6.2a/truecrypt-6.2a-source/Main/Forms/Forms.cpp:2085:	this->Disconnect( wxEVT_MOTION, wxMouseEventHandler( RandomPoolEnrichmentDialogBase::OnMouseMotion ) );
+src-6.2a/truecrypt-6.2a-source/Main/Forms/Forms.cpp:2086:	HashChoice->Disconnect( wxEVT_COMMAND_CHOICE_SELECTED, wxCommandEventHandler( RandomPoolEnrichmentDialogBase::OnHashSelected ), NULL, this );
+src-6.2a/truecrypt-6.2a-source/Main/Forms/Forms.cpp:2087:	ShowRandomPoolCheckBox->Disconnect( wxEVT_COMMAND_CHECKBOX_CLICKED, wxCommandEventHandler( RandomPoolEnrichmentDialogBase::OnShowRandomPoolCheckBoxClicked ), NULL, this );
+src-6.2a/truecrypt-6.2a-source/Main/Forms/Forms.cpp:2608:	RandomPoolSampleStaticText = new wxStaticText( this, wxID_ANY, wxEmptyString, wxDefaultPosition, wxDefaultSize, 0 );
+src-6.2a/truecrypt-6.2a-source/Main/Forms/Forms.cpp:2609:	RandomPoolSampleStaticText->Wrap( -1 );
+src-6.2a/truecrypt-6.2a-source/Main/Forms/Forms.cpp:2610:	RandomPoolSampleStaticText->SetFont( wxFont( wxNORMAL_FONT->GetPointSize(), 70, 90, 90, false, wxT("Courier New") ) );
+src-6.2a/truecrypt-6.2a-source/Main/Forms/Forms.cpp:2612:	bSizer126->Add( RandomPoolSampleStaticText, 0, wxEXPAND|wxTOP|wxRIGHT|wxALIGN_BOTTOM, 7 );
+src-6.2a/truecrypt-6.2a-source/Main/Forms/RandomPoolEnrichmentDialog.h:9:#ifndef TC_HEADER_Main_Forms_RandomPoolEnrichmentDialog
+src-6.2a/truecrypt-6.2a-source/Main/Forms/RandomPoolEnrichmentDialog.h:10:#define TC_HEADER_Main_Forms_RandomPoolEnrichmentDialog
+src-6.2a/truecrypt-6.2a-source/Main/Forms/RandomPoolEnrichmentDialog.h:17:	class RandomPoolEnrichmentDialog : public RandomPoolEnrichmentDialogBase
+src-6.2a/truecrypt-6.2a-source/Main/Forms/RandomPoolEnrichmentDialog.h:20:		RandomPoolEnrichmentDialog (wxWindow* parent);
+src-6.2a/truecrypt-6.2a-source/Main/Forms/RandomPoolEnrichmentDialog.h:21:		~RandomPoolEnrichmentDialog ();
+src-6.2a/truecrypt-6.2a-source/Main/Forms/RandomPoolEnrichmentDialog.h:26:		void OnShowRandomPoolCheckBoxClicked (wxCommandEvent& event);
+src-6.2a/truecrypt-6.2a-source/Main/Forms/RandomPoolEnrichmentDialog.h:33:#endif // TC_HEADER_Main_Forms_RandomPoolEnrichmentDialog
+src-6.2a/truecrypt-6.2a-source/Main/Forms/VolumeCreationWizard.h:49:		void OnRandomPoolUpdateTimer ();
+src-6.2a/truecrypt-6.2a-source/Main/Forms/VolumeCreationWizard.h:62:		auto_ptr <wxTimer> RandomPoolUpdateTimer;
+src-6.2a/truecrypt-6.2a-source/Main/Forms/KeyfileGeneratorDialog.cpp:30:		ShowBytes (RandomPoolStaticText, RandomNumberGenerator::PeekPool().GetRange (0, 24));
+src-6.2a/truecrypt-6.2a-source/Main/Forms/KeyfileGeneratorDialog.cpp:89:		if (ShowRandomPoolCheckBox->IsChecked())
+src-6.2a/truecrypt-6.2a-source/Main/Forms/KeyfileGeneratorDialog.cpp:90:			ShowBytes (RandomPoolStaticText, RandomNumberGenerator::PeekPool().GetRange (0, 24));
+src-6.2a/truecrypt-6.2a-source/Main/Forms/KeyfileGeneratorDialog.cpp:93:	void KeyfileGeneratorDialog::OnShowRandomPoolCheckBoxClicked (wxCommandEvent& event)
+src-6.2a/truecrypt-6.2a-source/Main/Forms/KeyfileGeneratorDialog.cpp:96:			RandomPoolStaticText->SetLabel (L"");
+src-6.2a/truecrypt-6.2a-source/Main/Forms/KeyfileGeneratorDialog.h:27:		void OnShowRandomPoolCheckBoxClicked (wxCommandEvent& event);
+src-6.2a/truecrypt-6.2a-source/Main/Forms/VolumeCreationWizard.cpp:60:				Wizard->OnRandomPoolUpdateTimer();
+src-6.2a/truecrypt-6.2a-source/Main/Forms/VolumeCreationWizard.cpp:66:		RandomPoolUpdateTimer.reset (dynamic_cast <wxTimer *> (new Timer (this)));
+src-6.2a/truecrypt-6.2a-source/Main/Forms/VolumeCreationWizard.cpp:67:		RandomPoolUpdateTimer->Start (200);
+src-6.2a/truecrypt-6.2a-source/Main/Forms/VolumeCreationWizard.cpp:388:	void VolumeCreationWizard::OnRandomPoolUpdateTimer ()
+src-6.2a/truecrypt-6.2a-source/Main/Forms/RandomPoolEnrichmentDialog.cpp:12:#include "RandomPoolEnrichmentDialog.h"
+src-6.2a/truecrypt-6.2a-source/Main/Forms/RandomPoolEnrichmentDialog.cpp:16:	RandomPoolEnrichmentDialog::RandomPoolEnrichmentDialog (wxWindow* parent) : RandomPoolEnrichmentDialogBase (parent) 
+src-6.2a/truecrypt-6.2a-source/Main/Forms/RandomPoolEnrichmentDialog.cpp:32:		ShowBytes (RandomPoolStaticText, RandomNumberGenerator::PeekPool().GetRange (0, 24));
+src-6.2a/truecrypt-6.2a-source/Main/Forms/RandomPoolEnrichmentDialog.cpp:42:			c->Connect (wxEVT_MOTION, wxMouseEventHandler (RandomPoolEnrichmentDialog::OnMouseMotion), nullptr, this);
+src-6.2a/truecrypt-6.2a-source/Main/Forms/RandomPoolEnrichmentDialog.cpp:45:	RandomPoolEnrichmentDialog::~RandomPoolEnrichmentDialog ()
+src-6.2a/truecrypt-6.2a-source/Main/Forms/RandomPoolEnrichmentDialog.cpp:49:	void RandomPoolEnrichmentDialog::OnHashSelected (wxCommandEvent& event)
+src-6.2a/truecrypt-6.2a-source/Main/Forms/RandomPoolEnrichmentDialog.cpp:54:	void RandomPoolEnrichmentDialog::OnMouseMotion (wxMouseEvent& event)
+src-6.2a/truecrypt-6.2a-source/Main/Forms/RandomPoolEnrichmentDialog.cpp:65:		if (ShowRandomPoolCheckBox->IsChecked())
+src-6.2a/truecrypt-6.2a-source/Main/Forms/RandomPoolEnrichmentDialog.cpp:66:			ShowBytes (RandomPoolStaticText, RandomNumberGenerator::PeekPool().GetRange (0, 24));
+src-6.2a/truecrypt-6.2a-source/Main/Forms/RandomPoolEnrichmentDialog.cpp:69:	void RandomPoolEnrichmentDialog::OnShowRandomPoolCheckBoxClicked (wxCommandEvent& event)
+src-6.2a/truecrypt-6.2a-source/Main/Forms/RandomPoolEnrichmentDialog.cpp:72:			RandomPoolStaticText->SetLabel (L"");
+src-6.2a/truecrypt-6.2a-source/Main/Forms/RandomPoolEnrichmentDialog.cpp:75:	void RandomPoolEnrichmentDialog::ShowBytes (wxStaticText *textCtrl, const ConstBufferPtr &buffer)
+src-6.2a/truecrypt-6.2a-source/Main/Forms/TrueCrypt.fbp:6087:                                                <property name="name">RandomPoolStaticText</property>
+src-6.2a/truecrypt-6.2a-source/Main/Forms/TrueCrypt.fbp:6139:                                                <property name="name">ShowRandomPoolCheckBox</property>
+src-6.2a/truecrypt-6.2a-source/Main/Forms/TrueCrypt.fbp:6150:                                                <event name="OnCheckBox">OnShowRandomPoolCheckBoxClicked</event>
+src-6.2a/truecrypt-6.2a-source/Main/Forms/TrueCrypt.fbp:11083:            <property name="name">RandomPoolEnrichmentDialogBase</property>
+src-6.2a/truecrypt-6.2a-source/Main/Forms/TrueCrypt.fbp:11357:                                                <property name="name">RandomPoolStaticText</property>
+src-6.2a/truecrypt-6.2a-source/Main/Forms/TrueCrypt.fbp:11409:                                                <property name="name">ShowRandomPoolCheckBox</property>
+src-6.2a/truecrypt-6.2a-source/Main/Forms/TrueCrypt.fbp:11420:                                                <event name="OnCheckBox">OnShowRandomPoolCheckBoxClicked</event>
+src-6.2a/truecrypt-6.2a-source/Main/Forms/TrueCrypt.fbp:14627:                                                        <property name="name">RandomPoolSampleStaticText</property>
+src-6.2a/truecrypt-6.2a-source/Main/Forms/VolumeCreationProgressWizardPage.cpp:35:			ShowBytes (RandomPoolSampleStaticText, RandomNumberGenerator::PeekPool(), true);
+src-6.2a/truecrypt-6.2a-source/Main/Forms/VolumeCreationProgressWizardPage.cpp:37:			ShowAsterisks (RandomPoolSampleStaticText);
+src-6.2a/truecrypt-6.2a-source/Main/Forms/VolumeCreationProgressWizardPage.cpp:46:				Page->OnRandomPoolTimer();
+src-6.2a/truecrypt-6.2a-source/Main/Forms/VolumeCreationProgressWizardPage.cpp:52:		RandomPoolTimer.reset (dynamic_cast <wxTimer *> (new Timer (this)));
+src-6.2a/truecrypt-6.2a-source/Main/Forms/VolumeCreationProgressWizardPage.cpp:53:		RandomPoolTimer->Start (30);
+src-6.2a/truecrypt-6.2a-source/Main/Forms/VolumeCreationProgressWizardPage.cpp:69:			ShowAsterisks (RandomPoolSampleStaticText); 
+src-6.2a/truecrypt-6.2a-source/Main/Forms/VolumeCreationProgressWizardPage.cpp:75:			RandomPoolSampleStaticText->SetLabel (L"");
+src-6.2a/truecrypt-6.2a-source/Main/Forms/VolumeCreationProgressWizardPage.cpp:81:	void VolumeCreationProgressWizardPage::OnRandomPoolTimer ()
+src-6.2a/truecrypt-6.2a-source/Main/Forms/VolumeCreationProgressWizardPage.cpp:84:			ShowBytes (RandomPoolSampleStaticText, RandomNumberGenerator::PeekPool(), true);
+src-6.2a/truecrypt-6.2a-source/Main/Forms/VolumeCreationProgressWizardPage.cpp:91:			ShowBytes (RandomPoolSampleStaticText, RandomNumberGenerator::PeekPool(), true);
+src-6.2a/truecrypt-6.2a-source/Main/Forms/Forms.h:394:			wxStaticText* RandomPoolStaticText;
+src-6.2a/truecrypt-6.2a-source/Main/Forms/Forms.h:395:			wxCheckBox* ShowRandomPoolCheckBox;
+src-6.2a/truecrypt-6.2a-source/Main/Forms/Forms.h:405:			virtual void OnShowRandomPoolCheckBoxClicked( wxCommandEvent& event ){ event.Skip(); }
+src-6.2a/truecrypt-6.2a-source/Main/Forms/Forms.h:596:	/// Class RandomPoolEnrichmentDialogBase
+src-6.2a/truecrypt-6.2a-source/Main/Forms/Forms.h:598:	class RandomPoolEnrichmentDialogBase : public wxDialog 
+src-6.2a/truecrypt-6.2a-source/Main/Forms/Forms.h:607:			wxStaticText* RandomPoolStaticText;
+src-6.2a/truecrypt-6.2a-source/Main/Forms/Forms.h:608:			wxCheckBox* ShowRandomPoolCheckBox;
+src-6.2a/truecrypt-6.2a-source/Main/Forms/Forms.h:619:			virtual void OnShowRandomPoolCheckBoxClicked( wxCommandEvent& event ){ event.Skip(); }
+src-6.2a/truecrypt-6.2a-source/Main/Forms/Forms.h:623:			RandomPoolEnrichmentDialogBase( wxWindow* parent, wxWindowID id = wxID_ANY, const wxString& title = _("TrueCrypt - Random Pool Enrichment"), const wxPoint& pos = wxDefaultPosition, const wxSize& size = wxDefaultSize, long style = wxDEFAULT_DIALOG_STYLE );
+src-6.2a/truecrypt-6.2a-source/Main/Forms/Forms.h:624:			~RandomPoolEnrichmentDialogBase();
+src-6.2a/truecrypt-6.2a-source/Main/Forms/Forms.h:861:			wxStaticText* RandomPoolSampleStaticText;
+src-6.2a/truecrypt-6.2a-source/Main/Forms/VolumeCreationProgressWizardPage.h:26:		void OnRandomPoolTimer ();
+src-6.2a/truecrypt-6.2a-source/Main/Forms/VolumeCreationProgressWizardPage.h:46:		auto_ptr <wxTimer> RandomPoolTimer;
+src-6.2a/truecrypt-6.2a-source/Main/GraphicUserInterface.cpp:27:#include "Forms/RandomPoolEnrichmentDialog.h"
+src-6.2a/truecrypt-6.2a-source/Main/GraphicUserInterface.cpp:251:		UserEnrichRandomPool (nullptr);
+src-6.2a/truecrypt-6.2a-source/Main/GraphicUserInterface.cpp:1181:			UserEnrichRandomPool (nullptr);
+src-6.2a/truecrypt-6.2a-source/Main/GraphicUserInterface.cpp:1289:			UserEnrichRandomPool (nullptr);
+src-6.2a/truecrypt-6.2a-source/Main/GraphicUserInterface.cpp:1628:	void GraphicUserInterface::UserEnrichRandomPool (wxWindow *parent, shared_ptr <Hash> hash) const
+src-6.2a/truecrypt-6.2a-source/Main/GraphicUserInterface.cpp:1637:			RandomPoolEnrichmentDialog dialog (parent);
+src-6.2a/truecrypt-6.2a-source/Main/GraphicUserInterface.h:88:		virtual void UserEnrichRandomPool (wxWindow *parent, shared_ptr <Hash> hash = shared_ptr <Hash>()) const;
+src-6.2a/truecrypt-6.2a-source/Main/TextUserInterface.cpp:332:		UserEnrichRandomPool();
+src-6.2a/truecrypt-6.2a-source/Main/TextUserInterface.cpp:445:		UserEnrichRandomPool();
+src-6.2a/truecrypt-6.2a-source/Main/TextUserInterface.cpp:458:		UserEnrichRandomPool();
+src-6.2a/truecrypt-6.2a-source/Main/TextUserInterface.cpp:726:		UserEnrichRandomPool();
+src-6.2a/truecrypt-6.2a-source/Main/TextUserInterface.cpp:1226:			UserEnrichRandomPool();
+src-6.2a/truecrypt-6.2a-source/Main/TextUserInterface.cpp:1331:			UserEnrichRandomPool();
+src-6.2a/truecrypt-6.2a-source/Main/TextUserInterface.cpp:1386:	void TextUserInterface::UserEnrichRandomPool () const
+src-6.2a/truecrypt-6.2a-source/Main/TextUserInterface.h:58:		virtual void UserEnrichRandomPool () const;
+src-6.2a/truecrypt-6.2a-source/Format/Tcformat.c:201:volatile HWND hRandPool = NULL;		/* Text box showing hex dump of the random pool */
+src-6.2a/truecrypt-6.2a-source/Format/Tcformat.c:202:volatile HWND hRandPoolSys = NULL;	/* Text box showing hex dump of the random pool for system encryption */
+src-6.2a/truecrypt-6.2a-source/Format/Tcformat.c:232:#define RANDPOOL_DISPLAY_COLUMNS	15
+src-6.2a/truecrypt-6.2a-source/Format/Tcformat.c:233:#define RANDPOOL_DISPLAY_ROWS		8
+src-6.2a/truecrypt-6.2a-source/Format/Tcformat.c:234:#define RANDPOOL_DISPLAY_BYTE_PORTION	(RANDPOOL_DISPLAY_COLUMNS * RANDPOOL_DISPLAY_ROWS)
+src-6.2a/truecrypt-6.2a-source/Format/Tcformat.c:235:#define RANDPOOL_DISPLAY_SIZE	(RANDPOOL_DISPLAY_BYTE_PORTION * 3 + RANDPOOL_DISPLAY_ROWS + 2)
+src-6.2a/truecrypt-6.2a-source/Format/Tcformat.c:236:unsigned char randPool [RANDPOOL_DISPLAY_BYTE_PORTION];
+src-6.2a/truecrypt-6.2a-source/Format/Tcformat.c:237:unsigned char lastRandPool [RANDPOOL_DISPLAY_BYTE_PORTION];
+src-6.2a/truecrypt-6.2a-source/Format/Tcformat.c:238:unsigned char outRandPoolDispBuffer [RANDPOOL_DISPLAY_SIZE];
+src-6.2a/truecrypt-6.2a-source/Format/Tcformat.c:299:	char tmp[RANDPOOL_DISPLAY_SIZE+1];
+src-6.2a/truecrypt-6.2a-source/Format/Tcformat.c:343:	burn (randPool, sizeof(randPool));
+src-6.2a/truecrypt-6.2a-source/Format/Tcformat.c:344:	burn (lastRandPool, sizeof(lastRandPool));
+src-6.2a/truecrypt-6.2a-source/Format/Tcformat.c:345:	burn (outRandPoolDispBuffer, sizeof(outRandPoolDispBuffer));
+src-6.2a/truecrypt-6.2a-source/Format/Tcformat.c:349:	// Attempt to wipe the GUI fields showing portions of randpool, of the master and header keys
+src-6.2a/truecrypt-6.2a-source/Format/Tcformat.c:352:	SetWindowText (hRandPool, tmp);
+src-6.2a/truecrypt-6.2a-source/Format/Tcformat.c:353:	SetWindowText (hRandPoolSys, tmp);
+src-6.2a/truecrypt-6.2a-source/Format/Tcformat.c:1933:void DisplayRandPool (HWND hPoolDisplay, BOOL bShow)
+src-6.2a/truecrypt-6.2a-source/Format/Tcformat.c:1938:	static BOOL bRandPoolDispAscii = FALSE;
+src-6.2a/truecrypt-6.2a-source/Format/Tcformat.c:1946:	RandpeekBytes (randPool, sizeof (randPool));
+src-6.2a/truecrypt-6.2a-source/Format/Tcformat.c:1948:	if (memcmp (lastRandPool, randPool, sizeof(lastRandPool)) != 0)
+src-6.2a/truecrypt-6.2a-source/Format/Tcformat.c:1950:		outRandPoolDispBuffer[0] = 0;
+src-6.2a/truecrypt-6.2a-source/Format/Tcformat.c:1952:		for (row = 0; row < RANDPOOL_DISPLAY_ROWS; row++)
+src-6.2a/truecrypt-6.2a-source/Format/Tcformat.c:1954:			for (col = 0; col < RANDPOOL_DISPLAY_COLUMNS; col++)
+src-6.2a/truecrypt-6.2a-source/Format/Tcformat.c:1956:				tmpByte = randPool[row * RANDPOOL_DISPLAY_COLUMNS + col];
+src-6.2a/truecrypt-6.2a-source/Format/Tcformat.c:1958:				sprintf ((char *) tmp, bRandPoolDispAscii ? ((tmpByte >= 32 && tmpByte < 255 && tmpByte != '&') ? " %c " : " . ") : "%02X ", tmpByte);
+src-6.2a/truecrypt-6.2a-source/Format/Tcformat.c:1959:				strcat ((char *) outRandPoolDispBuffer, (char *) tmp);
+src-6.2a/truecrypt-6.2a-source/Format/Tcformat.c:1961:			strcat ((char *) outRandPoolDispBuffer, "\n");
+src-6.2a/truecrypt-6.2a-source/Format/Tcformat.c:1963:		SetWindowText (hPoolDisplay, (char *) outRandPoolDispBuffer);
+src-6.2a/truecrypt-6.2a-source/Format/Tcformat.c:1965:		memcpy (lastRandPool, randPool, sizeof(lastRandPool));
+src-6.2a/truecrypt-6.2a-source/Format/Tcformat.c:3972:			hRandPoolSys = GetDlgItem (hwndDlg, IDC_SYS_POOL_CONTENTS);
+src-6.2a/truecrypt-6.2a-source/Format/Tcformat.c:3978:			DisplayRandPool (hRandPoolSys, showKeys);
+src-6.2a/truecrypt-6.2a-source/Format/Tcformat.c:4282:				hRandPool = GetDlgItem (hwndDlg, IDC_RANDOM_BYTES);
+src-6.2a/truecrypt-6.2a-source/Format/Tcformat.c:4882:			bRandmixEnabled = FALSE;
+src-6.2a/truecrypt-6.2a-source/Format/Tcformat.c:4889:			bRandmixEnabled = TRUE;
+src-6.2a/truecrypt-6.2a-source/Format/Tcformat.c:5233:			DisplayRandPool (hRandPoolSys, showKeys);
+src-6.2a/truecrypt-6.2a-source/Format/Tcformat.c:5414:				DisplayRandPool (hRandPoolSys, showKeys);
+src-6.2a/truecrypt-6.2a-source/Format/Tcformat.c:5799:			// Attempt to wipe the GUI fields showing portions of randpool, of the master and header keys
+src-6.2a/truecrypt-6.2a-source/Format/Tcformat.c:5802:			SetWindowText (hRandPool, tmp);
+src-6.2a/truecrypt-6.2a-source/Format/Tcformat.c:6807:				char tmp[RANDPOOL_DISPLAY_SIZE+1];
+src-6.2a/truecrypt-6.2a-source/Format/Tcformat.c:6828:				// Attempt to wipe the GUI field showing portions of randpool
+src-6.2a/truecrypt-6.2a-source/Format/Tcformat.c:6831:				SetWindowText (hRandPoolSys, tmp);
+src-6.2a/truecrypt-6.2a-source/Format/Tcformat.c:7491:				char tmp[RANDPOOL_DISPLAY_SIZE+1];
+src-6.2a/truecrypt-6.2a-source/Format/Tcformat.c:7495:				// Attempt to wipe the GUI field showing portions of randpool
+src-6.2a/truecrypt-6.2a-source/Format/Tcformat.c:7498:				SetWindowText (hRandPoolSys, tmp);
+src-6.2a/truecrypt-6.2a-source/Format/Tcformat.c:7526:				// Attempt to wipe the GUI fields showing portions of randpool, of the master and header keys
+src-6.2a/truecrypt-6.2a-source/Format/Tcformat.c:7529:				SetWindowText (hRandPool, tmp);
+src-6.2a/truecrypt-6.2a-source/Format/Tcformat.c:8723:	VirtualLock (randPool, sizeof(randPool));
+src-6.2a/truecrypt-6.2a-source/Format/Tcformat.c:8724:	VirtualLock (lastRandPool, sizeof(lastRandPool));
+src-6.2a/truecrypt-6.2a-source/Format/Tcformat.c:8725:	VirtualLock (outRandPoolDispBuffer, sizeof(outRandPoolDispBuffer));
+src-6.2a/truecrypt-6.2a-source/Format/Tcformat.h:50:void DisplayRandPool (HWND hPoolDisplay, BOOL bShow);
+src-6.2a/truecrypt-6.2a-source/Mount/Mount.c:6925:	UserEnrichRandomPool (hwndDlg);
+src-6.2a/truecrypt-6.2a-source/Mount/Mount.c:6929:	if (!RandgetBytes (temporaryKey, EAGetKeySize (volume.CryptoInfo->ea), TRUE)
+src-6.2a/truecrypt-6.2a-source/Mount/Mount.c:6930:		|| !RandgetBytes (volume.CryptoInfo->k2, sizeof (volume.CryptoInfo->k2), FALSE))
+src-6.2a/truecrypt-6.2a-source/Common/Random.h:25:#define RANDOMPOOL_ALLOCSIZE	RNG_POOL_SIZE
+src-6.2a/truecrypt-6.2a-source/Common/Random.h:27:// After every RANDMIX_BYTE_INTERVAL-th byte written to the pool, the pool mixing function is applied to the entire pool
+src-6.2a/truecrypt-6.2a-source/Common/Random.h:28:#define RANDMIX_BYTE_INTERVAL	16
+src-6.2a/truecrypt-6.2a-source/Common/Random.h:39:void SetRandomPoolEnrichedByUserStatus (BOOL enriched);
+src-6.2a/truecrypt-6.2a-source/Common/Random.h:40:BOOL IsRandomPoolEnrichedByUser ();
+src-6.2a/truecrypt-6.2a-source/Common/Random.h:41:BOOL Randmix ( void );
+src-6.2a/truecrypt-6.2a-source/Common/Random.h:46:BOOL RandgetBytes ( unsigned char *buf , int len, BOOL forceSlowPoll );
+src-6.2a/truecrypt-6.2a-source/Common/Random.h:51:extern BOOL volatile bRandmixEnabled;
+src-6.2a/truecrypt-6.2a-source/Common/Volumes.c:695:		if (!RandgetBytes (keyInfo.master_keydata, bytesNeeded, TRUE))
+src-6.2a/truecrypt-6.2a-source/Common/Volumes.c:716:	if (!RandgetBytes (keyInfo.salt, PKCS5_SALT_SIZE, !bWipeMode))
+src-6.2a/truecrypt-6.2a-source/Common/Volumes.c:962:		if (!RandgetBytes (temporaryKey, EAGetKeySize (cryptoInfo->ea), FALSE)
+src-6.2a/truecrypt-6.2a-source/Common/Volumes.c:963:			|| !RandgetBytes (cryptoInfo->k2, sizeof (cryptoInfo->k2), FALSE))
+src-6.2a/truecrypt-6.2a-source/Common/Random.c:17:static unsigned char *pRandPool = NULL;
+src-6.2a/truecrypt-6.2a-source/Common/Random.c:19:static int nRandIndex = 0, randPoolReadIndex = 0;
+src-6.2a/truecrypt-6.2a-source/Common/Random.c:23:BOOL volatile bRandmixEnabled = TRUE;	/* Used to reduce CPU load when performing benchmarks */
+src-6.2a/truecrypt-6.2a-source/Common/Random.c:24:static BOOL RandomPoolEnrichedByUser = FALSE;
+src-6.2a/truecrypt-6.2a-source/Common/Random.c:29:	pRandPool[nRandIndex] = (unsigned char) ((unsigned char)x + pRandPool[nRandIndex]); \
+src-6.2a/truecrypt-6.2a-source/Common/Random.c:30:	if (nRandIndex % RANDMIX_BYTE_INTERVAL == 0) Randmix();\
+src-6.2a/truecrypt-6.2a-source/Common/Random.c:74:	if (pRandPool == NULL)
+src-6.2a/truecrypt-6.2a-source/Common/Random.c:76:		pRandPool = (unsigned char *) TCalloc (RANDOMPOOL_ALLOCSIZE);
+src-6.2a/truecrypt-6.2a-source/Common/Random.c:77:		if (pRandPool == NULL)
+src-6.2a/truecrypt-6.2a-source/Common/Random.c:81:		RandomPoolEnrichedByUser = FALSE;
+src-6.2a/truecrypt-6.2a-source/Common/Random.c:83:		memset (pRandPool, 0, RANDOMPOOL_ALLOCSIZE);
+src-6.2a/truecrypt-6.2a-source/Common/Random.c:84:		VirtualLock (pRandPool, RANDOMPOOL_ALLOCSIZE);
+src-6.2a/truecrypt-6.2a-source/Common/Random.c:97:	if (!CryptAcquireContext (&hCryptProv, NULL, NULL, PROV_RSA_FULL, 0)
+src-6.2a/truecrypt-6.2a-source/Common/Random.c:98:		&& !CryptAcquireContext (&hCryptProv, NULL, NULL, PROV_RSA_FULL, CRYPT_NEWKEYSET))
+src-6.2a/truecrypt-6.2a-source/Common/Random.c:117:	if (!bRandDidInit && freePool && pRandPool)
+src-6.2a/truecrypt-6.2a-source/Common/Random.c:169:		RandomPoolEnrichedByUser = FALSE;
+src-6.2a/truecrypt-6.2a-source/Common/Random.c:171:		if (pRandPool != NULL)
+src-6.2a/truecrypt-6.2a-source/Common/Random.c:173:			burn (pRandPool, RANDOMPOOL_ALLOCSIZE);
+src-6.2a/truecrypt-6.2a-source/Common/Random.c:174:			TCfree (pRandPool);
+src-6.2a/truecrypt-6.2a-source/Common/Random.c:175:			pRandPool = NULL;
+src-6.2a/truecrypt-6.2a-source/Common/Random.c:198:void SetRandomPoolEnrichedByUserStatus (BOOL enriched)
+src-6.2a/truecrypt-6.2a-source/Common/Random.c:200:	RandomPoolEnrichedByUser = enriched;
+src-6.2a/truecrypt-6.2a-source/Common/Random.c:203:BOOL IsRandomPoolEnrichedByUser ()
+src-6.2a/truecrypt-6.2a-source/Common/Random.c:205:	return RandomPoolEnrichedByUser;
+src-6.2a/truecrypt-6.2a-source/Common/Random.c:209:BOOL Randmix ()
+src-6.2a/truecrypt-6.2a-source/Common/Random.c:211:	if (bRandmixEnabled)
+src-6.2a/truecrypt-6.2a-source/Common/Random.c:247:				RMD160Update(&rctx, pRandPool, RNG_POOL_SIZE);
+src-6.2a/truecrypt-6.2a-source/Common/Random.c:253:				sha512_hash (pRandPool, RNG_POOL_SIZE, &sctx);
+src-6.2a/truecrypt-6.2a-source/Common/Random.c:259:				WHIRLPOOL_add (pRandPool, RNG_POOL_SIZE * 8, &wctx);
+src-6.2a/truecrypt-6.2a-source/Common/Random.c:271:				pRandPool [poolIndex + digestIndex] ^= hashOutputBuffer [digestIndex];
+src-6.2a/truecrypt-6.2a-source/Common/Random.c:323:	memcpy (buf, pRandPool, len);
+src-6.2a/truecrypt-6.2a-source/Common/Random.c:332:RandgetBytes (unsigned char *buf, int len, BOOL forceSlowPoll)
+src-6.2a/truecrypt-6.2a-source/Common/Random.c:365:		buf[i] = pRandPool[randPoolReadIndex++];
+src-6.2a/truecrypt-6.2a-source/Common/Random.c:366:		if (randPoolReadIndex == RNG_POOL_SIZE) randPoolReadIndex = 0;
+src-6.2a/truecrypt-6.2a-source/Common/Random.c:372:		((unsigned __int32 *) pRandPool)[i] = ~((unsigned __int32 *) pRandPool)[i];
+src-6.2a/truecrypt-6.2a-source/Common/Random.c:382:		buf[i] ^= pRandPool[randPoolReadIndex++];
+src-6.2a/truecrypt-6.2a-source/Common/Random.c:383:		if (randPoolReadIndex == RNG_POOL_SIZE) randPoolReadIndex = 0;
+src-6.2a/truecrypt-6.2a-source/Common/Random.c:656:	if (CryptoAPIAvailable && CryptGenRandom (hCryptProv, sizeof (buffer), buffer)) 
+src-6.2a/truecrypt-6.2a-source/Common/Random.c:660:	Randmix();
+src-6.2a/truecrypt-6.2a-source/Common/Random.c:767:	if (CryptoAPIAvailable && CryptGenRandom (hCryptProv, sizeof (buffer), buffer)) 
+src-6.2a/truecrypt-6.2a-source/Common/Random.c:771:	Randmix();
+src-6.2a/truecrypt-6.2a-source/Common/BootEncryption.cpp:1124:		UserEnrichRandomPool (ParentWindow);
+src-6.2a/truecrypt-6.2a-source/Common/BootEncryption.cpp:1126:		if (!RandgetBytes (request.WipeKey, sizeof (request.WipeKey), TRUE))
+src-6.2a/truecrypt-6.2a-source/Common/BootEncryption.cpp:1179:		if (!RandgetBytes (randData, sizeof (randData), FALSE))
+src-6.2a/truecrypt-6.2a-source/Common/BootEncryption.cpp:1839:		UserEnrichRandomPool (ParentWindow);
+src-6.2a/truecrypt-6.2a-source/Common/Password.c:304:	UserEnrichRandomPool (hwndDlg);
+src-6.2a/truecrypt-6.2a-source/Common/Format.c:684:		if (!RandgetBytes (temporaryKey, EAGetKeySize (cryptoInfo->ea), FALSE))
+src-6.2a/truecrypt-6.2a-source/Common/Format.c:688:		if (!RandgetBytes (cryptoInfo->k2, sizeof cryptoInfo->k2, FALSE))
+src-6.2a/truecrypt-6.2a-source/Common/Dlgcode.h:311:void UserEnrichRandomPool (HWND hwndDlg);
+src-6.2a/truecrypt-6.2a-source/Common/Dlgcode.c:163:#define RANDPOOL_DISPLAY_REFRESH_INTERVAL	30
+src-6.2a/truecrypt-6.2a-source/Common/Dlgcode.c:164:#define RANDPOOL_DISPLAY_ROWS 20
+src-6.2a/truecrypt-6.2a-source/Common/Dlgcode.c:165:#define RANDPOOL_DISPLAY_COLUMNS 32
+src-6.2a/truecrypt-6.2a-source/Common/Dlgcode.c:4312:static BOOL CALLBACK RandomPoolEnrichementDlgProc (HWND hwndDlg, UINT msg, WPARAM wParam, LPARAM lParam)
+src-6.2a/truecrypt-6.2a-source/Common/Dlgcode.c:4316:	static unsigned char randPool [RNG_POOL_SIZE];
+src-6.2a/truecrypt-6.2a-source/Common/Dlgcode.c:4317:	static unsigned char lastRandPool [RNG_POOL_SIZE];
+src-6.2a/truecrypt-6.2a-source/Common/Dlgcode.c:4318:	static char outputDispBuffer [RNG_POOL_SIZE * 3 + RANDPOOL_DISPLAY_ROWS + 2];
+src-6.2a/truecrypt-6.2a-source/Common/Dlgcode.c:4320:	static BOOL bRandPoolDispAscii = FALSE;
+src-6.2a/truecrypt-6.2a-source/Common/Dlgcode.c:4330:			VirtualLock (randPool, sizeof(randPool));
+src-6.2a/truecrypt-6.2a-source/Common/Dlgcode.c:4331:			VirtualLock (lastRandPool, sizeof(lastRandPool));
+src-6.2a/truecrypt-6.2a-source/Common/Dlgcode.c:4346:			SetTimer (hwndDlg, 0xfd, RANDPOOL_DISPLAY_REFRESH_INTERVAL, NULL);
+src-6.2a/truecrypt-6.2a-source/Common/Dlgcode.c:4359:				RandpeekBytes (randPool, sizeof (randPool));
+src-6.2a/truecrypt-6.2a-source/Common/Dlgcode.c:4361:				if (memcmp (lastRandPool, randPool, sizeof(lastRandPool)) != 0)
+src-6.2a/truecrypt-6.2a-source/Common/Dlgcode.c:4365:					for (row = 0; row < RANDPOOL_DISPLAY_ROWS; row++)
+src-6.2a/truecrypt-6.2a-source/Common/Dlgcode.c:4367:						for (col = 0; col < RANDPOOL_DISPLAY_COLUMNS; col++)
+src-6.2a/truecrypt-6.2a-source/Common/Dlgcode.c:4369:							tmpByte = randPool[row * RANDPOOL_DISPLAY_COLUMNS + col];
+src-6.2a/truecrypt-6.2a-source/Common/Dlgcode.c:4371:							sprintf (tmp, bRandPoolDispAscii ? ((tmpByte >= 32 && tmpByte < 255 && tmpByte != '&') ? " %c " : " . ") : "%02X ", tmpByte);
+src-6.2a/truecrypt-6.2a-source/Common/Dlgcode.c:4378:					memcpy (lastRandPool, randPool, sizeof(lastRandPool));
+src-6.2a/truecrypt-6.2a-source/Common/Dlgcode.c:4423:			burn (randPool, sizeof(randPool));
+src-6.2a/truecrypt-6.2a-source/Common/Dlgcode.c:4424:			burn (lastRandPool, sizeof(lastRandPool));
+src-6.2a/truecrypt-6.2a-source/Common/Dlgcode.c:4444:void UserEnrichRandomPool (HWND hwndDlg)
+src-6.2a/truecrypt-6.2a-source/Common/Dlgcode.c:4448:	if (!IsRandomPoolEnrichedByUser())
+src-6.2a/truecrypt-6.2a-source/Common/Dlgcode.c:4450:		INT_PTR result = DialogBoxParamW (hInst, MAKEINTRESOURCEW (IDD_RANDOM_POOL_ENRICHMENT), hwndDlg ? hwndDlg : MainDlg, (DLGPROC) RandomPoolEnrichementDlgProc, (LPARAM) 0);
+src-6.2a/truecrypt-6.2a-source/Common/Dlgcode.c:4451:		SetRandomPoolEnrichedByUserStatus (result == IDOK);
+src-6.2a/truecrypt-6.2a-source/Common/Dlgcode.c:4464:	static unsigned char randPool [RNG_POOL_SIZE];
+src-6.2a/truecrypt-6.2a-source/Common/Dlgcode.c:4465:	static unsigned char lastRandPool [RNG_POOL_SIZE];
+src-6.2a/truecrypt-6.2a-source/Common/Dlgcode.c:4466:	static char outputDispBuffer [RNG_POOL_SIZE * 3 + RANDPOOL_DISPLAY_ROWS + 2];
+src-6.2a/truecrypt-6.2a-source/Common/Dlgcode.c:4468:	static BOOL bRandPoolDispAscii = FALSE;
+src-6.2a/truecrypt-6.2a-source/Common/Dlgcode.c:4478:			VirtualLock (randPool, sizeof(randPool));
+src-6.2a/truecrypt-6.2a-source/Common/Dlgcode.c:4479:			VirtualLock (lastRandPool, sizeof(lastRandPool));
+src-6.2a/truecrypt-6.2a-source/Common/Dlgcode.c:4501:			SetTimer (hwndDlg, 0xfd, RANDPOOL_DISPLAY_REFRESH_INTERVAL, NULL);
+src-6.2a/truecrypt-6.2a-source/Common/Dlgcode.c:4514:				RandpeekBytes (randPool, sizeof (randPool));
+src-6.2a/truecrypt-6.2a-source/Common/Dlgcode.c:4516:				if (memcmp (lastRandPool, randPool, sizeof(lastRandPool)) != 0)
+src-6.2a/truecrypt-6.2a-source/Common/Dlgcode.c:4520:					for (row = 0; row < RANDPOOL_DISPLAY_ROWS; row++)
+src-6.2a/truecrypt-6.2a-source/Common/Dlgcode.c:4522:						for (col = 0; col < RANDPOOL_DISPLAY_COLUMNS; col++)
+src-6.2a/truecrypt-6.2a-source/Common/Dlgcode.c:4524:							tmpByte = randPool[row * RANDPOOL_DISPLAY_COLUMNS + col];
+src-6.2a/truecrypt-6.2a-source/Common/Dlgcode.c:4526:							sprintf (tmp, bRandPoolDispAscii ? ((tmpByte >= 32 && tmpByte < 255 && tmpByte != '&') ? " %c " : " . ") : "%02X ", tmpByte);
+src-6.2a/truecrypt-6.2a-source/Common/Dlgcode.c:4533:					memcpy (lastRandPool, randPool, sizeof(lastRandPool));
+src-6.2a/truecrypt-6.2a-source/Common/Dlgcode.c:4586:			if (!RandgetBytes (keyfile, sizeof(keyfile), TRUE))
+src-6.2a/truecrypt-6.2a-source/Common/Dlgcode.c:4619:			burn (randPool, sizeof(randPool));
+src-6.2a/truecrypt-6.2a-source/Common/Dlgcode.c:4620:			burn (lastRandPool, sizeof(lastRandPool));
+src-6.2a/truecrypt-6.2a-source/Common/Dlgcode.c:8012:	UserEnrichRandomPool (NULL);
+src-6.2a/truecrypt-6.2a-source/Common/Fat.c:173:	RandgetBytes (boot + cnt, 4, FALSE);		/* vol id */
+src-6.2a/truecrypt-6.2a-source/Common/Fat.c:366:		if (!RandgetBytes (temporaryKey, EAGetKeySize (cryptoInfo->ea), FALSE))
+src-6.2a/truecrypt-6.2a-source/Common/Fat.c:370:		if (!RandgetBytes (cryptoInfo->k2, sizeof cryptoInfo->k2, FALSE))		
+src-6.2a/truecrypt-6.2a-source/Core/RandomNumberGenerator.h:42:		static const size_t MaxBytesAddedBeforePoolHashMix = RANDMIX_BYTE_INTERVAL;

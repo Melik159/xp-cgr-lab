@@ -1,0 +1,113 @@
+
+build/cgr_probe.exe:     file format pei-i386
+
+
+Disassembly of section .text:
+
+00401780 <.text+0x780>:
+  401780:	1f                   	pop    %ds
+  401781:	5f                   	pop    %edi
+  401782:	5d                   	pop    %ebp
+  401783:	c3                   	ret    
+  401784:	55                   	push   %ebp
+  401785:	89 e5                	mov    %esp,%ebp
+  401787:	57                   	push   %edi
+  401788:	56                   	push   %esi
+  401789:	8d 75 a8             	lea    -0x58(%ebp),%esi
+  40178c:	53                   	push   %ebx
+  40178d:	89 f7                	mov    %esi,%edi
+  40178f:	89 c3                	mov    %eax,%ebx
+  401791:	31 c0                	xor    %eax,%eax
+  401793:	83 ec 6c             	sub    $0x6c,%esp
+  401796:	89 4d a4             	mov    %ecx,-0x5c(%ebp)
+  401799:	b9 10 00 00 00       	mov    $0x10,%ecx
+  40179e:	f3 ab                	rep stos %eax,%es:(%edi)
+  4017a0:	31 ff                	xor    %edi,%edi
+  4017a2:	85 db                	test   %ebx,%ebx
+  4017a4:	74 35                	je     0x4017db
+  4017a6:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
+  4017ad:	ff 15 78 71 40 00    	call   *0x407178
+  4017b3:	50                   	push   %eax
+  4017b4:	8b 45 0c             	mov    0xc(%ebp),%eax
+  4017b7:	89 74 24 08          	mov    %esi,0x8(%esp)
+  4017bb:	89 44 24 04          	mov    %eax,0x4(%esp)
+  4017bf:	89 1c 24             	mov    %ebx,(%esp)
+  4017c2:	ff 15 38 71 40 00    	call   *0x407138
+  4017c8:	31 d2                	xor    %edx,%edx
+  4017ca:	83 ec 0c             	sub    $0xc,%esp
+  4017cd:	89 c7                	mov    %eax,%edi
+  4017cf:	85 c0                	test   %eax,%eax
+  4017d1:	75 08                	jne    0x4017db
+  4017d3:	ff 15 58 71 40 00    	call   *0x407158
+  4017d9:	89 c2                	mov    %eax,%edx
+  4017db:	31 c0                	xor    %eax,%eax
+  4017dd:	85 ff                	test   %edi,%edi
+  4017df:	8d 5d a8             	lea    -0x58(%ebp),%ebx
+  4017e2:	89 54 24 08          	mov    %edx,0x8(%esp)
+  4017e6:	0f 95 c0             	setne  %al
+  4017e9:	89 5c 24 0c          	mov    %ebx,0xc(%esp)
+  4017ed:	8b 55 08             	mov    0x8(%ebp),%edx
+  4017f0:	b9 4d 41 40 00       	mov    $0x40414d,%ecx
+  4017f5:	89 c6                	mov    %eax,%esi
+  4017f7:	8b 45 0c             	mov    0xc(%ebp),%eax
+  4017fa:	89 74 24 04          	mov    %esi,0x4(%esp)
+  4017fe:	89 04 24             	mov    %eax,(%esp)
+  401801:	8b 45 a4             	mov    -0x5c(%ebp),%eax
+  401804:	e8 fb fd ff ff       	call   0x401604
+  401809:	85 c0                	test   %eax,%eax
+  40180b:	75 09                	jne    0x401816
+  40180d:	8b 45 10             	mov    0x10(%ebp),%eax
+  401810:	c7 00 01 00 00 00    	movl   $0x1,(%eax)
+  401816:	89 d8                	mov    %ebx,%eax
+  401818:	43                   	inc    %ebx
+  401819:	c6 00 00             	movb   $0x0,(%eax)
+  40181c:	8d 45 e8             	lea    -0x18(%ebp),%eax
+  40181f:	39 c3                	cmp    %eax,%ebx
+  401821:	75 f3                	jne    0x401816
+  401823:	8d 65 f4             	lea    -0xc(%ebp),%esp
+  401826:	89 f0                	mov    %esi,%eax
+  401828:	5b                   	pop    %ebx
+  401829:	5e                   	pop    %esi
+  40182a:	5f                   	pop    %edi
+  40182b:	5d                   	pop    %ebp
+  40182c:	c3                   	ret    
+  40182d:	55                   	push   %ebp
+  40182e:	89 e5                	mov    %esp,%ebp
+  401830:	57                   	push   %edi
+  401831:	56                   	push   %esi
+  401832:	8d 75 a8             	lea    -0x58(%ebp),%esi
+  401835:	53                   	push   %ebx
+  401836:	89 f7                	mov    %esi,%edi
+  401838:	89 c3                	mov    %eax,%ebx
+  40183a:	31 c0                	xor    %eax,%eax
+  40183c:	83 ec 6c             	sub    $0x6c,%esp
+  40183f:	89 4d a4             	mov    %ecx,-0x5c(%ebp)
+  401842:	b9 10 00 00 00       	mov    $0x10,%ecx
+  401847:	f3 ab                	rep stos %eax,%es:(%edi)
+  401849:	85 db                	test   %ebx,%ebx
+  40184b:	74 32                	je     0x40187f
+  40184d:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
+  401854:	ff 15 78 71 40 00    	call   *0x407178
+  40185a:	50                   	push   %eax
+  40185b:	8b 45 0c             	mov    0xc(%ebp),%eax
+  40185e:	89 34 24             	mov    %esi,(%esp)
+  401861:	89 44 24 04          	mov    %eax,0x4(%esp)
+  401865:	ff d3                	call   *%ebx
+  401867:	89 c1                	mov    %eax,%ecx
+  401869:	52                   	push   %edx
+  40186a:	52                   	push   %edx
+  40186b:	31 d2                	xor    %edx,%edx
+  40186d:	84 c0                	test   %al,%al
+  40186f:	75 0e                	jne    0x40187f
+  401871:	88 45 a3             	mov    %al,-0x5d(%ebp)
+  401874:	ff 15 58 71 40 00    	call   *0x407158
+  40187a:	8a 4d a3             	mov    -0x5d(%ebp),%cl
+  40187d:	89 c2                	mov    %eax,%edx
+  40187f:	31 c0                	xor    %eax,%eax
+  401881:	84 c9                	test   %cl,%cl
+  401883:	8d 5d a8             	lea    -0x58(%ebp),%ebx
+  401886:	89 54 24 08          	mov    %edx,0x8(%esp)
+  40188a:	0f 95 c0             	setne  %al
+  40188d:	89                   	.byte 0x89
+  40188e:	5c                   	pop    %esp
+  40188f:	24                   	.byte 0x24

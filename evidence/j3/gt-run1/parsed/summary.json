@@ -1,0 +1,159 @@
+{
+  "trace": "evidence/j3/gt-run1/truecrypt-gt.bin",
+  "trace_size": 615787,
+  "trace_sha256": "0c5faeade7caff5ba4b1c963d85b0c32405ea726ef2695e2d400f3adfe4d586e",
+  "record_header_size": 52,
+  "record_stream_size": 615779,
+  "record_count": 1056,
+  "first_sequence": 1,
+  "last_sequence": 1056,
+  "trailer_marker_hex": "0x47544f56",
+  "trailer_raw_hex": "564f544700000000",
+  "overflow": 0,
+  "event_counts": {
+    "CGR_FAST_OUT": 5,
+    "CGR_FAST_POOL_POST": 5,
+    "CGR_FAST_POOL_PRE": 5,
+    "CGR_SLOW_OUT": 2,
+    "CGR_SLOW_POOL_POST": 2,
+    "CGR_SLOW_POOL_PRE": 2,
+    "HEADER_CIPHER": 1,
+    "HEADER_KEY_PRIMARY": 1,
+    "HEADER_KEY_SECONDARY": 1,
+    "HEADER_PARAMS": 1,
+    "HEADER_PLAIN": 1,
+    "INIT": 1,
+    "MASTER_KEYDATA": 1,
+    "MASTER_RNG_OUT": 1,
+    "PASSWORD": 1,
+    "PBKDF2_DK": 1,
+    "RANDADD_BUF": 76,
+    "RANDADD_INT32": 100,
+    "RANDGET_BEGIN": 2,
+    "RANDGET_OUT": 2,
+    "RANDGET_POOL_INVERTED": 2,
+    "RANDGET_POOL_POST": 2,
+    "RANDGET_POOL_PRE": 2,
+    "RANDGET_RAW": 2,
+    "RANDMIX_POST": 418,
+    "RANDMIX_PRE": 418,
+    "SALT": 1
+  },
+  "phase_counts": {
+    "HEADER": 2,
+    "HEADER_ENC": 3,
+    "KDF": 2,
+    "MASTER_RNG": 601,
+    "NONE": 1,
+    "SALT_RNG": 447
+  },
+  "event_payload_lengths": {
+    "CGR_FAST_OUT": {
+      "640": 5
+    },
+    "CGR_FAST_POOL_POST": {
+      "640": 5
+    },
+    "CGR_FAST_POOL_PRE": {
+      "640": 5
+    },
+    "CGR_SLOW_OUT": {
+      "640": 2
+    },
+    "CGR_SLOW_POOL_POST": {
+      "640": 2
+    },
+    "CGR_SLOW_POOL_PRE": {
+      "640": 2
+    },
+    "HEADER_CIPHER": {
+      "512": 1
+    },
+    "HEADER_KEY_PRIMARY": {
+      "32": 1
+    },
+    "HEADER_KEY_SECONDARY": {
+      "32": 1
+    },
+    "HEADER_PARAMS": {
+      "64": 1
+    },
+    "HEADER_PLAIN": {
+      "512": 1
+    },
+    "INIT": {
+      "0": 1
+    },
+    "MASTER_KEYDATA": {
+      "256": 1
+    },
+    "MASTER_RNG_OUT": {
+      "64": 1
+    },
+    "PASSWORD": {
+      "23": 1
+    },
+    "PBKDF2_DK": {
+      "192": 1
+    },
+    "RANDADD_BUF": {
+      "8": 55,
+      "32": 5,
+      "68": 1,
+      "88": 6,
+      "232": 2,
+      "640": 7
+    },
+    "RANDADD_INT32": {
+      "4": 100
+    },
+    "RANDGET_BEGIN": {
+      "0": 2
+    },
+    "RANDGET_OUT": {
+      "64": 2
+    },
+    "RANDGET_POOL_INVERTED": {
+      "640": 2
+    },
+    "RANDGET_POOL_POST": {
+      "640": 2
+    },
+    "RANDGET_POOL_PRE": {
+      "640": 2
+    },
+    "RANDGET_RAW": {
+      "64": 2
+    },
+    "RANDMIX_POST": {
+      "640": 418
+    },
+    "RANDMIX_PRE": {
+      "640": 418
+    },
+    "SALT": {
+      "64": 1
+    }
+  },
+  "header_checks": [
+    {
+      "check": "disk_header_size",
+      "actual": 512,
+      "expected": 512,
+      "pass": true
+    },
+    {
+      "check": "SALT_seq_1051_equals_header_0_63",
+      "pass": true,
+      "payload_len": 64
+    },
+    {
+      "check": "HEADER_CIPHER_seq_1056",
+      "payload_len": 512,
+      "disk_header_len": 512,
+      "exact_512_match": true,
+      "encrypted_448_match": false
+    }
+  ],
+  "problems": []
+}

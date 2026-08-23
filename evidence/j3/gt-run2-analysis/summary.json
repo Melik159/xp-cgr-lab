@@ -1,0 +1,292 @@
+{
+  "trace": "/home/hal/xp-cgr-lab/evidence/j3/gt-run2/truecrypt-gt.bin",
+  "trace_size": 2288712,
+  "trace_sha256": "c57702e719d4e0590aa84ed5d9d91ae6d3ef6d26d3bba612d05ea4778cf37145",
+  "container": "/home/hal/xp-cgr-lab/evidence/j3/gt-run2/gt-run2-fat-quick.tc",
+  "container_size": 16777216,
+  "container_sha256": "d799755d02253e91eea4401fbc3ba6306d0d0d0dc63166b575fb3baf0ec939cc",
+  "record_header_size": 52,
+  "record_stream_size": 2288704,
+  "record_count": 2645,
+  "first_sequence": 1,
+  "last_sequence": 2645,
+  "trailer_marker_hex": "0x47544f56",
+  "overflow": 0,
+  "event_counts": {
+    "CGR_FAST_OUT": 15,
+    "CGR_FAST_POOL_POST": 15,
+    "CGR_FAST_POOL_PRE": 15,
+    "CGR_SLOW_OUT": 3,
+    "CGR_SLOW_POOL_POST": 3,
+    "CGR_SLOW_POOL_PRE": 3,
+    "FORMAT_BACKUP_BEGIN": 1,
+    "FORMAT_END": 1,
+    "FORMAT_PRIMARY_BEGIN": 1,
+    "HEADER_CIPHER": 2,
+    "HEADER_KEY_PRIMARY": 2,
+    "HEADER_KEY_SECONDARY": 2,
+    "HEADER_PARAMS": 2,
+    "HEADER_PLAIN": 2,
+    "INIT": 1,
+    "MASTER_KEYDATA": 1,
+    "MASTER_KEYDATA_REUSED": 1,
+    "MASTER_RNG_OUT": 1,
+    "PASSWORD": 2,
+    "PBKDF2_DK": 2,
+    "RANDADD_BUF": 208,
+    "RANDADD_INT32": 300,
+    "RANDGET_BEGIN": 7,
+    "RANDGET_OUT": 7,
+    "RANDGET_POOL_INVERTED": 7,
+    "RANDGET_POOL_POST": 7,
+    "RANDGET_POOL_PRE": 7,
+    "RANDGET_RAW": 7,
+    "RANDMIX_POST": 1002,
+    "RANDMIX_PRE": 1002,
+    "RESERVED_BACKUP_KEY1": 1,
+    "RESERVED_BACKUP_KEY2": 1,
+    "RESERVED_BACKUP_PLAIN": 1,
+    "RESERVED_PRIMARY_KEY1": 1,
+    "RESERVED_PRIMARY_KEY2": 1,
+    "RESERVED_PRIMARY_PLAIN": 1,
+    "SALT": 2,
+    "WRITE_BACKUP_HEADER": 1,
+    "WRITE_BACKUP_RESERVED": 1,
+    "WRITE_DATA": 3,
+    "WRITE_PRIMARY_HEADER": 1,
+    "WRITE_PRIMARY_RESERVED": 1,
+    "WRITE_PRIMARY_ZERO": 1
+  },
+  "phase_counts": {
+    "FORMAT": 9,
+    "HEADER": 5,
+    "HEADER_ENC": 6,
+    "KDF": 4,
+    "MASTER_RNG": 586,
+    "NONE": 1,
+    "RESERVED": 1168,
+    "SALT_RNG": 866
+  },
+  "unknown_events": [],
+  "unknown_phases": [],
+  "checks": [
+    {
+      "check": "trailer_overflow_zero",
+      "pass": true,
+      "detail": 0
+    },
+    {
+      "check": "sequence_contiguous",
+      "pass": true,
+      "detail": {
+        "first": 1,
+        "last": 2645,
+        "count": 2645
+      }
+    },
+    {
+      "check": "unknown_events_none",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "unknown_phases_none",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "count_INIT",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "check": "count_PASSWORD",
+      "pass": true,
+      "detail": 2
+    },
+    {
+      "check": "count_HEADER_PARAMS",
+      "pass": true,
+      "detail": 2
+    },
+    {
+      "check": "count_MASTER_RNG_OUT",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "check": "count_MASTER_KEYDATA",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "check": "count_SALT",
+      "pass": true,
+      "detail": 2
+    },
+    {
+      "check": "count_PBKDF2_DK",
+      "pass": true,
+      "detail": 2
+    },
+    {
+      "check": "count_HEADER_PLAIN",
+      "pass": true,
+      "detail": 2
+    },
+    {
+      "check": "count_HEADER_KEY_PRIMARY",
+      "pass": true,
+      "detail": 2
+    },
+    {
+      "check": "count_HEADER_KEY_SECONDARY",
+      "pass": true,
+      "detail": 2
+    },
+    {
+      "check": "count_HEADER_CIPHER",
+      "pass": true,
+      "detail": 2
+    },
+    {
+      "check": "count_FORMAT_PRIMARY_BEGIN",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "check": "count_WRITE_PRIMARY_HEADER",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "check": "count_WRITE_PRIMARY_ZERO",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "check": "count_FORMAT_BACKUP_BEGIN",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "check": "count_MASTER_KEYDATA_REUSED",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "check": "count_WRITE_BACKUP_HEADER",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "check": "count_RESERVED_PRIMARY_KEY1",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "check": "count_RESERVED_PRIMARY_KEY2",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "check": "count_RESERVED_PRIMARY_PLAIN",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "check": "count_WRITE_PRIMARY_RESERVED",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "check": "count_RESERVED_BACKUP_KEY1",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "check": "count_RESERVED_BACKUP_KEY2",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "check": "count_RESERVED_BACKUP_PLAIN",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "check": "count_WRITE_BACKUP_RESERVED",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "check": "count_FORMAT_END",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "check": "count_WRITE_DATA_at_least_one",
+      "pass": true,
+      "detail": 3
+    },
+    {
+      "check": "master_keydata_reused_exact",
+      "pass": true
+    },
+    {
+      "check": "primary_header_cipher_equals_write",
+      "pass": true
+    },
+    {
+      "check": "backup_header_cipher_equals_write",
+      "pass": true
+    },
+    {
+      "check": "primary_salt_equals_header_prefix",
+      "pass": true
+    },
+    {
+      "check": "backup_salt_equals_header_prefix",
+      "pass": true
+    },
+    {
+      "check": "backup_reserved_plain_equals_primary_reserved_cipher",
+      "pass": true
+    },
+    {
+      "check": "all_final_physical_writes_match_container",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "primary_zero_payload_is_zero",
+      "pass": true
+    },
+    {
+      "check": "primary_zero_is_later_overwritten",
+      "pass": true
+    },
+    {
+      "check": "primary_header_offset_0",
+      "pass": true
+    },
+    {
+      "check": "primary_zero_offset_0x200",
+      "pass": true
+    },
+    {
+      "check": "backup_header_offset_0xfe0000",
+      "pass": true
+    },
+    {
+      "check": "primary_reserved_offset_0x200",
+      "pass": true
+    },
+    {
+      "check": "backup_reserved_offset_0xfe0200",
+      "pass": true
+    }
+  ],
+  "all_checks_pass": true,
+  "logged_final_coverage_bytes": 407552
+}

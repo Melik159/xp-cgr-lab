@@ -1,0 +1,51 @@
+Continue le dépôt xp-cgr-lab depuis son état actuel.
+
+Ne modifie aucun parent, baseline, J1 ou J2 existant.
+
+Objectif unique :
+déterminer expérimentalement si TrueCrypt 6.2a sous notre Windows XP SP3 x86 appelle CryptGenRandom et/ou SystemFunction036 pendant une création de volume, avec tailles, PID/TID, caller/module, return address/RVA et chronologie.
+
+Entrées déjà validées :
+- software/truecrypt-archive/repo/TrueCrypt Setup 6.2a.exe
+- SHA256 97b0150e30ec04c8fa9fe458a0fa8bef84af166d7a324e1bce23089f3ec81916
+- signature PGP vérifiée exit=0
+- instrumentation J2 existante et validée
+
+Travail :
+1. Lire les artefacts et scripts J2 existants avant de modifier quoi que ce soit.
+2. Vérifier si l'instrumentation J2 peut déjà tracer un processus arbitraire.
+3. Si nécessaire, faire l'adaptation minimale pour tracer TrueCrypt.exe sans refactoriser J2.
+4. Créer de nouveaux overlays dédiés J3 à partir d'un parent immuable approprié.
+5. Conserver le réseau QEMU désactivé.
+6. Préparer les médias nécessaires pour rendre TrueCrypt 6.2a et le traceur accessibles dans XP.
+7. Ne pas chiffrer le disque système final.
+8. Pour le micro-test, utiliser seulement un petit conteneur TrueCrypt synthétique.
+9. Capturer au minimum :
+   - lancement TrueCrypt sans création de volume ;
+   - création d'un petit volume ;
+   - formatage ;
+   - montage ;
+   - démontage ;
+   - remontage.
+10. Pour chaque événement CGR/RTL observé, enregistrer :
+   API, taille, PID, TID, timestamp, bytes retournés, module caller, base, return address, RVA, résultat/error.
+11. Produire une timeline distinguant clairement :
+   OBSERVED / INFERRED / UNKNOWN.
+12. Ne jamais conclure qu'une sortie CGR est une clé TrueCrypt. À ce stade on mesure seulement l'utilisation RNG et sa corrélation avec les opérations.
+13. Un résultat négatif est valide.
+
+Produire :
+evidence/truecrypt62a-j3/
+avec README, traces brutes, modules, callers, timeline, environnement, commande QEMU, hashes et comparaison contrôle/création.
+
+À la fin, rapporte seulement :
+- PASS/FAIL du micro-test ;
+- CGR observé oui/non ;
+- SystemFunction036 observé oui/non ;
+- tailles observées ;
+- processus/modules/callers ;
+- opérations pendant lesquelles ils apparaissent ;
+- anomalies ;
+- principaux hashes.
+
+Ne pas commencer la cold case 2009 finale.

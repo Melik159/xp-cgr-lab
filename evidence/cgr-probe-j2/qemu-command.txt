@@ -1,0 +1,17 @@
+qemu-system-i386 \
+  -name XP_SP3_CGR_J2 \
+  -accel kvm \
+  -machine pc-i440fx-6.2 \
+  -m 1024 \
+  -smp 1 \
+  -drive file=vm/xp-system-cgr-j2.qcow2,format=qcow2,if=ide,index=0 \
+  -drive file=vm/xp-test-cgr-j2.qcow2,format=qcow2,if=ide,index=1 \
+  -drive file=tools/cgr-trace-j2.iso,format=raw,media=cdrom,readonly=on,if=ide,index=2 \
+  -drive file=build/j2/xp-j2-results.img,format=raw,if=floppy,index=0 \
+  -boot order=c \
+  -nic none \
+  -vga std \
+  -rtc base=localtime \
+  -display none \
+  -monitor stdio \
+  -no-reboot

@@ -1,0 +1,3 @@
+NAME     SIZE FSTYPE LABEL RO
+nbd0      12G               1
+└─nbd0p1  12G ntfs          1

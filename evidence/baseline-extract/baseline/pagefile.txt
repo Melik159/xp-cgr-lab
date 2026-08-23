@@ -1,0 +1,8 @@
+ Le volume dans le lecteur C n'a pas de nom.
+ Le num‚ro de s‚rie du volume est BCFB-C0C8
+
+ R‚pertoire de C:\
+
+23/08/2026  14:25     1ÿ610ÿ612ÿ736 pagefile.sys
+               1 fichier(s)    1ÿ610ÿ612ÿ736 octets
+               0 R‚p(s)  10ÿ006ÿ601ÿ728 octets libres

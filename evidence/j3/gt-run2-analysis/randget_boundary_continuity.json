@@ -1,0 +1,1276 @@
+{
+  "trace_sha256": "c57702e719d4e0590aa84ed5d9d91ae6d3ef6d26d3bba612d05ea4778cf37145",
+  "logged_randget_count": 7,
+  "semantic_order": [
+    "master",
+    "primary_salt",
+    "backup_salt",
+    "reserved_primary_key1",
+    "reserved_primary_key2",
+    "reserved_backup_key1",
+    "reserved_backup_key2"
+  ],
+  "boundaries": [
+    {
+      "from_call": 1,
+      "from_semantic": "master",
+      "to_call": 2,
+      "to_semantic": "primary_salt",
+      "from_post_seq": 445,
+      "to_pre_seq": 592,
+      "from_pool_sha256": "4416f9a5aed21bf34f719169a10386276433988c9272773e19fb3dd27b43de6e",
+      "to_pool_sha256": "84a736e6df5a75de0ae7b53fd06a029f00f0dc1d85774a839dbe0df738284217",
+      "from_index": 408,
+      "from_read_index": 128,
+      "to_index": 408,
+      "to_read_index": 128,
+      "pool_equal": false,
+      "indices_equal": true,
+      "logged_rng_activity_count": 142,
+      "logged_rng_activity": [
+        {
+          "seq": 446,
+          "event": "RANDADD_INT32",
+          "tid": 1972,
+          "len": 4,
+          "aux0": 408,
+          "aux1": 128
+        },
+        {
+          "seq": 447,
+          "event": "RANDADD_INT32",
+          "tid": 1972,
+          "len": 4,
+          "aux0": 412,
+          "aux1": 128
+        },
+        {
+          "seq": 448,
+          "event": "RANDADD_INT32",
+          "tid": 1972,
+          "len": 4,
+          "aux0": 416,
+          "aux1": 128
+        },
+        {
+          "seq": 449,
+          "event": "RANDMIX_PRE",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 416,
+          "aux1": 128
+        },
+        {
+          "seq": 450,
+          "event": "RANDMIX_POST",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 416,
+          "aux1": 128
+        },
+        {
+          "seq": 451,
+          "event": "RANDADD_INT32",
+          "tid": 1972,
+          "len": 4,
+          "aux0": 420,
+          "aux1": 128
+        },
+        {
+          "seq": 452,
+          "event": "RANDADD_INT32",
+          "tid": 1972,
+          "len": 4,
+          "aux0": 424,
+          "aux1": 128
+        },
+        {
+          "seq": 453,
+          "event": "RANDADD_INT32",
+          "tid": 1972,
+          "len": 4,
+          "aux0": 428,
+          "aux1": 128
+        },
+        {
+          "seq": 454,
+          "event": "RANDADD_INT32",
+          "tid": 1972,
+          "len": 4,
+          "aux0": 432,
+          "aux1": 128
+        },
+        {
+          "seq": 455,
+          "event": "RANDMIX_PRE",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 432,
+          "aux1": 128
+        },
+        {
+          "seq": 456,
+          "event": "RANDMIX_POST",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 432,
+          "aux1": 128
+        },
+        {
+          "seq": 457,
+          "event": "RANDADD_INT32",
+          "tid": 1972,
+          "len": 4,
+          "aux0": 436,
+          "aux1": 128
+        },
+        {
+          "seq": 458,
+          "event": "RANDADD_INT32",
+          "tid": 1972,
+          "len": 4,
+          "aux0": 440,
+          "aux1": 128
+        },
+        {
+          "seq": 459,
+          "event": "RANDADD_INT32",
+          "tid": 1972,
+          "len": 4,
+          "aux0": 444,
+          "aux1": 128
+        },
+        {
+          "seq": 460,
+          "event": "RANDADD_INT32",
+          "tid": 1972,
+          "len": 4,
+          "aux0": 448,
+          "aux1": 128
+        },
+        {
+          "seq": 461,
+          "event": "RANDMIX_PRE",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 448,
+          "aux1": 128
+        },
+        {
+          "seq": 462,
+          "event": "RANDMIX_POST",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 448,
+          "aux1": 128
+        },
+        {
+          "seq": 463,
+          "event": "RANDADD_INT32",
+          "tid": 1972,
+          "len": 4,
+          "aux0": 452,
+          "aux1": 128
+        },
+        {
+          "seq": 464,
+          "event": "RANDADD_INT32",
+          "tid": 1972,
+          "len": 4,
+          "aux0": 456,
+          "aux1": 128
+        },
+        {
+          "seq": 465,
+          "event": "RANDADD_INT32",
+          "tid": 1972,
+          "len": 4,
+          "aux0": 460,
+          "aux1": 128
+        },
+        {
+          "seq": 466,
+          "event": "RANDADD_INT32",
+          "tid": 1972,
+          "len": 4,
+          "aux0": 464,
+          "aux1": 128
+        },
+        {
+          "seq": 467,
+          "event": "RANDMIX_PRE",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 464,
+          "aux1": 128
+        },
+        {
+          "seq": 468,
+          "event": "RANDMIX_POST",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 464,
+          "aux1": 128
+        },
+        {
+          "seq": 469,
+          "event": "RANDADD_INT32",
+          "tid": 1972,
+          "len": 4,
+          "aux0": 468,
+          "aux1": 128
+        },
+        {
+          "seq": 470,
+          "event": "RANDADD_INT32",
+          "tid": 1972,
+          "len": 4,
+          "aux0": 472,
+          "aux1": 128
+        },
+        {
+          "seq": 471,
+          "event": "RANDADD_INT32",
+          "tid": 1972,
+          "len": 4,
+          "aux0": 476,
+          "aux1": 128
+        },
+        {
+          "seq": 472,
+          "event": "RANDADD_BUF",
+          "tid": 1972,
+          "len": 8,
+          "aux0": 480,
+          "aux1": 128
+        },
+        {
+          "seq": 473,
+          "event": "RANDMIX_PRE",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 480,
+          "aux1": 128
+        },
+        {
+          "seq": 474,
+          "event": "RANDMIX_POST",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 480,
+          "aux1": 128
+        },
+        {
+          "seq": 475,
+          "event": "RANDADD_BUF",
+          "tid": 1972,
+          "len": 8,
+          "aux0": 488,
+          "aux1": 128
+        },
+        {
+          "seq": 476,
+          "event": "RANDADD_BUF",
+          "tid": 1972,
+          "len": 32,
+          "aux0": 496,
+          "aux1": 128
+        },
+        {
+          "seq": 477,
+          "event": "RANDMIX_PRE",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 496,
+          "aux1": 128
+        },
+        {
+          "seq": 478,
+          "event": "RANDMIX_POST",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 496,
+          "aux1": 128
+        },
+        {
+          "seq": 479,
+          "event": "RANDMIX_PRE",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 512,
+          "aux1": 128
+        },
+        {
+          "seq": 480,
+          "event": "RANDMIX_POST",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 512,
+          "aux1": 128
+        },
+        {
+          "seq": 481,
+          "event": "RANDADD_BUF",
+          "tid": 1972,
+          "len": 8,
+          "aux0": 528,
+          "aux1": 128
+        },
+        {
+          "seq": 482,
+          "event": "RANDMIX_PRE",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 528,
+          "aux1": 128
+        },
+        {
+          "seq": 483,
+          "event": "RANDMIX_POST",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 528,
+          "aux1": 128
+        },
+        {
+          "seq": 484,
+          "event": "RANDADD_BUF",
+          "tid": 1972,
+          "len": 8,
+          "aux0": 536,
+          "aux1": 128
+        },
+        {
+          "seq": 485,
+          "event": "RANDADD_BUF",
+          "tid": 1972,
+          "len": 8,
+          "aux0": 544,
+          "aux1": 128
+        },
+        {
+          "seq": 486,
+          "event": "RANDMIX_PRE",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 544,
+          "aux1": 128
+        },
+        {
+          "seq": 487,
+          "event": "RANDMIX_POST",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 544,
+          "aux1": 128
+        },
+        {
+          "seq": 488,
+          "event": "RANDADD_BUF",
+          "tid": 1972,
+          "len": 8,
+          "aux0": 552,
+          "aux1": 128
+        },
+        {
+          "seq": 489,
+          "event": "RANDADD_BUF",
+          "tid": 1972,
+          "len": 8,
+          "aux0": 560,
+          "aux1": 128
+        },
+        {
+          "seq": 490,
+          "event": "RANDMIX_PRE",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 560,
+          "aux1": 128
+        },
+        {
+          "seq": 491,
+          "event": "RANDMIX_POST",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 560,
+          "aux1": 128
+        },
+        {
+          "seq": 492,
+          "event": "RANDADD_BUF",
+          "tid": 1972,
+          "len": 8,
+          "aux0": 568,
+          "aux1": 128
+        },
+        {
+          "seq": 493,
+          "event": "RANDADD_BUF",
+          "tid": 1972,
+          "len": 8,
+          "aux0": 576,
+          "aux1": 128
+        },
+        {
+          "seq": 494,
+          "event": "RANDMIX_PRE",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 576,
+          "aux1": 128
+        },
+        {
+          "seq": 495,
+          "event": "RANDMIX_POST",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 576,
+          "aux1": 128
+        },
+        {
+          "seq": 496,
+          "event": "RANDADD_BUF",
+          "tid": 1972,
+          "len": 8,
+          "aux0": 584,
+          "aux1": 128
+        },
+        {
+          "seq": 497,
+          "event": "RANDADD_INT32",
+          "tid": 1972,
+          "len": 4,
+          "aux0": 592,
+          "aux1": 128
+        },
+        {
+          "seq": 498,
+          "event": "RANDMIX_PRE",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 592,
+          "aux1": 128
+        },
+        {
+          "seq": 499,
+          "event": "RANDMIX_POST",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 592,
+          "aux1": 128
+        },
+        {
+          "seq": 500,
+          "event": "RANDADD_INT32",
+          "tid": 1972,
+          "len": 4,
+          "aux0": 596,
+          "aux1": 128
+        },
+        {
+          "seq": 501,
+          "event": "RANDADD_BUF",
+          "tid": 1972,
+          "len": 8,
+          "aux0": 600,
+          "aux1": 128
+        },
+        {
+          "seq": 502,
+          "event": "CGR_FAST_OUT",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 608,
+          "aux1": 128
+        },
+        {
+          "seq": 503,
+          "event": "CGR_FAST_POOL_PRE",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 608,
+          "aux1": 128
+        },
+        {
+          "seq": 504,
+          "event": "RANDADD_BUF",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 608,
+          "aux1": 128
+        },
+        {
+          "seq": 505,
+          "event": "RANDMIX_PRE",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 608,
+          "aux1": 128
+        },
+        {
+          "seq": 506,
+          "event": "RANDMIX_POST",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 608,
+          "aux1": 128
+        },
+        {
+          "seq": 507,
+          "event": "RANDMIX_PRE",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 624,
+          "aux1": 128
+        },
+        {
+          "seq": 508,
+          "event": "RANDMIX_POST",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 624,
+          "aux1": 128
+        },
+        {
+          "seq": 509,
+          "event": "RANDMIX_PRE",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 0,
+          "aux1": 128
+        },
+        {
+          "seq": 510,
+          "event": "RANDMIX_POST",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 0,
+          "aux1": 128
+        },
+        {
+          "seq": 511,
+          "event": "RANDMIX_PRE",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 16,
+          "aux1": 128
+        },
+        {
+          "seq": 512,
+          "event": "RANDMIX_POST",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 16,
+          "aux1": 128
+        },
+        {
+          "seq": 513,
+          "event": "RANDMIX_PRE",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 32,
+          "aux1": 128
+        },
+        {
+          "seq": 514,
+          "event": "RANDMIX_POST",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 32,
+          "aux1": 128
+        },
+        {
+          "seq": 515,
+          "event": "RANDMIX_PRE",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 48,
+          "aux1": 128
+        },
+        {
+          "seq": 516,
+          "event": "RANDMIX_POST",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 48,
+          "aux1": 128
+        },
+        {
+          "seq": 517,
+          "event": "RANDMIX_PRE",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 64,
+          "aux1": 128
+        },
+        {
+          "seq": 518,
+          "event": "RANDMIX_POST",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 64,
+          "aux1": 128
+        },
+        {
+          "seq": 519,
+          "event": "RANDMIX_PRE",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 80,
+          "aux1": 128
+        },
+        {
+          "seq": 520,
+          "event": "RANDMIX_POST",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 80,
+          "aux1": 128
+        },
+        {
+          "seq": 521,
+          "event": "RANDMIX_PRE",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 96,
+          "aux1": 128
+        },
+        {
+          "seq": 522,
+          "event": "RANDMIX_POST",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 96,
+          "aux1": 128
+        },
+        {
+          "seq": 523,
+          "event": "RANDMIX_PRE",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 112,
+          "aux1": 128
+        },
+        {
+          "seq": 524,
+          "event": "RANDMIX_POST",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 112,
+          "aux1": 128
+        },
+        {
+          "seq": 525,
+          "event": "RANDMIX_PRE",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 128,
+          "aux1": 128
+        },
+        {
+          "seq": 526,
+          "event": "RANDMIX_POST",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 128,
+          "aux1": 128
+        },
+        {
+          "seq": 527,
+          "event": "RANDMIX_PRE",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 144,
+          "aux1": 128
+        },
+        {
+          "seq": 528,
+          "event": "RANDMIX_POST",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 144,
+          "aux1": 128
+        },
+        {
+          "seq": 529,
+          "event": "RANDMIX_PRE",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 160,
+          "aux1": 128
+        },
+        {
+          "seq": 530,
+          "event": "RANDMIX_POST",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 160,
+          "aux1": 128
+        },
+        {
+          "seq": 531,
+          "event": "RANDMIX_PRE",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 176,
+          "aux1": 128
+        },
+        {
+          "seq": 532,
+          "event": "RANDMIX_POST",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 176,
+          "aux1": 128
+        },
+        {
+          "seq": 533,
+          "event": "RANDMIX_PRE",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 192,
+          "aux1": 128
+        },
+        {
+          "seq": 534,
+          "event": "RANDMIX_POST",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 192,
+          "aux1": 128
+        },
+        {
+          "seq": 535,
+          "event": "RANDMIX_PRE",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 208,
+          "aux1": 128
+        },
+        {
+          "seq": 536,
+          "event": "RANDMIX_POST",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 208,
+          "aux1": 128
+        },
+        {
+          "seq": 537,
+          "event": "RANDMIX_PRE",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 224,
+          "aux1": 128
+        },
+        {
+          "seq": 538,
+          "event": "RANDMIX_POST",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 224,
+          "aux1": 128
+        },
+        {
+          "seq": 539,
+          "event": "RANDMIX_PRE",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 240,
+          "aux1": 128
+        },
+        {
+          "seq": 540,
+          "event": "RANDMIX_POST",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 240,
+          "aux1": 128
+        },
+        {
+          "seq": 541,
+          "event": "RANDMIX_PRE",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 256,
+          "aux1": 128
+        },
+        {
+          "seq": 542,
+          "event": "RANDMIX_POST",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 256,
+          "aux1": 128
+        },
+        {
+          "seq": 543,
+          "event": "RANDMIX_PRE",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 272,
+          "aux1": 128
+        },
+        {
+          "seq": 544,
+          "event": "RANDMIX_POST",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 272,
+          "aux1": 128
+        },
+        {
+          "seq": 545,
+          "event": "RANDMIX_PRE",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 288,
+          "aux1": 128
+        },
+        {
+          "seq": 546,
+          "event": "RANDMIX_POST",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 288,
+          "aux1": 128
+        },
+        {
+          "seq": 547,
+          "event": "RANDMIX_PRE",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 304,
+          "aux1": 128
+        },
+        {
+          "seq": 548,
+          "event": "RANDMIX_POST",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 304,
+          "aux1": 128
+        },
+        {
+          "seq": 549,
+          "event": "RANDMIX_PRE",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 320,
+          "aux1": 128
+        },
+        {
+          "seq": 550,
+          "event": "RANDMIX_POST",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 320,
+          "aux1": 128
+        },
+        {
+          "seq": 551,
+          "event": "RANDMIX_PRE",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 336,
+          "aux1": 128
+        },
+        {
+          "seq": 552,
+          "event": "RANDMIX_POST",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 336,
+          "aux1": 128
+        },
+        {
+          "seq": 553,
+          "event": "RANDMIX_PRE",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 352,
+          "aux1": 128
+        },
+        {
+          "seq": 554,
+          "event": "RANDMIX_POST",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 352,
+          "aux1": 128
+        },
+        {
+          "seq": 555,
+          "event": "RANDMIX_PRE",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 368,
+          "aux1": 128
+        },
+        {
+          "seq": 556,
+          "event": "RANDMIX_POST",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 368,
+          "aux1": 128
+        },
+        {
+          "seq": 557,
+          "event": "RANDMIX_PRE",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 384,
+          "aux1": 128
+        },
+        {
+          "seq": 558,
+          "event": "RANDMIX_POST",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 384,
+          "aux1": 128
+        },
+        {
+          "seq": 559,
+          "event": "RANDMIX_PRE",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 400,
+          "aux1": 128
+        },
+        {
+          "seq": 560,
+          "event": "RANDMIX_POST",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 400,
+          "aux1": 128
+        },
+        {
+          "seq": 561,
+          "event": "RANDMIX_PRE",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 416,
+          "aux1": 128
+        },
+        {
+          "seq": 562,
+          "event": "RANDMIX_POST",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 416,
+          "aux1": 128
+        },
+        {
+          "seq": 563,
+          "event": "RANDMIX_PRE",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 432,
+          "aux1": 128
+        },
+        {
+          "seq": 564,
+          "event": "RANDMIX_POST",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 432,
+          "aux1": 128
+        },
+        {
+          "seq": 565,
+          "event": "RANDMIX_PRE",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 448,
+          "aux1": 128
+        },
+        {
+          "seq": 566,
+          "event": "RANDMIX_POST",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 448,
+          "aux1": 128
+        },
+        {
+          "seq": 567,
+          "event": "RANDMIX_PRE",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 464,
+          "aux1": 128
+        },
+        {
+          "seq": 568,
+          "event": "RANDMIX_POST",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 464,
+          "aux1": 128
+        },
+        {
+          "seq": 569,
+          "event": "RANDMIX_PRE",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 480,
+          "aux1": 128
+        },
+        {
+          "seq": 570,
+          "event": "RANDMIX_POST",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 480,
+          "aux1": 128
+        },
+        {
+          "seq": 571,
+          "event": "RANDMIX_PRE",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 496,
+          "aux1": 128
+        },
+        {
+          "seq": 572,
+          "event": "RANDMIX_POST",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 496,
+          "aux1": 128
+        },
+        {
+          "seq": 573,
+          "event": "RANDMIX_PRE",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 512,
+          "aux1": 128
+        },
+        {
+          "seq": 574,
+          "event": "RANDMIX_POST",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 512,
+          "aux1": 128
+        },
+        {
+          "seq": 575,
+          "event": "RANDMIX_PRE",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 528,
+          "aux1": 128
+        },
+        {
+          "seq": 576,
+          "event": "RANDMIX_POST",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 528,
+          "aux1": 128
+        },
+        {
+          "seq": 577,
+          "event": "RANDMIX_PRE",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 544,
+          "aux1": 128
+        },
+        {
+          "seq": 578,
+          "event": "RANDMIX_POST",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 544,
+          "aux1": 128
+        },
+        {
+          "seq": 579,
+          "event": "RANDMIX_PRE",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 560,
+          "aux1": 128
+        },
+        {
+          "seq": 580,
+          "event": "RANDMIX_POST",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 560,
+          "aux1": 128
+        },
+        {
+          "seq": 581,
+          "event": "RANDMIX_PRE",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 576,
+          "aux1": 128
+        },
+        {
+          "seq": 582,
+          "event": "RANDMIX_POST",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 576,
+          "aux1": 128
+        },
+        {
+          "seq": 583,
+          "event": "RANDMIX_PRE",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 592,
+          "aux1": 128
+        },
+        {
+          "seq": 584,
+          "event": "RANDMIX_POST",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 592,
+          "aux1": 128
+        },
+        {
+          "seq": 585,
+          "event": "CGR_FAST_POOL_POST",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 608,
+          "aux1": 128
+        },
+        {
+          "seq": 586,
+          "event": "RANDMIX_PRE",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 608,
+          "aux1": 128
+        },
+        {
+          "seq": 587,
+          "event": "RANDMIX_POST",
+          "tid": 1972,
+          "len": 640,
+          "aux0": 608,
+          "aux1": 128
+        }
+      ],
+      "status": "LOGGED_ACTIVITY_PRESENT_REPLAY_REQUIRED"
+    },
+    {
+      "from_call": 2,
+      "from_semantic": "primary_salt",
+      "to_call": 3,
+      "to_semantic": "backup_salt",
+      "from_post_seq": 1023,
+      "to_pre_seq": 1040,
+      "from_pool_sha256": "77d775e8ef9723fb5691f823904fb99ea71ba9332706c3608e15df89619788f0",
+      "to_pool_sha256": "7960941732ab3960f8b2a966f93bc0e8f13a9eaad9c59dd57c9371a3307a3059",
+      "from_index": 176,
+      "from_read_index": 256,
+      "to_index": 176,
+      "to_read_index": 264,
+      "pool_equal": false,
+      "indices_equal": false,
+      "logged_rng_activity_count": 0,
+      "logged_rng_activity": [],
+      "status": "UNLOGGED_MUTATION_CONFIRMED"
+    },
+    {
+      "from_call": 3,
+      "from_semantic": "backup_salt",
+      "to_call": 4,
+      "to_semantic": "reserved_primary_key1",
+      "from_post_seq": 1469,
+      "to_pre_seq": 1478,
+      "from_pool_sha256": "356b372a964669148e79ea98d6f7ada183867507594bd10229079e94758b0f6f",
+      "to_pool_sha256": "1d877c47c265776faf57638a4856c277452774878f3f795556d0b2d770cb6202",
+      "from_index": 584,
+      "from_read_index": 392,
+      "to_index": 584,
+      "to_read_index": 392,
+      "pool_equal": false,
+      "indices_equal": true,
+      "logged_rng_activity_count": 0,
+      "logged_rng_activity": [],
+      "status": "UNLOGGED_MUTATION_CONFIRMED"
+    },
+    {
+      "from_call": 4,
+      "from_semantic": "reserved_primary_key1",
+      "to_call": 5,
+      "to_semantic": "reserved_primary_key2",
+      "from_post_seq": 1766,
+      "to_pre_seq": 1768,
+      "from_pool_sha256": "23d7c2d0ae0efd1d211ee8bc16b4cd4733c87493200a3c8266f53693691bb29c",
+      "to_pool_sha256": "23d7c2d0ae0efd1d211ee8bc16b4cd4733c87493200a3c8266f53693691bb29c",
+      "from_index": 584,
+      "from_read_index": 456,
+      "to_index": 584,
+      "to_read_index": 456,
+      "pool_equal": true,
+      "indices_equal": true,
+      "logged_rng_activity_count": 0,
+      "logged_rng_activity": [],
+      "status": "EXACT_STATE_CONTINUITY"
+    },
+    {
+      "from_call": 5,
+      "from_semantic": "reserved_primary_key2",
+      "to_call": 6,
+      "to_semantic": "reserved_backup_key1",
+      "from_post_seq": 2056,
+      "to_pre_seq": 2062,
+      "from_pool_sha256": "786688c4f9b5371a07a0e1127999e8b909c2dc16ae7a59f6ddbf47bb7fc988f2",
+      "to_pool_sha256": "786688c4f9b5371a07a0e1127999e8b909c2dc16ae7a59f6ddbf47bb7fc988f2",
+      "from_index": 584,
+      "from_read_index": 328,
+      "to_index": 584,
+      "to_read_index": 328,
+      "pool_equal": true,
+      "indices_equal": true,
+      "logged_rng_activity_count": 0,
+      "logged_rng_activity": [],
+      "status": "EXACT_STATE_CONTINUITY"
+    },
+    {
+      "from_call": 6,
+      "from_semantic": "reserved_backup_key1",
+      "to_call": 7,
+      "to_semantic": "reserved_backup_key2",
+      "from_post_seq": 2350,
+      "to_pre_seq": 2352,
+      "from_pool_sha256": "dc1b8807783f6af8eb0669a837a4f154f7499104e66af230e65205d5aac29baa",
+      "to_pool_sha256": "dc1b8807783f6af8eb0669a837a4f154f7499104e66af230e65205d5aac29baa",
+      "from_index": 584,
+      "from_read_index": 392,
+      "to_index": 584,
+      "to_read_index": 392,
+      "pool_equal": true,
+      "indices_equal": true,
+      "logged_rng_activity_count": 0,
+      "logged_rng_activity": [],
+      "status": "EXACT_STATE_CONTINUITY"
+    }
+  ],
+  "counts": {
+    "exact_state_continuity": 3,
+    "unlogged_mutation_confirmed": 2,
+    "logged_activity_present_replay_required": 1
+  },
+  "interpretation": {
+    "EXACT_STATE_CONTINUITY": "The complete 640-byte pool and both indices are identical at the two observed boundaries.",
+    "UNLOGGED_MUTATION_CONFIRMED": "The observed pool/index state changed, while no RNG-mutating event was logged between the two boundary snapshots.",
+    "LOGGED_ACTIVITY_PRESENT_REPLAY_REQUIRED": "The state changed and logged RNG activity exists between boundaries; event-level replay is required before calling it a gap."
+  }
+}

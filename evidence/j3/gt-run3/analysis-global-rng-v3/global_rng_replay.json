@@ -1,0 +1,123 @@
+{
+  "trace_sha256": "b485dd98f2f8bc9e532d9115b71e22b64576fd1dc5be08adad1a60a712573e68",
+  "record_count": 3081,
+  "overflow": 0,
+  "initial_anchor": {
+    "seq": 5,
+    "pool_sha256": "9e132485d5107211de325a45e7917cbe3e4b5b9cde3e4ee91d7d2102317759ee",
+    "all_zero": true,
+    "rand_index": 0,
+    "read_index": 0
+  },
+  "main_tid": 200,
+  "checks": {
+    "pool_snapshots": 2392,
+    "index_snapshots": 2392,
+    "randmix_pairs": 1163,
+    "randadd_events": 607,
+    "randadd_bytes": 18332,
+    "cgr_outputs": 21,
+    "cgr_injection_matches": 21,
+    "fast_restores": 18,
+    "randget_calls": 8,
+    "randget_raw_exact": 8,
+    "randget_out_exact": 8
+  },
+  "main_randget_calls": [
+    {
+      "label": "master",
+      "begin_seq": 4,
+      "pre_seq": 5,
+      "out_seq": 444,
+      "post_seq": 445,
+      "requested_len": 64,
+      "force_slow_poll": 1,
+      "output_sha256": "8ddcd80dbe30c9c1c36821a75c9aa86fd096acbbdff46aa09b74c733ae13acc5"
+    },
+    {
+      "label": "primary_salt",
+      "begin_seq": 591,
+      "pre_seq": 592,
+      "out_seq": 1022,
+      "post_seq": 1023,
+      "requested_len": 64,
+      "force_slow_poll": 1,
+      "output_sha256": "e6de489cc610bdb905370944c4c6a56b8796dfe49f9d05f1cb7a120747bf63b5"
+    },
+    {
+      "label": "fat_volume_id",
+      "begin_seq": 1032,
+      "pre_seq": 1033,
+      "out_seq": 1324,
+      "post_seq": 1325,
+      "requested_len": 4,
+      "force_slow_poll": 0,
+      "output_sha256": "d68cd1d28f367e38d684b71f95982a020d0e70fe06a7ce8c90d07b7dd4d5aa25"
+    },
+    {
+      "label": "backup_salt",
+      "begin_seq": 1333,
+      "pre_seq": 1334,
+      "out_seq": 1762,
+      "post_seq": 1763,
+      "requested_len": 64,
+      "force_slow_poll": 1,
+      "output_sha256": "3e0cc0adc0387f9b5ca02de498eac84c73bedfc77c9fbbb388f5382ee0c4485e"
+    },
+    {
+      "label": "reserved_primary_key1",
+      "begin_seq": 1913,
+      "pre_seq": 1914,
+      "out_seq": 2201,
+      "post_seq": 2202,
+      "requested_len": 32,
+      "force_slow_poll": 0,
+      "output_sha256": "9fa0b2d104fc737b58b19d86de8aa14e818d3079ec8f16fce38591a233b06002"
+    },
+    {
+      "label": "reserved_primary_key2",
+      "begin_seq": 2203,
+      "pre_seq": 2204,
+      "out_seq": 2491,
+      "post_seq": 2492,
+      "requested_len": 256,
+      "force_slow_poll": 0,
+      "output_sha256": "8aa07bf2404ffae3b29946e61e3379978b0c7a1aeb1634b7de62488f754dd713"
+    },
+    {
+      "label": "reserved_backup_key1",
+      "begin_seq": 2497,
+      "pre_seq": 2498,
+      "out_seq": 2785,
+      "post_seq": 2786,
+      "requested_len": 32,
+      "force_slow_poll": 0,
+      "output_sha256": "9f0533af2a29f7a5be83ae94ce0cf012a62db6081dc92c47da83ea3d87000d01"
+    },
+    {
+      "label": "reserved_backup_key2",
+      "begin_seq": 2787,
+      "pre_seq": 2788,
+      "out_seq": 3075,
+      "post_seq": 3076,
+      "requested_len": 256,
+      "force_slow_poll": 0,
+      "output_sha256": "6ea239c2e1357dd8efa8ae39cc2f064f07f336a3320eb2bf650c92aa01669808"
+    }
+  ],
+  "semantic_mapping": {
+    "master": true,
+    "primary_salt": true,
+    "backup_salt": true,
+    "reserved_primary_key1": true,
+    "reserved_primary_key2": true,
+    "reserved_backup_key1": true,
+    "reserved_backup_key2": true
+  },
+  "final_state": {
+    "pool_sha256": "471b3aed99a7dd3956f9b1aa9ce1675ef693ac3aa0201b06f0fcddf4f693b976",
+    "rand_index": 584,
+    "read_index": 264
+  },
+  "claim": "Exact uninterrupted replay from the single initial zero-pool anchor through every logged RUN3 RNG mutation, without snapshot resynchronization."
+}

@@ -1,0 +1,10 @@
+COMPUTERNAME=XPCASE-2009 
+
+Microsoft Windows XP [version 5.1.2600]
+
+! REG.EXE VERSION 3.0
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion
+    CSDVersion	REG_SZ	Service Pack 3
+
+PROBE=D:\cgr_probe.exe 

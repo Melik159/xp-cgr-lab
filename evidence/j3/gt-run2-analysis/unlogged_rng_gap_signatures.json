@@ -1,0 +1,51 @@
+{
+  "trace_sha256": "c57702e719d4e0590aa84ed5d9d91ae6d3ef6d26d3bba612d05ea4778cf37145",
+  "gaps": [
+    {
+      "from": "primary_salt",
+      "to": "backup_salt",
+      "from_post_seq": 1023,
+      "to_pre_seq": 1040,
+      "from_nRandIndex": 176,
+      "to_nRandIndex": 176,
+      "nRandIndex_delta_mod640": 0,
+      "from_readIndex": 256,
+      "to_readIndex": 264,
+      "readIndex_delta_mod640": 8,
+      "pool_changed": true,
+      "classification": "RANDGET_SIGNATURE_LEN_4",
+      "inferred_randget_len": 4
+    },
+    {
+      "from": "backup_salt",
+      "to": "reserved_primary_key1",
+      "from_post_seq": 1469,
+      "to_pre_seq": 1478,
+      "from_nRandIndex": 584,
+      "to_nRandIndex": 584,
+      "nRandIndex_delta_mod640": 0,
+      "from_readIndex": 392,
+      "to_readIndex": 392,
+      "readIndex_delta_mod640": 0,
+      "pool_changed": true,
+      "classification": "BACKGROUND_FASTPOLL_SIGNATURE",
+      "inferred_randget_len": null
+    }
+  ],
+  "signature_model": {
+    "background_fastpoll": {
+      "pool_changed": true,
+      "nRandIndex_delta": 0,
+      "readIndex_delta": 0
+    },
+    "randget_bytes_n": {
+      "pool_changed": true,
+      "nRandIndex_delta": 0,
+      "readIndex_delta": "2*n mod 640"
+    },
+    "fat_volume_id_candidate": {
+      "source_call": "RandgetBytes(..., 4, FALSE)",
+      "expected_readIndex_delta": 8
+    }
+  }
+}

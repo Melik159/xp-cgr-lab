@@ -1,0 +1,11 @@
+Baseline extraction attempt using libguestfs failed.
+
+virt-filesystems and virt-copy-out terminated because supermin returned error 1.
+
+No files were extracted by libguestfs.
+
+The SHA-256 value e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+generated during that failed attempt is the SHA-256 of empty input and MUST NOT
+be treated as evidence extracted from the Windows image.
+
+Extraction was subsequently retried using qemu-nbd in explicit read-only mode.

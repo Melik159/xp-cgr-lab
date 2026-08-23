@@ -1,0 +1,55 @@
+# Virtual machines / disk images
+vm/
+iso/
+*.qcow2
+*.vmdk
+*.vdi
+*.raw
+*.img
+
+# Large forensic / generated binary evidence
+*.tc
+*.bin
+*.dump
+*.dmp
+*.mem
+*.core
+*.ppm
+
+# Installers / archives / transport media
+*.iso
+*.exe
+*.msi
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.7z
+
+# Build outputs
+build/
+runs/
+__pycache__/
+*.pyc
+*.pyo
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.so
+*.map
+
+# Upstream TrueCrypt distributions / cloned archive
+software/truecrypt-archive/repo/
+
+# Editor / OS noise
+*~
+*.swp
+.DS_Store
+Thumbs.db
+
+# Local TrueCrypt working/source trees
+software/truecrypt-archive/src-6.2a/
+software/truecrypt-archive/gt-6.2a/
+software/truecrypt-archive/gt-6.2a-run3/

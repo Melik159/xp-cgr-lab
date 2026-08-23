@@ -1,0 +1,10 @@
+RUN3 FAT source capture
+Fat.c path: /home/hal/xp-cgr-lab/software/truecrypt-archive/gt-6.2a-run3/Common/Fat.c
+Fat.c SHA256: 90454280345ad959a2920e523eb234c0766c32e5134ce62853c910d963655085
+Expected Fat.c SHA256: 90454280345ad959a2920e523eb234c0766c32e5134ce62853c910d963655085
+Fat.h SHA256: 271bd5fc7303089a4e15f648fee941c2b0412197a6773dd5be49113aafa69e66
+GetFatParams starts at source line: 26
+PutBoot starts at source line: 100
+FormatFat starts at source line: 222
+fat-pre-format-source.txt source range: 26..221
+formatfat-source-window.txt source range: 222..417

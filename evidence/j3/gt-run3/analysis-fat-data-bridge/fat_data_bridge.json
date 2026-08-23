@@ -1,0 +1,100 @@
+{
+  "trace_sha256": "b485dd98f2f8bc9e532d9115b71e22b64576fd1dc5be08adad1a60a712573e68",
+  "container_sha256": "60a36b58c5d00736f46c9420cf0338f8aaba79accffbe662a355b0a2cc852755",
+  "main_tid": 200,
+  "master_keydata_sha256": "c69e34e8867bf53606437fad4327a5a31f3bac8b012eb84ff3f86c0fa6deeba8",
+  "fat_volume_id": {
+    "randget_begin_seq": 1032,
+    "randget_out_seq": 1324,
+    "bytes_hex": "837bfcfb",
+    "boot_offset": 39,
+    "exact_match": true
+  },
+  "write_data": [
+    {
+      "seq": 1326,
+      "offset": 131072,
+      "offset_hex": "0x20000",
+      "length": 65536,
+      "start_data_unit": 256,
+      "units": 128,
+      "cipher_sha256": "e1fa02f0a94d956e272f413276908b348218cbe6d2c69941dc0edfae773d7b0f",
+      "plain_sha256": "0289db7a27593df9c54c893eb91705c87fe6be571eb27ba7edb81c287ecece2c",
+      "physical_match": true,
+      "xts_roundtrip_exact": true
+    },
+    {
+      "seq": 1327,
+      "offset": 196608,
+      "offset_hex": "0x30000",
+      "length": 65536,
+      "start_data_unit": 384,
+      "units": 128,
+      "cipher_sha256": "04aeb95e53dcaa1a2984cbe0f76f8fd0df4eca9167c903af331be88261503b24",
+      "plain_sha256": "de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31",
+      "physical_match": true,
+      "xts_roundtrip_exact": true
+    },
+    {
+      "seq": 1328,
+      "offset": 262144,
+      "offset_hex": "0x40000",
+      "length": 14336,
+      "start_data_unit": 512,
+      "units": 28,
+      "cipher_sha256": "31f7f6e63d586d8cf814b6904fabbc13632ee71eec523569ff4c7ea634d44bc6",
+      "plain_sha256": "90b446c6472fde83a94e15bcef5e4b2ea20522db2c242448f6a825bb2a3f42b1",
+      "physical_match": true,
+      "xts_roundtrip_exact": true
+    }
+  ],
+  "decrypted_metadata": {
+    "length": 145408,
+    "sectors": 284,
+    "sha256": "44525d3a01b790599369a3fb008fe2333d7e860f7c63285a5dd2f073b49734f8"
+  },
+  "getfatparams": {
+    "num_sectors": 32256,
+    "cluster_size_sectors": 1,
+    "cluster_size_bytes": 512,
+    "fat_type": 16,
+    "cluster_count": 31972,
+    "fat_length_sectors": 125,
+    "reserved_sectors": 2,
+    "fats": 2,
+    "root_entries": 512,
+    "root_sectors": 32,
+    "metadata_sectors": 284
+  },
+  "bpb": {
+    "bytes_per_sector": 512,
+    "sectors_per_cluster": 1,
+    "reserved_sectors": 2,
+    "fats": 2,
+    "root_entries": 512,
+    "total_sectors_16": 32256,
+    "media": 248,
+    "fat_length_16": 125,
+    "sectors_per_track": 1,
+    "heads": 1,
+    "hidden_sectors": 0,
+    "total_sectors_32": 0,
+    "extended_boot_signature": 41,
+    "volume_id_hex": "837bfcfb",
+    "volume_label_ascii": "NO NAME    ",
+    "fs_type_ascii": "FAT16   ",
+    "boot_signature_hex": "55aa"
+  },
+  "layout": {
+    "fat1_offset_relative": 1024,
+    "fat2_offset_relative": 65024,
+    "root_offset_relative": 129024,
+    "reserved2_zero": true,
+    "fat1_equals_fat2": true,
+    "fat_reserved_prefix_hex": "f8ffffff",
+    "fat_remainder_zero": true,
+    "root_zero": true
+  },
+  "claim": "The explicit RUN3 4-byte FAT RandgetBytes output is present byte-for-byte as the FAT16 volume ID, and the complete 284-sector quick-format metadata write set decrypts/re-encrypts exactly under the volume master XTS keys and equals the final container at the logged physical offsets.",
+  "scope_note": "This is a direct bridge from observed RNG output and volume master keys to the logged/final FAT metadata bytes. It validates the deterministic FAT16 geometry and metadata layout, but does not independently reproduce every PutBoot boot-code byte from source."
+}

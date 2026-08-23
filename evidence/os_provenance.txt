@@ -1,0 +1,21 @@
+Windows XP Professional SP3 x86
+Language: French
+Distribution: Volume License
+
+Archival source:
+https://archive.org/details/fr_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-73982_202012
+
+Local ISO:
+iso/xp_sp3_x86.iso
+
+SHA-256:
+310ac8690246572d2fa41136a62c278e3a7846a39c2f2351ec75d014e4ddc337
+
+VM computer name:
+XPCASE-2009
+
+Registered user:
+Lab User
+
+Organization:
+Research Lab

@@ -1,0 +1,29 @@
+TrueCrypt 6.2a Ground-Truth RUN2 extraction
+
+Extraction method:
+  qemu-nbd --read-only on the qcow2 system overlay
+  filesystem mounted read-only
+  copy-out only
+
+Source system overlay:
+  vm/xp-system-run2v2.qcow2
+  SHA-256: 3da202dd760e27fdcc0dcf1d570fbe91049bb9a8af80cb04a959e8110750e64d
+
+Source test overlay:
+  vm/xp-test-run2v2.qcow2
+  SHA-256: 1ce791252dc9c3e8d75d4d6986d82759ab576a67951cfa87772f39ba589e647a
+
+RUN2 executable expected SHA-256:
+  c4ac46b17c5980226c1a777babbc5f659fc863aa4c2e7c966e02a62fa5b0f20d
+
+RUN2 transport ISO expected SHA-256:
+  95a0066f30875461c9dd2e29323247a6244adc0a0fba524521e97262f5dfda26
+
+Guest source:
+  C:\GT_RUN2
+
+Observed note:
+  run2.exit.txt is preserved exactly as found.
+  During the XP session it appeared empty because the batch's ECHO-based
+  exit-code capture did not produce a value. The formatter itself printed:
+  TCFormatVolume = PASS.

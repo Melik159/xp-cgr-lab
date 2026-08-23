@@ -1,0 +1,139 @@
+{
+  "run": "RUN3",
+  "trace_sha256": "b485dd98f2f8bc9e532d9115b71e22b64576fd1dc5be08adad1a60a712573e68",
+  "container_sha256": "60a36b58c5d00736f46c9420cf0338f8aaba79accffbe662a355b0a2cc852755",
+  "container_size": 16777216,
+  "record_count": 3081,
+  "overflow": 0,
+  "reports": {
+    "global_rng": {
+      "path": "/home/hal/xp-cgr-lab/evidence/j3/gt-run3/analysis-global-rng-v3/global_rng_replay.json",
+      "sha256": "821c3c10642f1254b808b53fac02e8b3f34c34ced72cef60f7c8e85444f9f9b9"
+    },
+    "downstream_crypto": {
+      "path": "/home/hal/xp-cgr-lab/evidence/j3/gt-run3/analysis-downstream-crypto/downstream_crypto_replay.json",
+      "sha256": "20fc434b2d057f3f1e568dd6b4e42b234fe570570d7d8cf8e66a28748f91ad7a"
+    },
+    "fat_data_bridge": {
+      "path": "/home/hal/xp-cgr-lab/evidence/j3/gt-run3/analysis-fat-data-bridge/fat_data_bridge.json",
+      "sha256": "da98d8a04d73d50828b863314875653acfbf539c967b5f1aef670468a9807e73"
+    },
+    "putboot_source": {
+      "path": "/home/hal/xp-cgr-lab/evidence/j3/gt-run3/analysis-putboot-source-replay-v5/putboot-source-replay.json",
+      "sha256": "cb62921d2d68943bea44a698773a27fa526d4d1d4997ed0c8393489faa4b05b1"
+    }
+  },
+  "write_ledger": [
+    {
+      "seq": 1030,
+      "event": 61,
+      "name": "WRITE_PRIMARY_HEADER",
+      "offset": 0,
+      "offset_hex": "0x0",
+      "length": 512,
+      "payload_sha256": "e7ef046a59e962d3941623c5307a2c50b1606b8ae3f8ec643d4791b22a2bce1b",
+      "matches_final_container": true,
+      "surviving_final_bytes": 512
+    },
+    {
+      "seq": 1031,
+      "event": 62,
+      "name": "WRITE_PRIMARY_ZERO",
+      "offset": 512,
+      "offset_hex": "0x200",
+      "length": 130560,
+      "payload_sha256": "a1c47c5a986938a731f4f0f514759a8e3bb03d14f92876732627a966bba5f537",
+      "matches_final_container": false,
+      "surviving_final_bytes": 0
+    },
+    {
+      "seq": 1326,
+      "event": 63,
+      "name": "WRITE_DATA",
+      "offset": 131072,
+      "offset_hex": "0x20000",
+      "length": 65536,
+      "payload_sha256": "e1fa02f0a94d956e272f413276908b348218cbe6d2c69941dc0edfae773d7b0f",
+      "matches_final_container": true,
+      "surviving_final_bytes": 65536
+    },
+    {
+      "seq": 1327,
+      "event": 63,
+      "name": "WRITE_DATA",
+      "offset": 196608,
+      "offset_hex": "0x30000",
+      "length": 65536,
+      "payload_sha256": "04aeb95e53dcaa1a2984cbe0f76f8fd0df4eca9167c903af331be88261503b24",
+      "matches_final_container": true,
+      "surviving_final_bytes": 65536
+    },
+    {
+      "seq": 1328,
+      "event": 63,
+      "name": "WRITE_DATA",
+      "offset": 262144,
+      "offset_hex": "0x40000",
+      "length": 14336,
+      "payload_sha256": "31f7f6e63d586d8cf814b6904fabbc13632ee71eec523569ff4c7ea634d44bc6",
+      "matches_final_container": true,
+      "surviving_final_bytes": 14336
+    },
+    {
+      "seq": 1770,
+      "event": 66,
+      "name": "WRITE_BACKUP_HEADER",
+      "offset": 16646144,
+      "offset_hex": "0xfe0000",
+      "length": 512,
+      "payload_sha256": "1d79d51c2997a1e154b485a07c807ef16333b82025fc93df30ec63662f746b4c",
+      "matches_final_container": true,
+      "surviving_final_bytes": 512
+    },
+    {
+      "seq": 2496,
+      "event": 70,
+      "name": "WRITE_PRIMARY_RESERVED",
+      "offset": 512,
+      "offset_hex": "0x200",
+      "length": 130560,
+      "payload_sha256": "abec1ce1ec87293b46253921ce8e80d002910f19201420935f746d799fa12d29",
+      "matches_final_container": true,
+      "surviving_final_bytes": 130560
+    },
+    {
+      "seq": 3080,
+      "event": 74,
+      "name": "WRITE_BACKUP_RESERVED",
+      "offset": 16646656,
+      "offset_hex": "0xfe0200",
+      "length": 130560,
+      "payload_sha256": "6f0bdd989e7477b256dfe253ccbf3ff74abb49db506c9ec4e7e91f540957fe0a",
+      "matches_final_container": true,
+      "surviving_final_bytes": 130560
+    }
+  ],
+  "final_logged_write_coverage_bytes": 407552,
+  "final_logged_write_coverage_fraction": 0.0242919921875,
+  "uncovered_final_bytes": 16369664,
+  "claim_matrix": {
+    "observed": [
+      "RUN3 trace hash and final container hash are fixed.",
+      "All logged RNG snapshots, CGR outputs, Randget calls, semantic outputs, writes and source-replay controls are RUN3 artifacts."
+    ],
+    "derived_exact_for_this_instrumented_run": [
+      "TrueCrypt userspace RNG replay is exact from the single observed zero-pool anchor without snapshot resynchronization.",
+      "PBKDF2-RIPEMD160, header keys, plaintext headers/CRCs and AES-XTS header encryption replay exactly.",
+      "Primary and backup reserved-area encryption replay exactly.",
+      "The 4-byte FAT Randget output equals the FAT16 volume ID.",
+      "Quick-format FAT metadata geometry and all three WRITE_DATA records reconcile exactly.",
+      "Exact RUN3 GetFatParams()/PutBoot() source regenerates the 512-byte boot sector bit-for-bit; XTS encryption reproduces the logged and final physical sector."
+    ],
+    "not_proven": [
+      "Internal Windows CryptGenRandom state or its prehistory is not reconstructed; CGR outputs are observed inputs to the TrueCrypt userspace replay.",
+      "Cold-case recoverability from a seized host is not demonstrated.",
+      "Instrumentation is not observationally neutral; it perturbs timing/scheduling/entropy collection.",
+      "Bytes never covered by a logged write are not assigned a causal plaintext provenance by this forward model."
+    ]
+  }
+}

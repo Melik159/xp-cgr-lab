@@ -1,0 +1,35 @@
+
+Nom de l'h“te:                              XPCASE-2009
+Nom du systŠme d'exploitation:              Microsoft Windows XP Professionnel
+Version du systŠme:                         5.1.2600 Service Pack 3 version 2600
+Fabricant du systŠme d'exploitation:        Microsoft Corporation
+Configuration du systŠme d'exploitation:    Station de travail autonome
+Type de version du systŠme d'exploitation:  Uniprocessor Free
+Propri‚taire enregistr‚ÿ:                   Lab User
+Organisation enregistr‚eÿ:                  Research Lab
+Identificateur de produit:                  76413-640-8834005-23635
+Date d'installation originale:              23/08/2026, 14:07:23
+Dur‚e d'activit‚ systŠme:                   0 jours, 0 heures, 0 minutes, 37 secondes
+Fabricant du systŠme:                       QEMU
+ModŠle du systŠme:                          Standard PC (i440FX + PIIX, 1996)
+Type du systŠme:                            X86-based PC
+Processeur(s):                              1 processeur(s) install‚(s).
+                                            [01]: x86 Family 6 Model 6 Stepping 3 GenuineIntel ~2594 MHz
+Version du BIOS:                            BOCHS  - 1
+R‚pertoire Windows:                         C:\WINDOWS
+R‚pertoire systŠme:                         C:\WINDOWS\system32
+P‚riph‚rique d'amor‡age:                    \Device\HarddiskVolume1
+Option r‚gionale du systŠme:                fr;Fran‡ais (France)
+ParamŠtres r‚gionaux d'entr‚eÿ:             fr;Fran‡ais (France)
+Fuseau horaire:                             N/D
+M‚moire physique totale:                    1ÿ023 Mo
+M‚moire physique disponible:                840 Mo
+M‚moire virtuelle : taille maximale:        2ÿ048 Mo
+M‚moire virtuelle : disponible:             2ÿ009 Mo
+M‚moire virtuelle : en cours d'utilisation: 39 Mo
+Emplacements des fichiers d'‚change:        C:\pagefile.sys
+Domaine:                                    WORKGROUP
+Serveur d'ouverture de session:             \\XPCASE-2009
+Correctif(s):                               1 Corrections install‚es.
+                                            [01]: Q147222
+Carte(s) r‚seau:                            N/D

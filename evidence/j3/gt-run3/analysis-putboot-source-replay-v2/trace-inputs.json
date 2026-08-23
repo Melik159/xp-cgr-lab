@@ -1,0 +1,11 @@
+{
+  "main_tid": 200,
+  "fat_randget_begin_seq": 1032,
+  "fat_randget_out_seq": 1324,
+  "fat_randget_post_seq": 1325,
+  "fat_volume_id_hex": "837bfcfb",
+  "master_keydata_sha256": "c69e34e8867bf53606437fad4327a5a31f3bac8b012eb84ff3f86c0fa6deeba8",
+  "first_write_seq": 1326,
+  "first_write_offset": 131072,
+  "first_write_first_sector_sha256": "7843975498a0351920e337856834f3cb7327584f82cbb45ab6b66e405dcf95c5"
+}

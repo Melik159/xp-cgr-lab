@@ -1,0 +1,119 @@
+{
+  "writes": [
+    {
+      "sequence": 1030,
+      "event": "WRITE_PRIMARY_HEADER",
+      "offset": 0,
+      "offset_hex": "0x0",
+      "length": 512,
+      "end": 512,
+      "end_hex_exclusive": "0x200",
+      "in_bounds": true,
+      "final_match": true,
+      "expected_to_match_final": true
+    },
+    {
+      "sequence": 1031,
+      "event": "WRITE_PRIMARY_ZERO",
+      "offset": 512,
+      "offset_hex": "0x200",
+      "length": 130560,
+      "end": 131072,
+      "end_hex_exclusive": "0x20000",
+      "in_bounds": true,
+      "final_match": false,
+      "expected_to_match_final": false
+    },
+    {
+      "sequence": 1032,
+      "event": "WRITE_DATA",
+      "offset": 131072,
+      "offset_hex": "0x20000",
+      "length": 65536,
+      "end": 196608,
+      "end_hex_exclusive": "0x30000",
+      "in_bounds": true,
+      "final_match": true,
+      "expected_to_match_final": true
+    },
+    {
+      "sequence": 1033,
+      "event": "WRITE_DATA",
+      "offset": 196608,
+      "offset_hex": "0x30000",
+      "length": 65536,
+      "end": 262144,
+      "end_hex_exclusive": "0x40000",
+      "in_bounds": true,
+      "final_match": true,
+      "expected_to_match_final": true
+    },
+    {
+      "sequence": 1034,
+      "event": "WRITE_DATA",
+      "offset": 262144,
+      "offset_hex": "0x40000",
+      "length": 14336,
+      "end": 276480,
+      "end_hex_exclusive": "0x43800",
+      "in_bounds": true,
+      "final_match": true,
+      "expected_to_match_final": true
+    },
+    {
+      "sequence": 1476,
+      "event": "WRITE_BACKUP_HEADER",
+      "offset": 16646144,
+      "offset_hex": "0xfe0000",
+      "length": 512,
+      "end": 16646656,
+      "end_hex_exclusive": "0xfe0200",
+      "in_bounds": true,
+      "final_match": true,
+      "expected_to_match_final": true
+    },
+    {
+      "sequence": 2060,
+      "event": "WRITE_PRIMARY_RESERVED",
+      "offset": 512,
+      "offset_hex": "0x200",
+      "length": 130560,
+      "end": 131072,
+      "end_hex_exclusive": "0x20000",
+      "in_bounds": true,
+      "final_match": true,
+      "expected_to_match_final": true
+    },
+    {
+      "sequence": 2644,
+      "event": "WRITE_BACKUP_RESERVED",
+      "offset": 16646656,
+      "offset_hex": "0xfe0200",
+      "length": 130560,
+      "end": 16777216,
+      "end_hex_exclusive": "0x1000000",
+      "in_bounds": true,
+      "final_match": true,
+      "expected_to_match_final": true
+    }
+  ],
+  "merged_final_logged_intervals": [
+    {
+      "start": 0,
+      "start_hex": "0x0",
+      "end_exclusive": 276480,
+      "end_exclusive_hex": "0x43800",
+      "length": 276480
+    },
+    {
+      "start": 16646144,
+      "start_hex": "0xfe0000",
+      "end_exclusive": 16777216,
+      "end_exclusive_hex": "0x1000000",
+      "length": 131072
+    }
+  ],
+  "logged_final_coverage_bytes": 407552,
+  "container_size": 16777216,
+  "note": "Coverage is limited to logged explicit writes. Uncovered preallocated/gap bytes are not inferred to be zero."
+}

@@ -1,0 +1,5 @@
+gpg: le trousseau local « /home/hal/xp-cgr-lab/software/truecrypt-archive/repo/../gnupg/pubring.kbx » a été créé
+gpg: /home/hal/xp-cgr-lab/software/truecrypt-archive/repo/../gnupg/trustdb.gpg : base de confiance créée
+gpg: clef E3BA73CAF0D6B1E0 : clef publique « TrueCrypt Foundation <info@truecrypt-foundation.org> » importée
+gpg: Quantité totale traitée : 1
+gpg:               importées : 1

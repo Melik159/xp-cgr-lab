@@ -1,0 +1,11 @@
+RUN3 PutBoot source replay
+Fat.c SHA256: 90454280345ad959a2920e523eb234c0766c32e5134ce62853c910d963655085
+Fat.h SHA256: 271bd5fc7303089a4e15f648fee941c2b0412197a6773dd5be49113aafa69e66
+Exact source slice: Fat.c lines 1..220
+Fat-putboot-source.c SHA256: 0e4853c476ebf5fdccc7a36534f1f0c48a3703c229685d5c27310f229a9cf116
+Replay EXE SHA256: e7b295b95aa52dce3353237d2ce0c67f92b4dda26c773d3bd1df93f3bc812e5d
+Replay boot SHA256: b2052920312ed52f15b21292f97154f22973864f44abd11b217b7b6849ace612
+Compiler:
+i686-w64-mingw32-gcc (GCC) 10-win32 20220113
+Wine:
+wine-6.0.3 (Ubuntu 6.0.3~repack-1)

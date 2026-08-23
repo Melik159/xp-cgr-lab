@@ -1,0 +1,68 @@
+     2 tid= 1964 phase=FORMAT     FORMAT_PRIMARY_BEGIN           len=      0 aux0=         0 aux1=         0
+     3 tid= 1964 phase=HEADER     PASSWORD                       len=     28 aux0=         0 aux1=         0
+     4 tid= 1964 phase=MASTER_RNG RANDGET_BEGIN                  len=      0 aux0=        64 aux1=         1
+    61 tid= 1964 phase=MASTER_RNG CGR_SLOW_OUT                   len=    640 aux0=       408 aux1=         0
+   214 tid= 1964 phase=MASTER_RNG CGR_FAST_OUT                   len=    640 aux0=        36 aux1=         0
+   358 tid= 1964 phase=MASTER_RNG CGR_FAST_OUT                   len=    640 aux0=       608 aux1=        64
+   444 tid= 1964 phase=MASTER_RNG RANDGET_OUT                    len=     64 aux0=       408 aux1=       128
+   502 tid= 1972 phase=MASTER_RNG CGR_FAST_OUT                   len=    640 aux0=       608 aux1=       128
+   588 tid= 1964 phase=MASTER_RNG MASTER_RNG_OUT                 len=     64 aux0=        64 aux1=        32
+   589 tid= 1964 phase=MASTER_RNG MASTER_KEYDATA                 len=    256 aux0=        64 aux1=        32
+   590 tid= 1964 phase=HEADER     HEADER_PARAMS                  len=     64 aux0=         0 aux1=         0
+   591 tid= 1964 phase=SALT_RNG   RANDGET_BEGIN                  len=      0 aux0=        64 aux1=         1
+   646 tid= 1964 phase=SALT_RNG   CGR_SLOW_OUT                   len=    640 aux0=       176 aux1=       128
+   790 tid= 1964 phase=SALT_RNG   CGR_FAST_OUT                   len=    640 aux0=       376 aux1=       128
+   936 tid= 1964 phase=SALT_RNG   CGR_FAST_OUT                   len=    640 aux0=       376 aux1=       192
+  1022 tid= 1964 phase=SALT_RNG   RANDGET_OUT                    len=     64 aux0=       176 aux1=       256
+  1024 tid= 1964 phase=SALT_RNG   SALT                           len=     64 aux0=        64 aux1=         0
+  1025 tid= 1964 phase=KDF        PBKDF2_DK                      len=    192 aux0=      2000 aux1=         1
+  1026 tid= 1964 phase=KDF        HEADER_PLAIN                   len=    512 aux0=         0 aux1=         0
+  1027 tid= 1964 phase=HEADER_ENC HEADER_KEY_PRIMARY             len=     32 aux0=         0 aux1=        32
+  1028 tid= 1964 phase=HEADER_ENC HEADER_KEY_SECONDARY           len=     32 aux0=         0 aux1=        32
+  1029 tid= 1964 phase=HEADER_ENC HEADER_CIPHER                  len=    512 aux0=         0 aux1=         0
+  1030 tid= 1964 phase=FORMAT     WRITE_PRIMARY_HEADER           len=    512 aux0=         0 aux1=         0 write_off=0x0
+  1031 tid= 1964 phase=FORMAT     WRITE_PRIMARY_ZERO             len= 130560 aux0=       512 aux1=         0 write_off=0x200
+  1032 tid= 1964 phase=FORMAT     WRITE_DATA                     len=  65536 aux0=    131072 aux1=         0 write_off=0x20000
+  1033 tid= 1964 phase=FORMAT     WRITE_DATA                     len=  65536 aux0=    196608 aux1=         0 write_off=0x30000
+  1034 tid= 1964 phase=FORMAT     WRITE_DATA                     len=  14336 aux0=    262144 aux1=         0 write_off=0x40000
+  1035 tid= 1964 phase=FORMAT     FORMAT_BACKUP_BEGIN            len=      0 aux0=  16646144 aux1=         0
+  1036 tid= 1964 phase=HEADER     PASSWORD                       len=     28 aux0=         0 aux1=         0
+  1037 tid= 1964 phase=HEADER     MASTER_KEYDATA_REUSED          len=    256 aux0=        64 aux1=        32
+  1038 tid= 1964 phase=HEADER     HEADER_PARAMS                  len=     64 aux0=         0 aux1=         0
+  1039 tid= 1964 phase=SALT_RNG   RANDGET_BEGIN                  len=      0 aux0=        64 aux1=         1
+  1096 tid= 1964 phase=SALT_RNG   CGR_SLOW_OUT                   len=    640 aux0=       584 aux1=       264
+  1238 tid= 1964 phase=SALT_RNG   CGR_FAST_OUT                   len=    640 aux0=       144 aux1=       264
+  1382 tid= 1964 phase=SALT_RNG   CGR_FAST_OUT                   len=    640 aux0=       144 aux1=       328
+  1468 tid= 1964 phase=SALT_RNG   RANDGET_OUT                    len=     64 aux0=       584 aux1=       392
+  1470 tid= 1964 phase=SALT_RNG   SALT                           len=     64 aux0=        64 aux1=         0
+  1471 tid= 1964 phase=KDF        PBKDF2_DK                      len=    192 aux0=      2000 aux1=         1
+  1472 tid= 1964 phase=KDF        HEADER_PLAIN                   len=    512 aux0=         0 aux1=         0
+  1473 tid= 1964 phase=HEADER_ENC HEADER_KEY_PRIMARY             len=     32 aux0=         0 aux1=        32
+  1474 tid= 1964 phase=HEADER_ENC HEADER_KEY_SECONDARY           len=     32 aux0=         0 aux1=        32
+  1475 tid= 1964 phase=HEADER_ENC HEADER_CIPHER                  len=    512 aux0=         0 aux1=         0
+  1476 tid= 1964 phase=FORMAT     WRITE_BACKUP_HEADER            len=    512 aux0=  16646144 aux1=         0 write_off=0xfe0000
+  1477 tid= 1964 phase=RESERVED   RANDGET_BEGIN                  len=      0 aux0=        32 aux1=         0
+  1535 tid= 1964 phase=RESERVED   CGR_FAST_OUT                   len=    640 aux0=       144 aux1=       392
+  1679 tid= 1964 phase=RESERVED   CGR_FAST_OUT                   len=    640 aux0=       144 aux1=       424
+  1765 tid= 1964 phase=RESERVED   RANDGET_OUT                    len=     32 aux0=       584 aux1=       456
+  1767 tid= 1964 phase=RESERVED   RANDGET_BEGIN                  len=      0 aux0=       256 aux1=         0
+  1825 tid= 1964 phase=RESERVED   CGR_FAST_OUT                   len=    640 aux0=       144 aux1=       456
+  1969 tid= 1964 phase=RESERVED   CGR_FAST_OUT                   len=    640 aux0=       144 aux1=        72
+  2055 tid= 1964 phase=RESERVED   RANDGET_OUT                    len=    256 aux0=       584 aux1=       328
+  2057 tid= 1964 phase=RESERVED   RESERVED_PRIMARY_KEY1          len=     32 aux0=        32 aux1=         0
+  2058 tid= 1964 phase=RESERVED   RESERVED_PRIMARY_KEY2          len=    256 aux0=        32 aux1=       256
+  2059 tid= 1964 phase=RESERVED   RESERVED_PRIMARY_PLAIN         len= 130560 aux0=       512 aux1=         0
+  2060 tid= 1964 phase=RESERVED   WRITE_PRIMARY_RESERVED         len= 130560 aux0=       512 aux1=         0 write_off=0x200
+  2061 tid= 1964 phase=RESERVED   RANDGET_BEGIN                  len=      0 aux0=        32 aux1=         0
+  2119 tid= 1964 phase=RESERVED   CGR_FAST_OUT                   len=    640 aux0=       144 aux1=       328
+  2263 tid= 1964 phase=RESERVED   CGR_FAST_OUT                   len=    640 aux0=       144 aux1=       360
+  2349 tid= 1964 phase=RESERVED   RANDGET_OUT                    len=     32 aux0=       584 aux1=       392
+  2351 tid= 1964 phase=RESERVED   RANDGET_BEGIN                  len=      0 aux0=       256 aux1=         0
+  2409 tid= 1964 phase=RESERVED   CGR_FAST_OUT                   len=    640 aux0=       144 aux1=       392
+  2553 tid= 1964 phase=RESERVED   CGR_FAST_OUT                   len=    640 aux0=       144 aux1=         8
+  2639 tid= 1964 phase=RESERVED   RANDGET_OUT                    len=    256 aux0=       584 aux1=       264
+  2641 tid= 1964 phase=RESERVED   RESERVED_BACKUP_KEY1           len=     32 aux0=        32 aux1=         0
+  2642 tid= 1964 phase=RESERVED   RESERVED_BACKUP_KEY2           len=    256 aux0=        32 aux1=       256
+  2643 tid= 1964 phase=RESERVED   RESERVED_BACKUP_PLAIN          len= 130560 aux0=  16646656 aux1=         0
+  2644 tid= 1964 phase=RESERVED   WRITE_BACKUP_RESERVED          len= 130560 aux0=  16646656 aux1=         0 write_off=0xfe0200
+  2645 tid= 1964 phase=FORMAT     FORMAT_END                     len=      0 aux0=  16777216 aux1=         0

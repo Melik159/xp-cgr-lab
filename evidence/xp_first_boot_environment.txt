@@ -1,0 +1,30 @@
+=== DATE HOST ===
+2026-08-23T14:17:07+02:00
+
+=== QEMU ===
+QEMU emulator version 6.2.0 (Debian 1:6.2+dfsg-2ubuntu6.31)
+Copyright (c) 2003-2021 Fabrice Bellard and the QEMU Project developers
+
+=== SYSTEM DISK ===
+image: vm/xp-system-base.qcow2
+file format: qcow2
+virtual size: 12G (12884901888 bytes)
+disk size: 1.3G
+cluster_size: 65536
+Format specific information:
+    compat: 1.1
+    lazy refcounts: false
+    refcount bits: 16
+    corrupt: false
+
+=== TEST DISK ===
+image: vm/xp-test-base.qcow2
+file format: qcow2
+virtual size: 256M (268435456 bytes)
+disk size: 324K
+cluster_size: 65536
+Format specific information:
+    compat: 1.1
+    lazy refcounts: false
+    refcount bits: 16
+    corrupt: false

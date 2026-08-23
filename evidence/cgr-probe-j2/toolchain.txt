@@ -1,0 +1,5 @@
+i686-w64-mingw32-gcc (GCC) 10-win32 20220113
+Copyright (C) 2020 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+GNU objdump (GNU Binutils) 2.38
+Copyright (C) 2022 Free Software Foundation, Inc.

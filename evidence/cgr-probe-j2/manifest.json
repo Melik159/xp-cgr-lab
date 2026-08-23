@@ -1,0 +1,85 @@
+{
+  "project": "XP_SP3_CGR_LAB",
+  "milestone": 2,
+  "objective": "dynamic provenance of CryptGenRandom and SystemFunction036 calls",
+  "scope_excludes_disk_encryption": true,
+  "verdict": "PASS",
+  "environment": {
+    "computer_name": "XPCASE-2009",
+    "os": "Microsoft Windows XP Professional x86",
+    "version": "5.1.2600",
+    "service_pack": "Service Pack 3",
+    "qemu_network": "none",
+    "transport": "read-only ISO",
+    "result_transport": "dedicated FAT floppy image"
+  },
+  "toolchain": {
+    "compiler": "i686-w64-mingw32-gcc (GCC 10-win32 20220113)",
+    "compiler_package": "gcc-mingw-w64-i686 10.3.0-14ubuntu1+24.3",
+    "binutils": "GNU Binutils 2.38",
+    "iso_tool": "xorriso 1.5.4",
+    "target": "PE32 i386, OS 5.1, subsystem 5.1"
+  },
+  "instrumentation": {
+    "scope": "main executable IAT of the injected process only",
+    "cryptgenrandom": "ADVAPI32.dll!CryptGenRandom IAT replacement",
+    "systemfunction036": "GetProcAddress result substitution for exact name SystemFunction036",
+    "inline_code_patch": false,
+    "online_symbol_server_used": false,
+    "transparency_claimed": false
+  },
+  "runs": {
+    "count": 2,
+    "per_run_per_api": {
+      "calls_32_bytes": 5,
+      "calls_64_bytes": 5,
+      "total_calls": 10
+    },
+    "paired_events_validated": 40,
+    "all_byte_comparisons_match": true,
+    "all_pid_tid_comparisons_match": true,
+    "all_return_addresses_in_expected_module": true,
+    "caller_signatures_reproducible": true
+  },
+  "pre_validation_attempt": {
+    "occurred": true,
+    "cause": "batch expanded the tool path as D::\\ before correction",
+    "runner_started": false,
+    "probe_started": false,
+    "result_media_reformatted_before_recorded_runs": true,
+    "j2_system_overlay_received_normal_xp_boot_writes": true
+  },
+  "call_sites": [
+    {
+      "api": "CryptGenRandom",
+      "module": "cgr_probe.exe",
+      "base": "0x00400000",
+      "absolute_address": "0x004017c8",
+      "rva": "0x000017c8",
+      "symbol": null
+    },
+    {
+      "api": "SystemFunction036",
+      "module": "cgr_probe.exe",
+      "base": "0x00400000",
+      "absolute_address": "0x00401867",
+      "rva": "0x00001867",
+      "symbol": null
+    }
+  ],
+  "sha256": {
+    "j1_probe_executable": "4a745cdaea15b2500e29b93d90e49ef37eed0fcb0ad422b3d8a533cb0ddbceb7",
+    "trace_dll": "b864ad2fad67aa64bc312f6e0ac8e70ec51e79ada9096195714e7980ae49e6ae",
+    "trace_runner": "8ac54697b2eaef9483b68bbd58fcfed9a5cc091a7d40587dab2822b2bb0f2692",
+    "j2_iso": "19f6538a2036fed697964be3471e087645a7ceb1f5c3757a888e7c7dbfcb5970",
+    "system_overlay_initial": "c751183c1f523a47e1187a9350441e7ac7630522099e858c1e7e8fadabf1ff7d",
+    "system_overlay_final": "a1d3bdb8d9dda02ace0054b4d9c1f4eeb032233a7fc477b1052fa08e1f5414bc",
+    "test_overlay_initial": "33a250e70344d43ac1cbc6e582651aa9d56687af8795ddbed4939e972d1d7e0e",
+    "test_overlay_final": "33a250e70344d43ac1cbc6e582651aa9d56687af8795ddbed4939e972d1d7e0e"
+  },
+  "integrity": {
+    "parents_before_after_identical": true,
+    "j1_executable_and_evidence_unchanged": true,
+    "j1_overlays_match_j1_reference_hashes": true
+  }
+}

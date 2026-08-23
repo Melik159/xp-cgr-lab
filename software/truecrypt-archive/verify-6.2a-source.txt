@@ -1,0 +1,6 @@
+gpg: Signature faite le lun. 15 juin 2009 15:42:40 CEST
+gpg:                avec la clef DSA E3BA73CAF0D6B1E0
+gpg: Bonne signature de « TrueCrypt Foundation <info@truecrypt-foundation.org> » [inconnu]
+gpg: Attention : cette clef n'est pas certifiée avec une signature de confiance.
+gpg:          Rien n'indique que la signature appartient à son propriétaire.
+Empreinte de clef principale : C5F4 BAC4 A7B2 2DB8 B8F8  5538 E3BA 73CA F0D6 B1E0

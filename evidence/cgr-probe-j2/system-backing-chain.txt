@@ -1,0 +1,49 @@
+image: vm/xp-system-cgr-j2.qcow2
+file format: qcow2
+virtual size: 12G (12884901888 bytes)
+disk size: 196K
+cluster_size: 65536
+backing file: /home/hal/xp-cgr-lab/vm/xp-system-instrumented.qcow2
+backing file format: qcow2
+Format specific information:
+    compat: 1.1
+    lazy refcounts: false
+    refcount bits: 16
+    corrupt: false
+
+image: /home/hal/xp-cgr-lab/vm/xp-system-instrumented.qcow2
+file format: qcow2
+virtual size: 12G (12884901888 bytes)
+disk size: 20M
+cluster_size: 65536
+backing file: /home/hal/xp-cgr-lab/vm/xp-system-baseline.qcow2
+backing file format: qcow2
+Format specific information:
+    compat: 1.1
+    lazy refcounts: false
+    refcount bits: 16
+    corrupt: false
+
+image: /home/hal/xp-cgr-lab/vm/xp-system-baseline.qcow2
+file format: qcow2
+virtual size: 12G (12884901888 bytes)
+disk size: 53M
+cluster_size: 65536
+backing file: /home/hal/xp-cgr-lab/vm/xp-system-base.qcow2
+backing file format: qcow2
+Format specific information:
+    compat: 1.1
+    lazy refcounts: false
+    refcount bits: 16
+    corrupt: false
+
+image: /home/hal/xp-cgr-lab/vm/xp-system-base.qcow2
+file format: qcow2
+virtual size: 12G (12884901888 bytes)
+disk size: 1.3G
+cluster_size: 65536
+Format specific information:
+    compat: 1.1
+    lazy refcounts: false
+    refcount bits: 16
+    corrupt: false

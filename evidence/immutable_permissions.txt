@@ -1,0 +1,4 @@
+-r--r--r-- 444 vm/xp-system-base.qcow2
+-r--r--r-- 444 vm/xp-system-baseline.qcow2
+-r--r--r-- 444 vm/xp-test-base.qcow2
+-r--r--r-- 444 vm/xp-test-baseline.qcow2

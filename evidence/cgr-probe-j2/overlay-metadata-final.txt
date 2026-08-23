@@ -1,0 +1,2 @@
+vm/xp-system-cgr-j2.qcow2 mode=444 size=34144256 mtime_epoch=1787491603
+vm/xp-test-cgr-j2.qcow2 mode=444 size=196616 mtime_epoch=1787490817

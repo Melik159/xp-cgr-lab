@@ -1,0 +1,35 @@
+src-6.2a/truecrypt-6.2a-source/Common/Random.c-648-				     &dwSize, NULL))
+src-6.2a/truecrypt-6.2a-source/Common/Random.c-649-		{
+src-6.2a/truecrypt-6.2a-source/Common/Random.c-650-			RandaddBuf ((unsigned char *) &diskPerformance, dwSize);
+src-6.2a/truecrypt-6.2a-source/Common/Random.c-651-		}
+src-6.2a/truecrypt-6.2a-source/Common/Random.c-652-		CloseHandle (hDevice);
+src-6.2a/truecrypt-6.2a-source/Common/Random.c-653-	}
+src-6.2a/truecrypt-6.2a-source/Common/Random.c-654-
+src-6.2a/truecrypt-6.2a-source/Common/Random.c-655-	// CryptoAPI
+src-6.2a/truecrypt-6.2a-source/Common/Random.c:656:	if (CryptoAPIAvailable && CryptGenRandom (hCryptProv, sizeof (buffer), buffer)) 
+src-6.2a/truecrypt-6.2a-source/Common/Random.c-657-		RandaddBuf (buffer, sizeof (buffer));
+src-6.2a/truecrypt-6.2a-source/Common/Random.c-658-
+src-6.2a/truecrypt-6.2a-source/Common/Random.c-659-	burn(buffer, sizeof (buffer));
+src-6.2a/truecrypt-6.2a-source/Common/Random.c-660-	Randmix();
+src-6.2a/truecrypt-6.2a-source/Common/Random.c-661-	return TRUE;
+src-6.2a/truecrypt-6.2a-source/Common/Random.c-662-}
+src-6.2a/truecrypt-6.2a-source/Common/Random.c-663-
+src-6.2a/truecrypt-6.2a-source/Common/Random.c-664-
+--
+src-6.2a/truecrypt-6.2a-source/Common/Random.c-759-	else
+src-6.2a/truecrypt-6.2a-source/Common/Random.c-760-	{
+src-6.2a/truecrypt-6.2a-source/Common/Random.c-761-		/* Millisecond accuracy at best... */
+src-6.2a/truecrypt-6.2a-source/Common/Random.c-762-		DWORD dwTicks = GetTickCount ();
+src-6.2a/truecrypt-6.2a-source/Common/Random.c-763-		RandaddBuf ((unsigned char *) &dwTicks, sizeof (dwTicks));
+src-6.2a/truecrypt-6.2a-source/Common/Random.c-764-	}
+src-6.2a/truecrypt-6.2a-source/Common/Random.c-765-
+src-6.2a/truecrypt-6.2a-source/Common/Random.c-766-	// CryptoAPI
+src-6.2a/truecrypt-6.2a-source/Common/Random.c:767:	if (CryptoAPIAvailable && CryptGenRandom (hCryptProv, sizeof (buffer), buffer)) 
+src-6.2a/truecrypt-6.2a-source/Common/Random.c-768-		RandaddBuf (buffer, sizeof (buffer));
+src-6.2a/truecrypt-6.2a-source/Common/Random.c-769-
+src-6.2a/truecrypt-6.2a-source/Common/Random.c-770-	/* Apply the pool mixing function */
+src-6.2a/truecrypt-6.2a-source/Common/Random.c-771-	Randmix();
+src-6.2a/truecrypt-6.2a-source/Common/Random.c-772-
+src-6.2a/truecrypt-6.2a-source/Common/Random.c-773-	/* Restore the original pool cursor position. If this wasn't done, mouse coordinates
+src-6.2a/truecrypt-6.2a-source/Common/Random.c-774-	   could be written to a limited area of the pool, especially when moving the mouse
+src-6.2a/truecrypt-6.2a-source/Common/Random.c-775-	   uninterruptedly. The severity of the problem would depend on the length of data

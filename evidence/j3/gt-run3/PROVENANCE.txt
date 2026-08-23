@@ -1,0 +1,7 @@
+RUN3 evidence extracted after clean shutdown.
+Source system overlay SHA256: b0d45ff9611c5573976b94b89ff31ae7ea6ba0e6e446e1c267ed63e296847984
+Source test overlay SHA256:   1ce791252dc9c3e8d75d4d6986d82759ab576a67951cfa87772f39ba589e647a
+Extraction path: qemu-nbd --read-only -> NTFS read-only mount -> copy.
+Extracted EXE expected SHA256: 7a09763386b62179a617dcc880da9b9a5fedb6451f2b84fc73afab0d6d60947c
+Expected container size: 16777216 bytes
+Source overlays were verified byte-for-byte unchanged after extraction.

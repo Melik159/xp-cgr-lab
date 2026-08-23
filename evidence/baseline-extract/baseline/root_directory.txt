@@ -1,0 +1,21 @@
+ Le volume dans le lecteur C n'a pas de nom.
+ Le num‚ro de s‚rie du volume est BCFB-C0C8
+
+ R‚pertoire de C:\
+
+23/08/2026  14:06                 0 AUTOEXEC.BAT
+23/08/2026  14:03               212 boot.ini
+14/04/2008  14:00             4ÿ952 Bootfont.bin
+23/08/2026  14:26    <REP>          CGRLAB
+23/08/2026  14:06                 0 CONFIG.SYS
+23/08/2026  14:11    <REP>          Documents and Settings
+23/08/2026  14:06                 0 IO.SYS
+23/08/2026  14:06                 0 MSDOS.SYS
+14/04/2008  14:00            47ÿ564 NTDETECT.COM
+14/04/2008  14:00           252ÿ240 ntldr
+23/08/2026  14:25     1ÿ610ÿ612ÿ736 pagefile.sys
+23/08/2026  14:11    <REP>          Program Files
+23/08/2026  14:09    <REP>          System Volume Information
+23/08/2026  14:11    <REP>          WINDOWS
+               9 fichier(s)    1ÿ610ÿ917ÿ704 octets
+               5 R‚p(s)  10ÿ006ÿ601ÿ728 octets libres

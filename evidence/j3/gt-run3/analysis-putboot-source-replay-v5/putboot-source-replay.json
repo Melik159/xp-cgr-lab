@@ -1,0 +1,15 @@
+{
+  "checks": {
+    "source_boot_equals_independently_decrypted_RUN3_boot": true,
+    "source_boot_volume_id_equals_observed_RNG": true,
+    "source_boot_XTS_equals_logged_WRITE_DATA_first_sector": true,
+    "source_boot_XTS_equals_final_container_first_data_sector": true
+  },
+  "fat_volume_id_hex": "837bfcfb",
+  "source_boot_sha256": "b2052920312ed52f15b21292f97154f22973864f44abd11b217b7b6849ace612",
+  "source_boot_cipher_sha256": "7843975498a0351920e337856834f3cb7327584f82cbb45ab6b66e405dcf95c5",
+  "data_unit": 256,
+  "physical_offset": 131072,
+  "master_keydata_sha256": "c69e34e8867bf53606437fad4327a5a31f3bac8b012eb84ff3f86c0fa6deeba8",
+  "claim": "The exact RUN3 Fat.c GetFatParams() and PutBoot() source, driven only by the observed 4-byte FAT RandgetBytes output and the RUN3 format parameters, regenerates the complete 512-byte FAT16 boot sector bit-for-bit. Independent AES-XTS encryption at data unit 256 reproduces both the logged WRITE_DATA sector and the final container bytes at offset 0x20000."
+}

@@ -1,0 +1,10 @@
+Nom alias       Administrateurs
+Commentaire     Les membres du groupe Administrateurs disposent d'un accŠs complet et illimit‚ … l'ordinateur et au domaine
+
+Membres
+
+-------------------------------------------------------------------------------
+Administrateur
+Lab User
+La commande s'est termin‚e correctement.
+

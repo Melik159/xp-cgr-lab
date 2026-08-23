@@ -1,0 +1,30 @@
+RUN3 FORWARD MODEL FINALIZATION
+
+TRACE SHA256:
+b485dd98f2f8bc9e532d9115b71e22b64576fd1dc5be08adad1a60a712573e68
+
+CONTAINER SHA256:
+60a36b58c5d00736f46c9420cf0338f8aaba79accffbe662a355b0a2cc852755
+
+Trace records: 3081
+Overflow: 0
+
+Final bytes with provenance to at least one logged write:
+407552 / 16777216 (2.429199%)
+
+Final bytes not covered by a logged write:
+16369664
+
+Scientific claim:
+For this instrumented RUN3 execution, the TrueCrypt userspace RNG state is
+exactly replayable from the single observed zero-pool anchor through the
+observed lifecycle RNG mutations, without snapshot resynchronization. The
+derived master/salt material, PBKDF2 outputs, header keys, plaintext headers,
+AES-XTS header/reserved transformations, FAT volume ID, source-level PutBoot
+boot sector, and logged quick-format data writes reconcile exactly to the
+corresponding final container bytes.
+
+Boundary:
+This does not reconstruct Windows CryptGenRandom internal state, does not prove
+cold-case recoverability, and does not assign causal provenance to final bytes
+that were never covered by a logged write.
