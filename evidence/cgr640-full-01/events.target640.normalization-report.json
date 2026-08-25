@@ -1,0 +1,613 @@
+{
+  "cycle_count": 16,
+  "cycle_pattern": [
+    "B10_PROVIDER_BEFORE_SYSTEMFUNCTION036",
+    "B05_SYSTEMFUNCTION036_ENTRY",
+    "B07_ADVAPI_RC4_PRGA_ENTRY",
+    "B08_ADVAPI_RC4_PRGA_RETURN",
+    "B06_SYSTEMFUNCTION036_RETURN",
+    "B11_PROVIDER_AFTER_SYSTEMFUNCTION036",
+    "B12_PROVIDER_FIPS_ENTRY",
+    "B13_PROVIDER_FIPS_RETURN"
+  ],
+  "duplicate_groups": [
+    {
+      "canonical_seq": 264,
+      "count": 2,
+      "fingerprint_basis": "all JSON fields except seq and host_time_ns",
+      "kind": "B08_ADVAPI_RC4_PRGA_RETURN",
+      "raw_seqs": [
+        264,
+        265
+      ]
+    },
+    {
+      "canonical_seq": 276,
+      "count": 2,
+      "fingerprint_basis": "all JSON fields except seq and host_time_ns",
+      "kind": "B12_PROVIDER_FIPS_ENTRY",
+      "raw_seqs": [
+        276,
+        277
+      ]
+    },
+    {
+      "canonical_seq": 282,
+      "count": 2,
+      "fingerprint_basis": "all JSON fields except seq and host_time_ns",
+      "kind": "B08_ADVAPI_RC4_PRGA_RETURN",
+      "raw_seqs": [
+        282,
+        283
+      ]
+    },
+    {
+      "canonical_seq": 297,
+      "count": 2,
+      "fingerprint_basis": "all JSON fields except seq and host_time_ns",
+      "kind": "B05_SYSTEMFUNCTION036_ENTRY",
+      "raw_seqs": [
+        297,
+        298
+      ]
+    },
+    {
+      "canonical_seq": 303,
+      "count": 2,
+      "fingerprint_basis": "all JSON fields except seq and host_time_ns",
+      "kind": "B12_PROVIDER_FIPS_ENTRY",
+      "raw_seqs": [
+        303,
+        304
+      ]
+    },
+    {
+      "canonical_seq": 307,
+      "count": 2,
+      "fingerprint_basis": "all JSON fields except seq and host_time_ns",
+      "kind": "B05_SYSTEMFUNCTION036_ENTRY",
+      "raw_seqs": [
+        307,
+        308
+      ]
+    },
+    {
+      "canonical_seq": 313,
+      "count": 2,
+      "fingerprint_basis": "all JSON fields except seq and host_time_ns",
+      "kind": "B12_PROVIDER_FIPS_ENTRY",
+      "raw_seqs": [
+        313,
+        314
+      ]
+    },
+    {
+      "canonical_seq": 319,
+      "count": 2,
+      "fingerprint_basis": "all JSON fields except seq and host_time_ns",
+      "kind": "B08_ADVAPI_RC4_PRGA_RETURN",
+      "raw_seqs": [
+        319,
+        320
+      ]
+    },
+    {
+      "canonical_seq": 337,
+      "count": 6,
+      "fingerprint_basis": "all JSON fields except seq and host_time_ns",
+      "kind": "B06_SYSTEMFUNCTION036_RETURN",
+      "raw_seqs": [
+        337,
+        338,
+        339,
+        340,
+        341,
+        342
+      ]
+    },
+    {
+      "canonical_seq": 351,
+      "count": 2,
+      "fingerprint_basis": "all JSON fields except seq and host_time_ns",
+      "kind": "B11_PROVIDER_AFTER_SYSTEMFUNCTION036",
+      "raw_seqs": [
+        351,
+        352
+      ]
+    },
+    {
+      "canonical_seq": 358,
+      "count": 2,
+      "fingerprint_basis": "all JSON fields except seq and host_time_ns",
+      "kind": "B08_ADVAPI_RC4_PRGA_RETURN",
+      "raw_seqs": [
+        358,
+        359
+      ]
+    },
+    {
+      "canonical_seq": 369,
+      "count": 2,
+      "fingerprint_basis": "all JSON fields except seq and host_time_ns",
+      "kind": "B11_PROVIDER_AFTER_SYSTEMFUNCTION036",
+      "raw_seqs": [
+        369,
+        370
+      ]
+    },
+    {
+      "canonical_seq": 375,
+      "count": 2,
+      "fingerprint_basis": "all JSON fields except seq and host_time_ns",
+      "kind": "B07_ADVAPI_RC4_PRGA_ENTRY",
+      "raw_seqs": [
+        375,
+        376
+      ]
+    },
+    {
+      "canonical_seq": 388,
+      "count": 2,
+      "fingerprint_basis": "all JSON fields except seq and host_time_ns",
+      "kind": "B12_PROVIDER_FIPS_ENTRY",
+      "raw_seqs": [
+        388,
+        389
+      ]
+    },
+    {
+      "canonical_seq": 394,
+      "count": 2,
+      "fingerprint_basis": "all JSON fields except seq and host_time_ns",
+      "kind": "B08_ADVAPI_RC4_PRGA_RETURN",
+      "raw_seqs": [
+        394,
+        395
+      ]
+    },
+    {
+      "canonical_seq": 398,
+      "count": 2,
+      "fingerprint_basis": "all JSON fields except seq and host_time_ns",
+      "kind": "B12_PROVIDER_FIPS_ENTRY",
+      "raw_seqs": [
+        398,
+        399
+      ]
+    },
+    {
+      "canonical_seq": 403,
+      "count": 2,
+      "fingerprint_basis": "all JSON fields except seq and host_time_ns",
+      "kind": "B07_ADVAPI_RC4_PRGA_ENTRY",
+      "raw_seqs": [
+        403,
+        404
+      ]
+    }
+  ],
+  "linkage": [
+    {
+      "checks": {
+        "b11_local_is_same": true,
+        "b11_raw_equals_s036_after": true,
+        "d640_xor_exact": true,
+        "fips_aux_is_same_local": true,
+        "fips_len_20": true,
+        "fips_state_ptr_stable": true,
+        "rc4_len_20": true,
+        "rc4_out_ptr_is_s036_ptr": true,
+        "s036_after_equals_rc4_after": true,
+        "s036_before_equals_d640_local": true,
+        "s036_len_20": true,
+        "s036_ptr_is_d640_local": true
+      },
+      "failed": [],
+      "iteration": 0,
+      "raw_seq_span": [
+        260,
+        269
+      ],
+      "remaining": 640,
+      "verdict": "PASS"
+    },
+    {
+      "checks": {
+        "b11_local_is_same": true,
+        "b11_raw_equals_s036_after": true,
+        "d640_xor_exact": true,
+        "fips_aux_is_same_local": true,
+        "fips_len_20": true,
+        "fips_state_ptr_stable": true,
+        "rc4_len_20": true,
+        "rc4_out_ptr_is_s036_ptr": true,
+        "s036_after_equals_rc4_after": true,
+        "s036_before_equals_d640_local": true,
+        "s036_len_20": true,
+        "s036_ptr_is_d640_local": true
+      },
+      "failed": [],
+      "iteration": 1,
+      "raw_seq_span": [
+        270,
+        278
+      ],
+      "remaining": 600,
+      "verdict": "PASS"
+    },
+    {
+      "checks": {
+        "b11_local_is_same": true,
+        "b11_raw_equals_s036_after": true,
+        "d640_xor_exact": true,
+        "fips_aux_is_same_local": true,
+        "fips_len_20": true,
+        "fips_state_ptr_stable": true,
+        "rc4_len_20": true,
+        "rc4_out_ptr_is_s036_ptr": true,
+        "s036_after_equals_rc4_after": true,
+        "s036_before_equals_d640_local": true,
+        "s036_len_20": true,
+        "s036_ptr_is_d640_local": true
+      },
+      "failed": [],
+      "iteration": 2,
+      "raw_seq_span": [
+        279,
+        287
+      ],
+      "remaining": 560,
+      "verdict": "PASS"
+    },
+    {
+      "checks": {
+        "b11_local_is_same": true,
+        "b11_raw_equals_s036_after": true,
+        "d640_xor_exact": true,
+        "fips_aux_is_same_local": true,
+        "fips_len_20": true,
+        "fips_state_ptr_stable": true,
+        "rc4_len_20": true,
+        "rc4_out_ptr_is_s036_ptr": true,
+        "s036_after_equals_rc4_after": true,
+        "s036_before_equals_d640_local": true,
+        "s036_len_20": true,
+        "s036_ptr_is_d640_local": true
+      },
+      "failed": [],
+      "iteration": 3,
+      "raw_seq_span": [
+        288,
+        295
+      ],
+      "remaining": 520,
+      "verdict": "PASS"
+    },
+    {
+      "checks": {
+        "b11_local_is_same": true,
+        "b11_raw_equals_s036_after": true,
+        "d640_xor_exact": true,
+        "fips_aux_is_same_local": true,
+        "fips_len_20": true,
+        "fips_state_ptr_stable": true,
+        "rc4_len_20": true,
+        "rc4_out_ptr_is_s036_ptr": true,
+        "s036_after_equals_rc4_after": true,
+        "s036_before_equals_d640_local": true,
+        "s036_len_20": true,
+        "s036_ptr_is_d640_local": true
+      },
+      "failed": [],
+      "iteration": 4,
+      "raw_seq_span": [
+        296,
+        305
+      ],
+      "remaining": 480,
+      "verdict": "PASS"
+    },
+    {
+      "checks": {
+        "b11_local_is_same": true,
+        "b11_raw_equals_s036_after": true,
+        "d640_xor_exact": true,
+        "fips_aux_is_same_local": true,
+        "fips_len_20": true,
+        "fips_state_ptr_stable": true,
+        "rc4_len_20": true,
+        "rc4_out_ptr_is_s036_ptr": true,
+        "s036_after_equals_rc4_after": true,
+        "s036_before_equals_d640_local": true,
+        "s036_len_20": true,
+        "s036_ptr_is_d640_local": true
+      },
+      "failed": [],
+      "iteration": 5,
+      "raw_seq_span": [
+        306,
+        315
+      ],
+      "remaining": 440,
+      "verdict": "PASS"
+    },
+    {
+      "checks": {
+        "b11_local_is_same": true,
+        "b11_raw_equals_s036_after": true,
+        "d640_xor_exact": true,
+        "fips_aux_is_same_local": true,
+        "fips_len_20": true,
+        "fips_state_ptr_stable": true,
+        "rc4_len_20": true,
+        "rc4_out_ptr_is_s036_ptr": true,
+        "s036_after_equals_rc4_after": true,
+        "s036_before_equals_d640_local": true,
+        "s036_len_20": true,
+        "s036_ptr_is_d640_local": true
+      },
+      "failed": [],
+      "iteration": 6,
+      "raw_seq_span": [
+        316,
+        324
+      ],
+      "remaining": 400,
+      "verdict": "PASS"
+    },
+    {
+      "checks": {
+        "b11_local_is_same": true,
+        "b11_raw_equals_s036_after": true,
+        "d640_xor_exact": true,
+        "fips_aux_is_same_local": true,
+        "fips_len_20": true,
+        "fips_state_ptr_stable": true,
+        "rc4_len_20": true,
+        "rc4_out_ptr_is_s036_ptr": true,
+        "s036_after_equals_rc4_after": true,
+        "s036_before_equals_d640_local": true,
+        "s036_len_20": true,
+        "s036_ptr_is_d640_local": true
+      },
+      "failed": [],
+      "iteration": 7,
+      "raw_seq_span": [
+        325,
+        332
+      ],
+      "remaining": 360,
+      "verdict": "PASS"
+    },
+    {
+      "checks": {
+        "b11_local_is_same": true,
+        "b11_raw_equals_s036_after": true,
+        "d640_xor_exact": true,
+        "fips_aux_is_same_local": true,
+        "fips_len_20": true,
+        "fips_state_ptr_stable": true,
+        "rc4_len_20": true,
+        "rc4_out_ptr_is_s036_ptr": true,
+        "s036_after_equals_rc4_after": true,
+        "s036_before_equals_d640_local": true,
+        "s036_len_20": true,
+        "s036_ptr_is_d640_local": true
+      },
+      "failed": [],
+      "iteration": 8,
+      "raw_seq_span": [
+        333,
+        345
+      ],
+      "remaining": 320,
+      "verdict": "PASS"
+    },
+    {
+      "checks": {
+        "b11_local_is_same": true,
+        "b11_raw_equals_s036_after": true,
+        "d640_xor_exact": true,
+        "fips_aux_is_same_local": true,
+        "fips_len_20": true,
+        "fips_state_ptr_stable": true,
+        "rc4_len_20": true,
+        "rc4_out_ptr_is_s036_ptr": true,
+        "s036_after_equals_rc4_after": true,
+        "s036_before_equals_d640_local": true,
+        "s036_len_20": true,
+        "s036_ptr_is_d640_local": true
+      },
+      "failed": [],
+      "iteration": 9,
+      "raw_seq_span": [
+        346,
+        354
+      ],
+      "remaining": 280,
+      "verdict": "PASS"
+    },
+    {
+      "checks": {
+        "b11_local_is_same": true,
+        "b11_raw_equals_s036_after": true,
+        "d640_xor_exact": true,
+        "fips_aux_is_same_local": true,
+        "fips_len_20": true,
+        "fips_state_ptr_stable": true,
+        "rc4_len_20": true,
+        "rc4_out_ptr_is_s036_ptr": true,
+        "s036_after_equals_rc4_after": true,
+        "s036_before_equals_d640_local": true,
+        "s036_len_20": true,
+        "s036_ptr_is_d640_local": true
+      },
+      "failed": [],
+      "iteration": 10,
+      "raw_seq_span": [
+        355,
+        363
+      ],
+      "remaining": 240,
+      "verdict": "PASS"
+    },
+    {
+      "checks": {
+        "b11_local_is_same": true,
+        "b11_raw_equals_s036_after": true,
+        "d640_xor_exact": true,
+        "fips_aux_is_same_local": true,
+        "fips_len_20": true,
+        "fips_state_ptr_stable": true,
+        "rc4_len_20": true,
+        "rc4_out_ptr_is_s036_ptr": true,
+        "s036_after_equals_rc4_after": true,
+        "s036_before_equals_d640_local": true,
+        "s036_len_20": true,
+        "s036_ptr_is_d640_local": true
+      },
+      "failed": [],
+      "iteration": 11,
+      "raw_seq_span": [
+        364,
+        372
+      ],
+      "remaining": 200,
+      "verdict": "PASS"
+    },
+    {
+      "checks": {
+        "b11_local_is_same": true,
+        "b11_raw_equals_s036_after": true,
+        "d640_xor_exact": true,
+        "fips_aux_is_same_local": true,
+        "fips_len_20": true,
+        "fips_state_ptr_stable": true,
+        "rc4_len_20": true,
+        "rc4_out_ptr_is_s036_ptr": true,
+        "s036_after_equals_rc4_after": true,
+        "s036_before_equals_d640_local": true,
+        "s036_len_20": true,
+        "s036_ptr_is_d640_local": true
+      },
+      "failed": [],
+      "iteration": 12,
+      "raw_seq_span": [
+        373,
+        381
+      ],
+      "remaining": 160,
+      "verdict": "PASS"
+    },
+    {
+      "checks": {
+        "b11_local_is_same": true,
+        "b11_raw_equals_s036_after": true,
+        "d640_xor_exact": true,
+        "fips_aux_is_same_local": true,
+        "fips_len_20": true,
+        "fips_state_ptr_stable": true,
+        "rc4_len_20": true,
+        "rc4_out_ptr_is_s036_ptr": true,
+        "s036_after_equals_rc4_after": true,
+        "s036_before_equals_d640_local": true,
+        "s036_len_20": true,
+        "s036_ptr_is_d640_local": true
+      },
+      "failed": [],
+      "iteration": 13,
+      "raw_seq_span": [
+        382,
+        390
+      ],
+      "remaining": 120,
+      "verdict": "PASS"
+    },
+    {
+      "checks": {
+        "b11_local_is_same": true,
+        "b11_raw_equals_s036_after": true,
+        "d640_xor_exact": true,
+        "fips_aux_is_same_local": true,
+        "fips_len_20": true,
+        "fips_state_ptr_stable": true,
+        "rc4_len_20": true,
+        "rc4_out_ptr_is_s036_ptr": true,
+        "s036_after_equals_rc4_after": true,
+        "s036_before_equals_d640_local": true,
+        "s036_len_20": true,
+        "s036_ptr_is_d640_local": true
+      },
+      "failed": [],
+      "iteration": 14,
+      "raw_seq_span": [
+        391,
+        400
+      ],
+      "remaining": 80,
+      "verdict": "PASS"
+    },
+    {
+      "checks": {
+        "b11_local_is_same": true,
+        "b11_raw_equals_s036_after": true,
+        "d640_xor_exact": true,
+        "fips_aux_is_same_local": true,
+        "fips_len_20": true,
+        "fips_state_ptr_stable": true,
+        "rc4_len_20": true,
+        "rc4_out_ptr_is_s036_ptr": true,
+        "s036_after_equals_rc4_after": true,
+        "s036_before_equals_d640_local": true,
+        "s036_len_20": true,
+        "s036_ptr_is_d640_local": true
+      },
+      "failed": [],
+      "iteration": 15,
+      "raw_seq_span": [
+        401,
+        409
+      ],
+      "remaining": 40,
+      "verdict": "PASS"
+    }
+  ],
+  "normalized_region_events": 130,
+  "normalized_target_counts": {
+    "B05_SYSTEMFUNCTION036_ENTRY": 16,
+    "B06_SYSTEMFUNCTION036_RETURN": 16,
+    "B07_ADVAPI_RC4_PRGA_ENTRY": 16,
+    "B08_ADVAPI_RC4_PRGA_RETURN": 16,
+    "B10_PROVIDER_BEFORE_SYSTEMFUNCTION036": 16,
+    "B11_PROVIDER_AFTER_SYSTEMFUNCTION036": 16,
+    "B12_PROVIDER_FIPS_ENTRY": 16,
+    "B13_PROVIDER_FIPS_RETURN": 16
+  },
+  "raw_region_events": 151,
+  "remaining_sequence": [
+    640,
+    600,
+    560,
+    520,
+    480,
+    440,
+    400,
+    360,
+    320,
+    280,
+    240,
+    200,
+    160,
+    120,
+    80,
+    40
+  ],
+  "source": "/home/hal/xp-cgr-lab/evidence/cgr640-full-01/events.jsonl",
+  "source_sha256": "f0ceb2775e3458ff5c204bd353c39cc7efe835f8a4fa972323a44d594b7a3acf",
+  "target_call_id": 3,
+  "target_seq_range": [
+    260,
+    410
+  ],
+  "verdict": "PASS"
+}

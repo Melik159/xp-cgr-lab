@@ -1,0 +1,420 @@
+{
+  "events": "/home/hal/xp-cgr-lab/evidence/cgr640-full-01/events.jsonl",
+  "events_sha256": "f0ceb2775e3458ff5c204bd353c39cc7efe835f8a4fa972323a44d594b7a3acf",
+  "final_checks": {
+    "caller_after_bin_equals_b14": true,
+    "concat_out40_equals_b14_640": true,
+    "final_global_31958_equals_provider_state": true,
+    "sixteen_blocks": true
+  },
+  "iterations": [
+    {
+      "checks": {
+        "d640_to_s036": true,
+        "d640_xor": true,
+        "fips_len": true,
+        "provider_out40_replay": true,
+        "provider_raw_equals_s036": true,
+        "provider_state_continuity": true,
+        "provider_state_replay": true,
+        "rc4_len": true,
+        "rc4_output_replay": true,
+        "rc4_state_replay": true,
+        "remaining": true,
+        "s036_equals_rc4": true,
+        "s036_len": true
+      },
+      "failed": [],
+      "iteration": 0,
+      "remaining": 640,
+      "seq_span": [
+        260,
+        269
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "checks": {
+        "d640_to_s036": true,
+        "d640_xor": true,
+        "fips_len": true,
+        "provider_out40_replay": true,
+        "provider_raw_equals_s036": true,
+        "provider_state_continuity": true,
+        "provider_state_replay": true,
+        "rc4_len": true,
+        "rc4_output_replay": true,
+        "rc4_state_replay": true,
+        "remaining": true,
+        "s036_equals_rc4": true,
+        "s036_len": true
+      },
+      "failed": [],
+      "iteration": 1,
+      "remaining": 600,
+      "seq_span": [
+        270,
+        278
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "checks": {
+        "d640_to_s036": true,
+        "d640_xor": true,
+        "fips_len": true,
+        "provider_out40_replay": true,
+        "provider_raw_equals_s036": true,
+        "provider_state_continuity": true,
+        "provider_state_replay": true,
+        "rc4_len": true,
+        "rc4_output_replay": true,
+        "rc4_state_replay": true,
+        "remaining": true,
+        "s036_equals_rc4": true,
+        "s036_len": true
+      },
+      "failed": [],
+      "iteration": 2,
+      "remaining": 560,
+      "seq_span": [
+        279,
+        287
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "checks": {
+        "d640_to_s036": true,
+        "d640_xor": true,
+        "fips_len": true,
+        "provider_out40_replay": true,
+        "provider_raw_equals_s036": true,
+        "provider_state_continuity": true,
+        "provider_state_replay": true,
+        "rc4_len": true,
+        "rc4_output_replay": true,
+        "rc4_state_replay": true,
+        "remaining": true,
+        "s036_equals_rc4": true,
+        "s036_len": true
+      },
+      "failed": [],
+      "iteration": 3,
+      "remaining": 520,
+      "seq_span": [
+        288,
+        295
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "checks": {
+        "d640_to_s036": true,
+        "d640_xor": true,
+        "fips_len": true,
+        "provider_out40_replay": true,
+        "provider_raw_equals_s036": true,
+        "provider_state_continuity": true,
+        "provider_state_replay": true,
+        "rc4_len": true,
+        "rc4_output_replay": true,
+        "rc4_state_replay": true,
+        "remaining": true,
+        "s036_equals_rc4": true,
+        "s036_len": true
+      },
+      "failed": [],
+      "iteration": 4,
+      "remaining": 480,
+      "seq_span": [
+        296,
+        305
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "checks": {
+        "d640_to_s036": true,
+        "d640_xor": true,
+        "fips_len": true,
+        "provider_out40_replay": true,
+        "provider_raw_equals_s036": true,
+        "provider_state_continuity": true,
+        "provider_state_replay": true,
+        "rc4_len": true,
+        "rc4_output_replay": true,
+        "rc4_state_replay": true,
+        "remaining": true,
+        "s036_equals_rc4": true,
+        "s036_len": true
+      },
+      "failed": [],
+      "iteration": 5,
+      "remaining": 440,
+      "seq_span": [
+        306,
+        315
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "checks": {
+        "d640_to_s036": true,
+        "d640_xor": true,
+        "fips_len": true,
+        "provider_out40_replay": true,
+        "provider_raw_equals_s036": true,
+        "provider_state_continuity": true,
+        "provider_state_replay": true,
+        "rc4_len": true,
+        "rc4_output_replay": true,
+        "rc4_state_replay": true,
+        "remaining": true,
+        "s036_equals_rc4": true,
+        "s036_len": true
+      },
+      "failed": [],
+      "iteration": 6,
+      "remaining": 400,
+      "seq_span": [
+        316,
+        324
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "checks": {
+        "d640_to_s036": true,
+        "d640_xor": true,
+        "fips_len": true,
+        "provider_out40_replay": true,
+        "provider_raw_equals_s036": true,
+        "provider_state_continuity": true,
+        "provider_state_replay": true,
+        "rc4_len": true,
+        "rc4_output_replay": true,
+        "rc4_state_replay": true,
+        "remaining": true,
+        "s036_equals_rc4": true,
+        "s036_len": true
+      },
+      "failed": [],
+      "iteration": 7,
+      "remaining": 360,
+      "seq_span": [
+        325,
+        332
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "checks": {
+        "d640_to_s036": true,
+        "d640_xor": true,
+        "fips_len": true,
+        "provider_out40_replay": true,
+        "provider_raw_equals_s036": true,
+        "provider_state_continuity": true,
+        "provider_state_replay": true,
+        "rc4_len": true,
+        "rc4_output_replay": true,
+        "rc4_state_replay": true,
+        "remaining": true,
+        "s036_equals_rc4": true,
+        "s036_len": true
+      },
+      "failed": [],
+      "iteration": 8,
+      "remaining": 320,
+      "seq_span": [
+        333,
+        345
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "checks": {
+        "d640_to_s036": true,
+        "d640_xor": true,
+        "fips_len": true,
+        "provider_out40_replay": true,
+        "provider_raw_equals_s036": true,
+        "provider_state_continuity": true,
+        "provider_state_replay": true,
+        "rc4_len": true,
+        "rc4_output_replay": true,
+        "rc4_state_replay": true,
+        "remaining": true,
+        "s036_equals_rc4": true,
+        "s036_len": true
+      },
+      "failed": [],
+      "iteration": 9,
+      "remaining": 280,
+      "seq_span": [
+        346,
+        354
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "checks": {
+        "d640_to_s036": true,
+        "d640_xor": true,
+        "fips_len": true,
+        "provider_out40_replay": true,
+        "provider_raw_equals_s036": true,
+        "provider_state_continuity": true,
+        "provider_state_replay": true,
+        "rc4_len": true,
+        "rc4_output_replay": true,
+        "rc4_state_replay": true,
+        "remaining": true,
+        "s036_equals_rc4": true,
+        "s036_len": true
+      },
+      "failed": [],
+      "iteration": 10,
+      "remaining": 240,
+      "seq_span": [
+        355,
+        363
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "checks": {
+        "d640_to_s036": true,
+        "d640_xor": true,
+        "fips_len": true,
+        "provider_out40_replay": true,
+        "provider_raw_equals_s036": true,
+        "provider_state_continuity": true,
+        "provider_state_replay": true,
+        "rc4_len": true,
+        "rc4_output_replay": true,
+        "rc4_state_replay": true,
+        "remaining": true,
+        "s036_equals_rc4": true,
+        "s036_len": true
+      },
+      "failed": [],
+      "iteration": 11,
+      "remaining": 200,
+      "seq_span": [
+        364,
+        372
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "checks": {
+        "d640_to_s036": true,
+        "d640_xor": true,
+        "fips_len": true,
+        "provider_out40_replay": true,
+        "provider_raw_equals_s036": true,
+        "provider_state_continuity": true,
+        "provider_state_replay": true,
+        "rc4_len": true,
+        "rc4_output_replay": true,
+        "rc4_state_replay": true,
+        "remaining": true,
+        "s036_equals_rc4": true,
+        "s036_len": true
+      },
+      "failed": [],
+      "iteration": 12,
+      "remaining": 160,
+      "seq_span": [
+        373,
+        381
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "checks": {
+        "d640_to_s036": true,
+        "d640_xor": true,
+        "fips_len": true,
+        "provider_out40_replay": true,
+        "provider_raw_equals_s036": true,
+        "provider_state_continuity": true,
+        "provider_state_replay": true,
+        "rc4_len": true,
+        "rc4_output_replay": true,
+        "rc4_state_replay": true,
+        "remaining": true,
+        "s036_equals_rc4": true,
+        "s036_len": true
+      },
+      "failed": [],
+      "iteration": 13,
+      "remaining": 120,
+      "seq_span": [
+        382,
+        390
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "checks": {
+        "d640_to_s036": true,
+        "d640_xor": true,
+        "fips_len": true,
+        "provider_out40_replay": true,
+        "provider_raw_equals_s036": true,
+        "provider_state_continuity": true,
+        "provider_state_replay": true,
+        "rc4_len": true,
+        "rc4_output_replay": true,
+        "rc4_state_replay": true,
+        "remaining": true,
+        "s036_equals_rc4": true,
+        "s036_len": true
+      },
+      "failed": [],
+      "iteration": 14,
+      "remaining": 80,
+      "seq_span": [
+        391,
+        400
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "checks": {
+        "d640_to_s036": true,
+        "d640_xor": true,
+        "fips_len": true,
+        "provider_out40_replay": true,
+        "provider_raw_equals_s036": true,
+        "provider_state_continuity": true,
+        "provider_state_replay": true,
+        "rc4_len": true,
+        "rc4_output_replay": true,
+        "rc4_state_replay": true,
+        "remaining": true,
+        "s036_equals_rc4": true,
+        "s036_len": true
+      },
+      "failed": [],
+      "iteration": 15,
+      "remaining": 40,
+      "seq_span": [
+        401,
+        409
+      ],
+      "verdict": "PASS"
+    }
+  ],
+  "strict_checker": "/home/hal/T\u00e9l\u00e9chargements/xp-cgr-replay-release/deterministic-replay/tools/check_strict_e2e.py",
+  "strict_checker_sha256": "ebef626dfabd44cf04ea74933c435c7762f50321e1ea2ef8240bd0059b2666ac",
+  "target_call_id": 3,
+  "target_seq_range": [
+    260,
+    410
+  ],
+  "verdict": "PASS"
+}

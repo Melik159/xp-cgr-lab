@@ -1,0 +1,258 @@
+{
+  "event_reports": [
+    {
+      "checks": {
+        "collector_layout": true,
+        "cpu_bytes": true,
+        "cpu_return_length_derived_8": true,
+        "final_rc4_ksa": true,
+        "final_rc4_output": true,
+        "global_state_commit": true,
+        "kernel_to_ioctl_byte_equality": true,
+        "mixer_state_replay": true,
+        "old_state_rc4_context": true,
+        "old_state_rc4_side_effect": true,
+        "output_len_256": true,
+        "pid_bytes": true,
+        "sys05_sha1": true,
+        "sys08_sha1": true,
+        "sys17_sha1": true,
+        "tick_bytes": true,
+        "tid_bytes": true,
+        "used_matches_final_reservation": true,
+        "used_range": true
+      },
+      "event": 0,
+      "failed": [],
+      "seq": [
+        7,
+        32
+      ],
+      "used": 600,
+      "verdict": "PASS"
+    },
+    {
+      "checks": {
+        "collector_layout": true,
+        "cpu_bytes": true,
+        "cpu_return_length_derived_8": true,
+        "final_rc4_ksa": true,
+        "final_rc4_output": true,
+        "global_state_commit": true,
+        "kernel_to_ioctl_byte_equality": true,
+        "mixer_state_replay": true,
+        "old_state_rc4_context": true,
+        "old_state_rc4_side_effect": true,
+        "output_len_256": true,
+        "pid_bytes": true,
+        "sys05_sha1": true,
+        "sys08_sha1": true,
+        "sys17_sha1": true,
+        "tick_bytes": true,
+        "tid_bytes": true,
+        "used_matches_final_reservation": true,
+        "used_range": true
+      },
+      "event": 1,
+      "failed": [],
+      "seq": [
+        42,
+        67
+      ],
+      "used": 600,
+      "verdict": "PASS"
+    },
+    {
+      "checks": {
+        "collector_layout": true,
+        "cpu_bytes": true,
+        "cpu_return_length_derived_8": true,
+        "final_rc4_ksa": true,
+        "final_rc4_output": true,
+        "global_state_commit": true,
+        "kernel_to_ioctl_byte_equality": true,
+        "mixer_state_replay": true,
+        "old_state_rc4_context": true,
+        "old_state_rc4_side_effect": true,
+        "output_len_256": true,
+        "pid_bytes": true,
+        "sys05_sha1": true,
+        "sys08_sha1": true,
+        "sys17_sha1": true,
+        "tick_bytes": true,
+        "tid_bytes": true,
+        "used_matches_final_reservation": true,
+        "used_range": true
+      },
+      "event": 2,
+      "failed": [],
+      "seq": [
+        70,
+        95
+      ],
+      "used": 600,
+      "verdict": "PASS"
+    },
+    {
+      "checks": {
+        "collector_layout": true,
+        "cpu_bytes": true,
+        "cpu_return_length_derived_8": true,
+        "final_rc4_ksa": true,
+        "final_rc4_output": true,
+        "global_state_commit": true,
+        "kernel_to_ioctl_byte_equality": true,
+        "mixer_state_replay": true,
+        "old_state_rc4_context": true,
+        "old_state_rc4_side_effect": true,
+        "output_len_256": true,
+        "pid_bytes": true,
+        "sys05_sha1": true,
+        "sys08_sha1": true,
+        "sys17_sha1": true,
+        "tick_bytes": true,
+        "tid_bytes": true,
+        "used_matches_final_reservation": true,
+        "used_range": true
+      },
+      "event": 3,
+      "failed": [],
+      "seq": [
+        98,
+        123
+      ],
+      "used": 600,
+      "verdict": "PASS"
+    },
+    {
+      "checks": {
+        "collector_layout": true,
+        "cpu_bytes": true,
+        "cpu_return_length_derived_8": true,
+        "final_rc4_ksa": true,
+        "final_rc4_output": true,
+        "global_state_commit": true,
+        "kernel_to_ioctl_byte_equality": true,
+        "mixer_state_replay": true,
+        "old_state_rc4_context": true,
+        "old_state_rc4_side_effect": true,
+        "output_len_256": true,
+        "pid_bytes": true,
+        "sys05_sha1": true,
+        "sys08_sha1": true,
+        "sys17_sha1": true,
+        "tick_bytes": true,
+        "tid_bytes": true,
+        "used_matches_final_reservation": true,
+        "used_range": true
+      },
+      "event": 4,
+      "failed": [],
+      "seq": [
+        126,
+        152
+      ],
+      "used": 600,
+      "verdict": "PASS"
+    },
+    {
+      "checks": {
+        "collector_layout": true,
+        "cpu_bytes": true,
+        "cpu_return_length_derived_8": true,
+        "final_rc4_ksa": true,
+        "final_rc4_output": true,
+        "global_state_commit": true,
+        "kernel_to_ioctl_byte_equality": true,
+        "mixer_state_replay": true,
+        "old_state_rc4_context": true,
+        "old_state_rc4_side_effect": true,
+        "output_len_256": true,
+        "pid_bytes": true,
+        "sys05_sha1": true,
+        "sys08_sha1": true,
+        "sys17_sha1": true,
+        "tick_bytes": true,
+        "tid_bytes": true,
+        "used_matches_final_reservation": true,
+        "used_range": true
+      },
+      "event": 5,
+      "failed": [],
+      "seq": [
+        156,
+        180
+      ],
+      "used": 600,
+      "verdict": "PASS"
+    },
+    {
+      "checks": {
+        "collector_layout": true,
+        "cpu_bytes": true,
+        "cpu_return_length_derived_8": true,
+        "final_rc4_ksa": true,
+        "final_rc4_output": true,
+        "global_state_commit": true,
+        "kernel_to_ioctl_byte_equality": true,
+        "mixer_state_replay": true,
+        "old_state_rc4_context": true,
+        "old_state_rc4_side_effect": true,
+        "output_len_256": true,
+        "pid_bytes": true,
+        "sys05_sha1": true,
+        "sys08_sha1": true,
+        "sys17_sha1": true,
+        "tick_bytes": true,
+        "tid_bytes": true,
+        "used_matches_final_reservation": true,
+        "used_range": true
+      },
+      "event": 6,
+      "failed": [],
+      "seq": [
+        183,
+        210
+      ],
+      "used": 600,
+      "verdict": "PASS"
+    },
+    {
+      "checks": {
+        "collector_layout": true,
+        "cpu_bytes": true,
+        "cpu_return_length_derived_8": true,
+        "final_rc4_ksa": true,
+        "final_rc4_output": true,
+        "global_state_commit": true,
+        "kernel_to_ioctl_byte_equality": true,
+        "mixer_state_replay": true,
+        "old_state_rc4_context": true,
+        "old_state_rc4_side_effect": true,
+        "output_len_256": true,
+        "pid_bytes": true,
+        "sys05_sha1": true,
+        "sys08_sha1": true,
+        "sys17_sha1": true,
+        "tick_bytes": true,
+        "tid_bytes": true,
+        "used_matches_final_reservation": true,
+        "used_range": true
+      },
+      "event": 7,
+      "failed": [],
+      "seq": [
+        214,
+        239
+      ],
+      "used": 600,
+      "verdict": "PASS"
+    }
+  ],
+  "events": "/home/hal/xp-cgr-lab/evidence/cgr640-full-01/events.jsonl",
+  "events_checked": 8,
+  "events_sha256": "f0ceb2775e3458ff5c204bd353c39cc7efe835f8a4fa972323a44d594b7a3acf",
+  "upstream_checker": "/home/hal/T\u00e9l\u00e9chargements/xp-cgr-replay-release/deterministic-replay/tools/check_kernel_fullchain.py",
+  "upstream_checker_sha256": "13be039ed472d794cbbc3bec33a6f6c9e6bedff44af01333c5dae52eaf52d4fa",
+  "verdict": "PASS"
+}

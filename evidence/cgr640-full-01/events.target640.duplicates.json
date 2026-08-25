@@ -1,0 +1,176 @@
+[
+  {
+    "canonical_seq": 264,
+    "count": 2,
+    "fingerprint_basis": "all JSON fields except seq and host_time_ns",
+    "kind": "B08_ADVAPI_RC4_PRGA_RETURN",
+    "raw_seqs": [
+      264,
+      265
+    ]
+  },
+  {
+    "canonical_seq": 276,
+    "count": 2,
+    "fingerprint_basis": "all JSON fields except seq and host_time_ns",
+    "kind": "B12_PROVIDER_FIPS_ENTRY",
+    "raw_seqs": [
+      276,
+      277
+    ]
+  },
+  {
+    "canonical_seq": 282,
+    "count": 2,
+    "fingerprint_basis": "all JSON fields except seq and host_time_ns",
+    "kind": "B08_ADVAPI_RC4_PRGA_RETURN",
+    "raw_seqs": [
+      282,
+      283
+    ]
+  },
+  {
+    "canonical_seq": 297,
+    "count": 2,
+    "fingerprint_basis": "all JSON fields except seq and host_time_ns",
+    "kind": "B05_SYSTEMFUNCTION036_ENTRY",
+    "raw_seqs": [
+      297,
+      298
+    ]
+  },
+  {
+    "canonical_seq": 303,
+    "count": 2,
+    "fingerprint_basis": "all JSON fields except seq and host_time_ns",
+    "kind": "B12_PROVIDER_FIPS_ENTRY",
+    "raw_seqs": [
+      303,
+      304
+    ]
+  },
+  {
+    "canonical_seq": 307,
+    "count": 2,
+    "fingerprint_basis": "all JSON fields except seq and host_time_ns",
+    "kind": "B05_SYSTEMFUNCTION036_ENTRY",
+    "raw_seqs": [
+      307,
+      308
+    ]
+  },
+  {
+    "canonical_seq": 313,
+    "count": 2,
+    "fingerprint_basis": "all JSON fields except seq and host_time_ns",
+    "kind": "B12_PROVIDER_FIPS_ENTRY",
+    "raw_seqs": [
+      313,
+      314
+    ]
+  },
+  {
+    "canonical_seq": 319,
+    "count": 2,
+    "fingerprint_basis": "all JSON fields except seq and host_time_ns",
+    "kind": "B08_ADVAPI_RC4_PRGA_RETURN",
+    "raw_seqs": [
+      319,
+      320
+    ]
+  },
+  {
+    "canonical_seq": 337,
+    "count": 6,
+    "fingerprint_basis": "all JSON fields except seq and host_time_ns",
+    "kind": "B06_SYSTEMFUNCTION036_RETURN",
+    "raw_seqs": [
+      337,
+      338,
+      339,
+      340,
+      341,
+      342
+    ]
+  },
+  {
+    "canonical_seq": 351,
+    "count": 2,
+    "fingerprint_basis": "all JSON fields except seq and host_time_ns",
+    "kind": "B11_PROVIDER_AFTER_SYSTEMFUNCTION036",
+    "raw_seqs": [
+      351,
+      352
+    ]
+  },
+  {
+    "canonical_seq": 358,
+    "count": 2,
+    "fingerprint_basis": "all JSON fields except seq and host_time_ns",
+    "kind": "B08_ADVAPI_RC4_PRGA_RETURN",
+    "raw_seqs": [
+      358,
+      359
+    ]
+  },
+  {
+    "canonical_seq": 369,
+    "count": 2,
+    "fingerprint_basis": "all JSON fields except seq and host_time_ns",
+    "kind": "B11_PROVIDER_AFTER_SYSTEMFUNCTION036",
+    "raw_seqs": [
+      369,
+      370
+    ]
+  },
+  {
+    "canonical_seq": 375,
+    "count": 2,
+    "fingerprint_basis": "all JSON fields except seq and host_time_ns",
+    "kind": "B07_ADVAPI_RC4_PRGA_ENTRY",
+    "raw_seqs": [
+      375,
+      376
+    ]
+  },
+  {
+    "canonical_seq": 388,
+    "count": 2,
+    "fingerprint_basis": "all JSON fields except seq and host_time_ns",
+    "kind": "B12_PROVIDER_FIPS_ENTRY",
+    "raw_seqs": [
+      388,
+      389
+    ]
+  },
+  {
+    "canonical_seq": 394,
+    "count": 2,
+    "fingerprint_basis": "all JSON fields except seq and host_time_ns",
+    "kind": "B08_ADVAPI_RC4_PRGA_RETURN",
+    "raw_seqs": [
+      394,
+      395
+    ]
+  },
+  {
+    "canonical_seq": 398,
+    "count": 2,
+    "fingerprint_basis": "all JSON fields except seq and host_time_ns",
+    "kind": "B12_PROVIDER_FIPS_ENTRY",
+    "raw_seqs": [
+      398,
+      399
+    ]
+  },
+  {
+    "canonical_seq": 403,
+    "count": 2,
+    "fingerprint_basis": "all JSON fields except seq and host_time_ns",
+    "kind": "B07_ADVAPI_RC4_PRGA_ENTRY",
+    "raw_seqs": [
+      403,
+      404
+    ]
+  }
+]
