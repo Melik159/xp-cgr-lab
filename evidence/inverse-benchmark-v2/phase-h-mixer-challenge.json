@@ -1,0 +1,25 @@
+{
+  "instances": [
+    {
+      "id": "H-MIXER-00",
+      "old_state_len_bytes": 80,
+      "source_post_seq": 26,
+      "source_pre_seq": 24,
+      "target_new_state_hex": "c9910203c74d60f2a29374e84b0efd9ca1c9dc76789ec7a5317635de3568fa2c72e4d8c75e75087c69b74fe1f1ebb499919b53612173595e7dad59bcae9fb4067843bc2bc3011b11918f51c34d5eda4d",
+      "target_new_state_sha256": "3c22843b6488e7926a031da8f854c882265d22a181069ed3db971a29d71bd96b",
+      "used": 600,
+      "workspace_prefix_len_bytes": 600
+    }
+  ],
+  "isolation": "single-sequential-instance",
+  "isolation_reason": "Captured mixer calls are state-chained: old_state[i] equals new_state[i-1]. Sequential targets must not be co-serialized when old_state is designated hidden.",
+  "relation": "replay_mixer(workspace_prefix, used, old_state_80) == target_new_state_80",
+  "schema": "cgr640-h-mixer-v1",
+  "solver_input_contract": "Solver may read this challenge file only; captured event logs, other mixer challenge instances, and oracle files are excluded.",
+  "source_events_sha256": "f0ceb2775e3458ff5c204bd353c39cc7efe835f8a4fa972323a44d594b7a3acf",
+  "unknowns": [
+    "old_state_80",
+    "workspace_prefix_used"
+  ],
+  "upstream_model_sha256": "13be039ed472d794cbbc3bec33a6f6c9e6bedff44af01333c5dae52eaf52d4fa"
+}
