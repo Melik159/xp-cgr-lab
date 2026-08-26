@@ -1,0 +1,18 @@
+{
+  "backend": "CUDA",
+  "candidates_per_second": 774082472.491,
+  "challenge_sha256": "d01cf89e1a052ea992a4227fc2005a3c3bbe47b59ba7adf7a829c44ddaa94605",
+  "chunk_size": 16777216,
+  "compute_capability": "7.5",
+  "gpu_name": "Tesla T4",
+  "gpu_seconds": 1.235399775,
+  "independent_verifier": "PASS",
+  "instance": "B00-K32",
+  "phase": "D",
+  "pinned_commit": "092d116c6c154980851f85652f02d5ad14049db5",
+  "scanned": 956301312,
+  "search_space": 4294967296,
+  "solution_counter": 946169713,
+  "solution_xval": "adb870799c7d3cc1ac3492d939ad290fda40163b",
+  "wall_seconds": 1.238907428
+}\n
