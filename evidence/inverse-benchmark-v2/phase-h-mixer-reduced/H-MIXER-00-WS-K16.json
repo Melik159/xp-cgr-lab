@@ -1,0 +1,34 @@
+{
+  "bit_numbering": "Each component is interpreted as one big-endian integer; bit 0 is the least-significant bit of that complete component.",
+  "counter_semantics": "For OLD, counter low bits map to old_state bits 0..k-1. For WS, counter low bits map to workspace bits 0..k-1. For SPLIT, the lowest ceil(k/2) counter bits map to old_state bits 0..ceil(k/2)-1 and the remaining floor(k/2) bits map to workspace bits 0..floor(k/2)-1.",
+  "instances": [
+    {
+      "id": "H-MIXER-00-WS-K16",
+      "k": 16,
+      "old_state_known_mask_hex": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+      "old_state_known_value_hex": "449235d85347eea4b84ff55d4e52f89281185edc232c5d1a05de831731d0443396dcfc5fddfd609aab6be07f9c607402e082f2b3f89e3880d6f91d7d9a1e7f932dc3186120d77d236c1385add35ca7b5",
+      "old_state_len_bytes": 80,
+      "parent_instance": "H-MIXER-00",
+      "profile": "WS",
+      "target_new_state_hex": "c9910203c74d60f2a29374e84b0efd9ca1c9dc76789ec7a5317635de3568fa2c72e4d8c75e75087c69b74fe1f1ebb499919b53612173595e7dad59bcae9fb4067843bc2bc3011b11918f51c34d5eda4d",
+      "target_new_state_sha256": "3c22843b6488e7926a031da8f854c882265d22a181069ed3db971a29d71bd96b",
+      "unknown_bits_old_state": 0,
+      "unknown_bits_total": 16,
+      "unknown_bits_workspace": 16,
+      "used": 600,
+      "workspace_known_mask_hex": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0000",
+      "workspace_known_value_hex": "0000000000000000d000000044004f00d40000005c007300a9310000000000006d00330032005c00f67c14cef10600007200330032002e00c33a918972de6aede3540be538170f6425f9eefc0000000040ead51ab334dd01f2de8690b334dd010030773cefffffff02000000000000000000000000000000000000000000000000000000000000000100000001000000020000000000000001000000010000000040000000000000889ea56f000000001f598b0000000000b838360000000000d3790d0000000000c81100007706000081730000814e0300ed5300002c9e0900f455000096600100c2080000a9bd000000000000f5880000735c00008a1200000000000000000000c00300003c0000000000000000000000db0c00008c0200001b0b02005ab201009f540000f41e00008b95000002000000fd010000e10000002e780200cd05040025b7000000100000ad0c000018010000000000002506000000000000000000000000000000000000000000000000000000000000a5580000000000002d0300009810000000000000df01000000000000300100000d000000650800000c000000bc01000000000000000000000000000000000000fb00000068010000d6020000cd040000bf080000c7dc00000000000000000000c6941e007268010000000000000000005301000000000000000000000000000000000000000004000000000000000000000000000000000000000000506f6f6c2000000008000000d8e9ec00d55d3fc1d480698b8833e51057f5917d13f6d02700000000da39a3ee5e6b4b0d3255bfef95601890afd8070900000000",
+      "workspace_prefix_len_bytes": 600
+    }
+  ],
+  "isolation": "single-reduced-instance",
+  "isolation_reason": "All reduced profiles and k-levels derive from the same oracle. Co-serializing them leaks bits hidden by one task through another.",
+  "mask_semantics": "known_mask bit 1 means public/required; bit 0 means unknown. known_value has unknown positions cleared to zero.",
+  "parent_challenge_sha256": "6c7b6f5eae09dbc3844f225872f7bf424cc64d4c0d184244a94c660d35b4a28c",
+  "parent_instance": "H-MIXER-00",
+  "parent_verifier_sha256": "9b0f6f3d49330b2c9eedcd7c689c1a45c8b8d0aab3d52c27d30e0d2b0d225ef6",
+  "relation": "Candidate must match all published known bits and replay_mixer(workspace_prefix, used, old_state_80) must equal target_new_state_80.",
+  "schema": "cgr640-h-mixer-reduced-v2",
+  "solver_input_contract": "Solver may read this selected challenge file only. Sibling reduced challenge files, the reduced manifest, captured event logs, the full H-MIXER challenge, and oracle/KAT helpers are excluded.",
+  "source_events_sha256": "f0ceb2775e3458ff5c204bd353c39cc7efe835f8a4fa972323a44d594b7a3acf"
+}

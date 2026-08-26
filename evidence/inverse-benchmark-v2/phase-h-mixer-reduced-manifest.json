@@ -1,0 +1,211 @@
+{
+  "instance_count": 21,
+  "instances": [
+    {
+      "id": "H-MIXER-00-OLD-K08",
+      "k": 8,
+      "path": "evidence/inverse-benchmark-v2/phase-h-mixer-reduced/H-MIXER-00-OLD-K08.json",
+      "profile": "OLD",
+      "sha256": "7822de32a29a149f0ddd0c759558b2ce0168ca91dbbf68b437f86db0187aabe0",
+      "unknown_bits_old_state": 8,
+      "unknown_bits_workspace": 0
+    },
+    {
+      "id": "H-MIXER-00-OLD-K12",
+      "k": 12,
+      "path": "evidence/inverse-benchmark-v2/phase-h-mixer-reduced/H-MIXER-00-OLD-K12.json",
+      "profile": "OLD",
+      "sha256": "b6d42dcc55f78e434e4167ea58b884751eaf830a5effea3e0ff29622e14b640a",
+      "unknown_bits_old_state": 12,
+      "unknown_bits_workspace": 0
+    },
+    {
+      "id": "H-MIXER-00-OLD-K16",
+      "k": 16,
+      "path": "evidence/inverse-benchmark-v2/phase-h-mixer-reduced/H-MIXER-00-OLD-K16.json",
+      "profile": "OLD",
+      "sha256": "83fff0ae64bd04539866586ed1072fb25428d2504e61ed23cc64dda931ce33b1",
+      "unknown_bits_old_state": 16,
+      "unknown_bits_workspace": 0
+    },
+    {
+      "id": "H-MIXER-00-OLD-K20",
+      "k": 20,
+      "path": "evidence/inverse-benchmark-v2/phase-h-mixer-reduced/H-MIXER-00-OLD-K20.json",
+      "profile": "OLD",
+      "sha256": "f83624cf92d050d4eb7da641b29b3e3839987058b5762179d1af1fa9e55a4fc5",
+      "unknown_bits_old_state": 20,
+      "unknown_bits_workspace": 0
+    },
+    {
+      "id": "H-MIXER-00-OLD-K24",
+      "k": 24,
+      "path": "evidence/inverse-benchmark-v2/phase-h-mixer-reduced/H-MIXER-00-OLD-K24.json",
+      "profile": "OLD",
+      "sha256": "42b8139fd4b8f073b407a81e5e61dc14696085f64e0625cd4e2d71cabf9a7489",
+      "unknown_bits_old_state": 24,
+      "unknown_bits_workspace": 0
+    },
+    {
+      "id": "H-MIXER-00-OLD-K28",
+      "k": 28,
+      "path": "evidence/inverse-benchmark-v2/phase-h-mixer-reduced/H-MIXER-00-OLD-K28.json",
+      "profile": "OLD",
+      "sha256": "e6eb665ea7b00192f5d24c63a1535f7748000e92bcd7b55ab957a430088c9293",
+      "unknown_bits_old_state": 28,
+      "unknown_bits_workspace": 0
+    },
+    {
+      "id": "H-MIXER-00-OLD-K32",
+      "k": 32,
+      "path": "evidence/inverse-benchmark-v2/phase-h-mixer-reduced/H-MIXER-00-OLD-K32.json",
+      "profile": "OLD",
+      "sha256": "602d203dee003cb15ead53d1ecd26078af0c1227db8dd70c14025938c1d2ee76",
+      "unknown_bits_old_state": 32,
+      "unknown_bits_workspace": 0
+    },
+    {
+      "id": "H-MIXER-00-WS-K08",
+      "k": 8,
+      "path": "evidence/inverse-benchmark-v2/phase-h-mixer-reduced/H-MIXER-00-WS-K08.json",
+      "profile": "WS",
+      "sha256": "a3f8a0288eea84dacaed4b5a382b36279fe25250f36498de155bfab8cee09d02",
+      "unknown_bits_old_state": 0,
+      "unknown_bits_workspace": 8
+    },
+    {
+      "id": "H-MIXER-00-WS-K12",
+      "k": 12,
+      "path": "evidence/inverse-benchmark-v2/phase-h-mixer-reduced/H-MIXER-00-WS-K12.json",
+      "profile": "WS",
+      "sha256": "722290dea95d9a66db04c55b0220c4fdaa2d8504e4c7cc2203a077a10a934005",
+      "unknown_bits_old_state": 0,
+      "unknown_bits_workspace": 12
+    },
+    {
+      "id": "H-MIXER-00-WS-K16",
+      "k": 16,
+      "path": "evidence/inverse-benchmark-v2/phase-h-mixer-reduced/H-MIXER-00-WS-K16.json",
+      "profile": "WS",
+      "sha256": "26f44088930ad00dc535f5ede70e6b90f1949c908e6bae089fedec597596481b",
+      "unknown_bits_old_state": 0,
+      "unknown_bits_workspace": 16
+    },
+    {
+      "id": "H-MIXER-00-WS-K20",
+      "k": 20,
+      "path": "evidence/inverse-benchmark-v2/phase-h-mixer-reduced/H-MIXER-00-WS-K20.json",
+      "profile": "WS",
+      "sha256": "34e94408990861ecc60d562b48d70787358919e3462c1bfc2f152057bbe411a4",
+      "unknown_bits_old_state": 0,
+      "unknown_bits_workspace": 20
+    },
+    {
+      "id": "H-MIXER-00-WS-K24",
+      "k": 24,
+      "path": "evidence/inverse-benchmark-v2/phase-h-mixer-reduced/H-MIXER-00-WS-K24.json",
+      "profile": "WS",
+      "sha256": "ba16d06e75766248fb8e1fd1f61cd067307ea2309ac6d273843d11f4cf5356de",
+      "unknown_bits_old_state": 0,
+      "unknown_bits_workspace": 24
+    },
+    {
+      "id": "H-MIXER-00-WS-K28",
+      "k": 28,
+      "path": "evidence/inverse-benchmark-v2/phase-h-mixer-reduced/H-MIXER-00-WS-K28.json",
+      "profile": "WS",
+      "sha256": "5690f9a6ab7b59d0c2fb3dbee2b7ceb970785168cb7a5cbaa193edcf0b414c9d",
+      "unknown_bits_old_state": 0,
+      "unknown_bits_workspace": 28
+    },
+    {
+      "id": "H-MIXER-00-WS-K32",
+      "k": 32,
+      "path": "evidence/inverse-benchmark-v2/phase-h-mixer-reduced/H-MIXER-00-WS-K32.json",
+      "profile": "WS",
+      "sha256": "e4f17f739e2164bd598322f494bbee503ec5737355f6f804630bdaf279a9108e",
+      "unknown_bits_old_state": 0,
+      "unknown_bits_workspace": 32
+    },
+    {
+      "id": "H-MIXER-00-SPLIT-K08",
+      "k": 8,
+      "path": "evidence/inverse-benchmark-v2/phase-h-mixer-reduced/H-MIXER-00-SPLIT-K08.json",
+      "profile": "SPLIT",
+      "sha256": "31ac743268b5a466df2fc190f9baf1a45f52244b3447f293c4e1b07ecdc291a8",
+      "unknown_bits_old_state": 4,
+      "unknown_bits_workspace": 4
+    },
+    {
+      "id": "H-MIXER-00-SPLIT-K12",
+      "k": 12,
+      "path": "evidence/inverse-benchmark-v2/phase-h-mixer-reduced/H-MIXER-00-SPLIT-K12.json",
+      "profile": "SPLIT",
+      "sha256": "bac749256f900aa4fe912309b5605406ef31529be4bb9597fbbddb7ede7a6cc9",
+      "unknown_bits_old_state": 6,
+      "unknown_bits_workspace": 6
+    },
+    {
+      "id": "H-MIXER-00-SPLIT-K16",
+      "k": 16,
+      "path": "evidence/inverse-benchmark-v2/phase-h-mixer-reduced/H-MIXER-00-SPLIT-K16.json",
+      "profile": "SPLIT",
+      "sha256": "7e9582826a7a8a3484e1a7f1ccb5939d6fd9c726a398c7b0daa851f96310d28f",
+      "unknown_bits_old_state": 8,
+      "unknown_bits_workspace": 8
+    },
+    {
+      "id": "H-MIXER-00-SPLIT-K20",
+      "k": 20,
+      "path": "evidence/inverse-benchmark-v2/phase-h-mixer-reduced/H-MIXER-00-SPLIT-K20.json",
+      "profile": "SPLIT",
+      "sha256": "9cb620bf98fdb4a24886f66d26172e92bae410db7e32362c545ce9ddc08a617a",
+      "unknown_bits_old_state": 10,
+      "unknown_bits_workspace": 10
+    },
+    {
+      "id": "H-MIXER-00-SPLIT-K24",
+      "k": 24,
+      "path": "evidence/inverse-benchmark-v2/phase-h-mixer-reduced/H-MIXER-00-SPLIT-K24.json",
+      "profile": "SPLIT",
+      "sha256": "05667721dd1bfb705c4a1452779c30046444739ad614e70220affae183a2a328",
+      "unknown_bits_old_state": 12,
+      "unknown_bits_workspace": 12
+    },
+    {
+      "id": "H-MIXER-00-SPLIT-K28",
+      "k": 28,
+      "path": "evidence/inverse-benchmark-v2/phase-h-mixer-reduced/H-MIXER-00-SPLIT-K28.json",
+      "profile": "SPLIT",
+      "sha256": "a023f3a5f43151a8848b9a58139f4b0c8d9506a7bd122d3fda6ca2d160ee83f1",
+      "unknown_bits_old_state": 14,
+      "unknown_bits_workspace": 14
+    },
+    {
+      "id": "H-MIXER-00-SPLIT-K32",
+      "k": 32,
+      "path": "evidence/inverse-benchmark-v2/phase-h-mixer-reduced/H-MIXER-00-SPLIT-K32.json",
+      "profile": "SPLIT",
+      "sha256": "4e53e180967b37e78c85b2a5d03a1581a4577476aee26013f5de52dfaae74a1b",
+      "unknown_bits_old_state": 16,
+      "unknown_bits_workspace": 16
+    }
+  ],
+  "k_values": [
+    8,
+    12,
+    16,
+    20,
+    24,
+    28,
+    32
+  ],
+  "parent_challenge_sha256": "6c7b6f5eae09dbc3844f225872f7bf424cc64d4c0d184244a94c660d35b4a28c",
+  "profiles": [
+    "OLD",
+    "WS",
+    "SPLIT"
+  ],
+  "schema": "cgr640-h-mixer-reduced-manifest-v1",
+  "solver_input_warning": "The manifest is provenance/index metadata only and is excluded from solver input. Each benchmark run receives exactly one per-instance challenge file."
+}
