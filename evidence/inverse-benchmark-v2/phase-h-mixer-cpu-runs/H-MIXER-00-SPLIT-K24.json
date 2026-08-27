@@ -1,0 +1,21 @@
+{
+  "campaign": "MIX-CPU",
+  "candidate_verified": true,
+  "challenge_sha256": "05667721dd1bfb705c4a1452779c30046444739ad614e70220affae183a2a328",
+  "counter": 1973,
+  "host": "1409",
+  "instance_id": "H-MIXER-00-SPLIT-K24",
+  "machine": "x86_64",
+  "matches": 1,
+  "mode": "search",
+  "profile": "SPLIT",
+  "python": "3.10.12",
+  "solver_binary_sha256": "736e562ac3fdbd8b40c4143a4aec2f3fc697cfe0acf0f4fe8b096aaff93a8ebd",
+  "solver_source_sha256": "0a01e23a2223073913afa28bdbe157374a114bdf8c9f15384e06985194e3a0ea",
+  "status": "FOUND",
+  "tested_candidates": 1974,
+  "throughput_candidates_per_second": 70481.878,
+  "unknown_bits": 24,
+  "verifier_sha256": "c59e87e857c00d2ee936907b0a539cfa055025731e11b207b8f038d2717d67a1",
+  "wall_seconds": 0.028007199
+}
